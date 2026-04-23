@@ -66,3 +66,29 @@
 ## 7. 给下一个协作者的一句话提醒
 
 > 不要再问“下一批 batch 是什么”，要先问“白鹿原和第一部蓝图是否真的已经可以承重”。
+
+## 8. 最近一次施工同步（2026-04-24）
+
+- 已创建 `worldbible/09_reference/rebuild_execution_state.md` 与 `worldbible/09_reference/rebuild_run_review.md`，后续重构自动化应优先读取这两份文件确认当前目标与上一轮 review。
+- 已在 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 补入“六类构造带调用控制表”，把古裂残天各构造带的存续逻辑、主导力量、代价转移、路权形态与对白鹿原的对照价值压成总层母表。
+- 已继续在 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 补入“主要力量接口—地区—代价映射表”，把五股长期力量的现实入口、构造带落点、代价转嫁对象与白鹿原调用边界压成总层母表。
+- 已继续在 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 补入“修复 / 改写 / 迁转三条长期轴穿行总表”与“三轴下游调用判定框”，把构造带表与主要力量表正式串成可继承的长期演化母表。
+- 已继续在 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 补入“地区类型—治理答案—系列入口矩阵”与“矩阵下游调用规则”，把古裂残天的地区生成类型、默认治理答案与系列入口正式压成可被 `15 / 17 / 05_history` 继承的母表。
+- 已继续在 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 补入“地区类型—前史压力来源—白鹿原对照钩子表”与“钩子表下游继承规则”，把白鹿原主类型、次级压力与历史回补边界正式绑定到古裂残天总层接口上。
+- 已转入 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`，补入“MW-01 与 MW-02 / MW-03 / MW-07 的长期对照挂点表”，把古裂残天后续最先外接的法统、路权与审证问题压成九主世界矩阵接口。
+- 已在 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md` 同步补入“第一梯队调用边界规则”，明确《封绝之地》阶段只能承接外部主世界的远端压力投影，不得让其他主世界抢走 `MW-01` 与白鹿原的承载任务。
+- 已继续在 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md` 补入“MW-01 与 MW-05 / MW-07 / MW-04 的中期对照接入表”，把古裂残天中期必须接手的修行入口、审证合法性与强制整编问题正式压成九主世界矩阵接口。
+- 已在 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md` 同步补入“第二梯队调用边界规则”，明确第二梯队在第一部只能作为更大秩序模型的逼近压力出现，不得提前展开完整宗链社会、正式审证舞台或军政征拓主舞台。
+- 已继续在 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md` 补入“MW-01 与 MW-06 / MW-08 / MW-09 的后期蓄压表”，把古裂残天后期必须接手的共栖异序、强规则密度与存在论反照问题正式压成九主世界矩阵接口。
+- 已在 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md` 同步补入“第三梯队调用边界规则”，明确第三梯队在第一部只能作为远端高密度异序现实被边角感知，不得提前展开完整多生灵秩序、熔炉式强规则或深渊反照主舞台。
+- 已在 `worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md` 补入“阶段四—七对白鹿原三类历史接口的沉淀映射”与“前史—当代压力继承规则”，把白鹿原前史从七阶段摘要压成可被 `15 / 16` 直接继承的历史接口。
+- 已在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 补入“白鹿原主类型 / 次级压力接口的地区落位骨架”与“区域—通路—承压关系总表”，把三类接口正式落到六区，并把八条关键流动线压成配额、风险、资格与发言权母表。
+- 已继续在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 补入“六区的生计—征调—显化边界细表”与“地区状态变化触发表”，把六区的日常生计底盘、首轮征调对象、白鹿 / 法宝边界与地区状态切换正式压成可被 `16 / 57 / 58` 继承的地区级母表。
+- 已继续在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 补入“五大主要力量在六区的默认驻点—不可越权边界表”与“六区的发言权 / 回收权 / 旧债争议表”，把白鹿原的势力落位、越权边界、发言资格、残局回收主张与旧债追索正式压成可继承的地区级母表。
+- 已在 `worldbible/04_main_world/16_book1_binding_boundary.md` 补入“第一部必须直接绑定的白鹿原现实压力—揭示层级表”与“第一部禁止越界展开 / 只可远端投影事项表”，把白鹿原六类关键承压结果正式压成前段—中段—后段的揭示顺序，并把其他伤区、九主世界外压、古战全貌、法宝完整建制与主角终极命定身份等内容全部锁成第一部只可远端投影的事项表。
+- 已在 `worldbible/07_characters/21_party_story_function_bible.md` 补入“七席位承接的地区接口继承表”与“七席位的第一部故事职责边界表”，把七席位默认首接地区、首轮现实压力、默认争议口、职责抬权顺序与禁止提前越权事项正式压成角色总控母表。
+- 已在 `worldbible/07_characters/22_character_progression_master.md` 补入“七席位前 / 中 / 后段的抬权交接表”与“角色推进—章节 / 世界状态联动边界表”，把七席位前中后段的抬权规则、章节窗口、可联动的白鹿原状态与越权禁区正式压成角色推进母表。
+- 已在 `worldbible/08_story/50_series_master_outline.md` 补入“系列总问题的五段递进承压表”，把五部作品分别要把“谁有资格替未来签字”落到哪一层、先压实哪些第一轮代价，以及必须保留给后续放大的未解问题正式压成系列级母表。
+- 已在 `worldbible/08_story/50_series_master_outline.md` 同步补入“第一部作为伤区样本部的压实标准”与“对 `51 / 56 / 57 / 58` 的调用边界表 / 调用规则”，把 ARC-1 只能压到什么尺度、只能留下什么接口，以及 `51 / 56 / 57 / 58` 不得反向改写的职责边界正式写死。
+- `50_series_master_outline.md` 已达到当前阶段的系列总纲闭环要求；下一轮唯一允许继续的目标转为 `51_book1_master_outline.md`，下一最小施工单元是：先压实第一部正史主脉、整部承压升级链与对 `52 / 53 / 54 / 55` 的拆分边界。
+- 当前仍然禁止：跳到 `52–58`，恢复旧 batch / narrative lab 口径，继续生成 MQ / SQ / Codex / Journal / Item / System 包；在 `51_book1_master_outline.md` 完成前也不得提前进入 `52–58`、任务层或文本包层。

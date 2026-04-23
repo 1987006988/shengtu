@@ -909,3 +909,223 @@
 - 本轮重新统计当前 batch schedule 主输出总量约为 `572,037` 个字符级单位；结论是：首轮白鹿原大型 CRPG 叙事资产通过最终验收，但仍未达到 `game_narrative_master_plan.md` 要求的最低目标 `1,500,000` 汉字，因此不得宣称整个大型 CRPG 叙事文本总工程已经整体完成。
 - 当前状态更新为：`B00–B15 与 END 已完成并通过 review；当前 batch schedule 已执行到终点`。
 - 下一步更新为：`如需继续 recurring batch，必须先人工新增第二轮扩容 / 生产期 batch schedule；当前不存在自动可执行的下一批`。
+
+## REBUILD-2026-04-24-01：建立重构状态基线并补强古裂残天构造带调用表
+
+- 已确认 `rebuild_execution_state.md` 与 `rebuild_run_review.md` 此前缺失，本轮起将其作为《升途》Pro 重构施工自动化的状态入口持续维护。
+- 已按新的默认工作主线，把 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 识别为当前最早的 `PENDING` 目标文件。
+- 已在 `14_gulie_cantian_rebuild_bible.md` 补入“六类构造带调用控制表”，把各构造带的托底机制、主导力量、代价转移、路权形态与白鹿原对照压成可调用母表。
+- 本轮未读取旧 `33a–43a`、`17–20a`、`game_narrative_*`、`game_batch*` 作为施工输入；旧文件继续仅作历史资产，不重新接管主线。
+- 当前下一步锁定为：继续 `14_gulie_cantian_rebuild_bible.md`，补主要力量的“接口—地区—代价”映射；暂不进入 `15_bailuyuan_region_bible.md`。
+
+## REBUILD-2026-04-24-02：补强古裂残天主要力量接口—地区—代价映射
+
+- 已继续锁定 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 为唯一目标文件，没有跳入 `15_bailuyuan_region_bible.md` 或后续蓝图文件。
+- 已在 `14_gulie_cantian_rebuild_bible.md` 增补“主要力量接口—地区—代价映射表”，把守衡体系、地方共同体联盟、路权 / 行栈网络、灰线 / 改写派、见证者与誓约保管者分别压成可调用接口。
+- 该表明确了五股力量各自的现实入口、默认最强落点构造带、首轮代价转嫁对象与在白鹿原第一部中的调用边界，避免后续文件继续把它们写成抽象概念。
+- 本轮未读取旧 `33a–43a`、`17–20a`、`game_narrative_*`、`game_batch*` 或 `final_acceptance` 文件；旧体系没有重新接管当前主线。
+- 当前下一步锁定为：继续留在 `14_gulie_cantian_rebuild_bible.md`，补“修复 / 改写 / 迁转”三条长期轴如何穿过六类构造带与五股主要力量。
+
+## REBUILD-2026-04-24-03：补强古裂残天三条长期轴与下游调用判定
+
+- 已继续锁定 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 为唯一目标文件，没有跳入 `15_bailuyuan_region_bible.md` 或任何任务层文件。
+- 已在 `14_gulie_cantian_rebuild_bible.md` 增补“修复 / 改写 / 迁转三条长期轴穿行总表”，把六类构造带、五股主要力量、首轮收益与首轮代价压成古裂残天的长期演化母表。
+- 已同步增补“三轴下游调用判定框”，明确后续地区、角色与第一部蓝图在调用古裂残天冲突时，必须先回答主轴、代价承担者与合法性接口。
+- 该补强把古裂残天从“结构表 + 力量表”推进到“可持续生成不同治理答案与地区冲突的总层母本”，提高了 `15 / 16 / 21 / 50–58` 的调用精度。
+- 本轮未读取旧 `33a–43a`、`17–20a`、`game_narrative_*`、`game_batch*` 或 `final_acceptance` 文件；旧体系没有重新接管当前主线。
+- 当前下一步锁定为：继续留在 `14_gulie_cantian_rebuild_bible.md`，补“地区类型—治理答案—系列入口矩阵”，再考虑是否允许进入 `15_bailuyuan_region_bible.md`。
+
+## REBUILD-2026-04-24-04：补强古裂残天地区类型—治理答案—系列入口矩阵
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：04_main_world / 05_history / 09_reference
+- 决策主题：在 `14_gulie_cantian_rebuild_bible.md` 内建立地区类型母表与下游继承规则
+- 变更类型：总层承载补强 / 下游调用约束
+- 背景：在完成“构造带控制表”“主要力量接口映射表”“三条长期轴穿行总表”之后，古裂残天已经具备结构、力量与长期轴，但仍缺少一张能直接约束地区文件、前史文件与系列入口文件的地区生成母表。
+- 决策内容：确认在 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 新增“地区类型—治理答案—系列入口矩阵”与“矩阵下游调用规则”，将古裂残天稳定抽象为 `稳定修复腹地`、`地方共保伤区`、`断引资格边界区`、`裂伤试改区`、`迁转安置走廊`、`外海收容转运岸`、`誓约审证节点区` 七类可继承地区类型，并明确各类型的默认构造带、主轴、治理答案、承压签字主体、系列入口，以及它们对 `15 / 17 / 05_history` 的调用边界。
+- 影响范围：`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：地区类型、治理答案、系列入口、地方共保伤区、断引资格边界区、迁转安置走廊、誓约审证节点区
+- 关联文件：`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-01`、`REBUILD-2026-04-24-02`、`REBUILD-2026-04-24-03` 已建立的构造带、主要力量与长期轴母表；不替代 `15`、`17`、`05_history/09` 的具体职责，只为它们提供上游调用框架。
+- 备注：本轮仍采用模式 A，未进入 `15_bailuyuan_region_bible.md`、未恢复旧 batch / narrative lab 口径、未进入任务层；下一步仍锁定 `14_gulie_cantian_rebuild_bible.md` 内的“地区类型—前史压力来源—白鹿原对照钩子表”。
+
+## REBUILD-2026-04-24-13：补强第一部现实压力揭示层级与越界投影禁区
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：04_main_world / 05_history / 07_characters / 08_story / 09_reference
+- 决策主题：在 `16_book1_binding_boundary.md` 内建立“第一部必须直接绑定的白鹿原现实压力—揭示层级表”与“第一部禁止越界展开 / 只可远端投影事项表”
+- 变更类型：第一部绑定边界补强 / 揭示顺序与越界上限约束
+- 背景：`15_bailuyuan_region_bible.md` 已完成白鹿原六区、通路、状态、权责与旧债争议结构，`17_nine_main_world_longterm_usage_matrix.md` 也已写死外部主世界在《封绝之地》阶段只能作为逼近压力出现；但 `16` 号文件此前仍停留在原则性边界说明层，尚未把“第一部必须先落地哪些现实压力”“哪些更大尺度事项只能远端投影”压成可供 `21 / 22 / 50–58` 直接继承的母表。
+- 决策内容：确认在 `worldbible/04_main_world/16_book1_binding_boundary.md` 新增“第一部必须直接绑定的白鹿原现实压力—揭示层级表”与“第一部禁止越界展开 / 只可远端投影事项表”，将 `共保紧缩 / 边界抬价 / 外缘封控 / 旧案重启 / 内环强征 / 有限重开试压` 六类白鹿原现实压力正式压成前段—中段—后段的揭示顺序；同时把其他伤区、第一梯队与中后期主世界外压、古战全貌、法宝完整建制、飞升体系高层关系、主世界级势力全谱、白鹿之灵高位性质与主角终极命定身份等内容锁成第一部只可远端投影、不得正式展开的事项表。
+- 影响范围：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：现实压力轴、揭示层级、远端投影、越界展开禁区、第一部绑定边界、受限未来
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/08_story/50_series_master_outline.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-12` 已建立的白鹿原地区级权责与争议母表，以及 `REBUILD-2026-04-24-06` 到 `REBUILD-2026-04-24-08` 已建立的主世界外压边界；不替代 `21 / 22` 或 `50–58` 的具体角色与蓝图施工职责，只为这些文件补足第一部揭示顺序与越界上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`16_book1_binding_boundary.md` 已达到当前阶段闭环要求，下一步应转入 `21_party_story_function_bible.md`。
+
+## REBUILD-2026-04-24-05：补强古裂残天地区类型的前史压力钩子与白鹿原对照接口
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：04_main_world / 05_history / 09_reference
+- 决策主题：在 `14_gulie_cantian_rebuild_bible.md` 内建立“地区类型—前史压力来源—白鹿原对照”接口，并据此收束 14 号文件的阶段性闭环
+- 变更类型：总层承载补强 / 历史接口约束
+- 背景：在完成“地区类型—治理答案—系列入口矩阵”后，古裂残天已经知道“地区能长成什么样”，但仍缺少“这些地区为何会被逼成这样”的稳定前史钩子，导致 `15`、`16` 与 `05_history/09` 仍有机会把地区样本写成漂浮分类。
+- 决策内容：确认在 `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md` 新增“地区类型—前史压力来源—白鹿原对照钩子表”与“钩子表下游继承规则”，把七类地区类型分别对应到应急治理固化、断引残留、旧签字延续、迁转链失灵、边缘试改等前史压力，并明确白鹿原只能以 `地方共保伤区` 为主类型、以 `断引资格边界区` 与 `誓约审证节点区` 为压力接口继承这些结果。
+- 影响范围：`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：前史压力来源、白鹿原对照钩子、地方共保伤区、断引资格边界区、誓约审证节点区
+- 关联文件：`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-04` 已建立的地区类型母表；不替代 `15`、`16`、`17` 与 `05_history/09` 的具体展开，只为这些文件补足历史来源与调用边界。
+- 备注：本轮仍采用模式 A，未进入 `15_bailuyuan_region_bible.md`、未恢复旧 batch / narrative lab 口径、未进入任务层；`14_gulie_cantian_rebuild_bible.md` 已达到当前阶段的总层闭环要求，下一步应转入 `17_nine_main_world_longterm_usage_matrix.md`。
+
+## REBUILD-2026-04-24-06：补强九主世界第一梯队对照挂点与调用边界
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：01_cosmology / 04_main_world / 09_reference
+- 决策主题：在 `17_nine_main_world_longterm_usage_matrix.md` 内建立 `MW-01` 对 `MW-02 / MW-03 / MW-07` 的首批外接挂点与阶段边界
+- 变更类型：九主世界调用矩阵补强 / 系列入口约束
+- 背景：`14_gulie_cantian_rebuild_bible.md` 已完成当前阶段总层闭环，`17` 号文件仍停留在“九主世界是什么、谁先出场”的排序层，尚未把古裂残天应首先接到哪几条外部冲突轴、这些冲突轴在第一部只能如何投影的边界压成可继承规则。
+- 决策内容：确认在 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md` 新增“MW-01 与 MW-02 / MW-03 / MW-07 的长期对照挂点表”与“第一梯队调用边界规则”，将古裂残天优先外接的三条长期问题正式锁定为：`MW-02` 负责更高层法统裁定，`MW-03` 负责跨主世界路权与资格政治，`MW-07` 负责更高阶审证合法性；同时写死《封绝之地》阶段只能承接这些世界的远端压力投影，不得提前展开完整制度、驻场势力或跨界主舞台。
+- 影响范围：`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：第一梯队、长期对照挂点、法统裁定、跨界路权、审证合法性、远端压力投影
+- 关联文件：`worldbible/01_cosmology/07_universe_longline_master.md`、`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-05` 已完成的古裂残天总层闭环；不替代 `15`、`16`、`05_history/09` 或 `50–58` 的具体施工职责，只为它们补足外部主世界的接入顺序与调用上限。
+- 备注：本轮仍采用模式 A，未进入 `15_bailuyuan_region_bible.md`、未恢复旧 batch / narrative lab 口径、未进入任务层；下一步仍应继续留在 `17`，补第二梯队的中期接入表与调用边界。
+
+## REBUILD-2026-04-24-07：补强九主世界第二梯队中期接入表与调用边界
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：01_cosmology / 04_main_world / 09_reference
+- 决策主题：在 `17_nine_main_world_longterm_usage_matrix.md` 内建立 `MW-01` 对 `MW-05 / MW-07 / MW-04` 的中期接入顺序与阶段边界
+- 变更类型：九主世界调用矩阵补强 / 中期秩序接口约束
+- 背景：完成第一梯队后，`17` 号文件已经知道古裂残天会先被哪些外部压力照见，但仍缺少“系列中期真正该被哪一种更大秩序拖进去”的稳定接口，容易让 `MW-05`、`MW-07`、`MW-04` 在后续施工中被写成风格化新地图，而非不同层级的制度冲突承接面。
+- 决策内容：确认在 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md` 新增“MW-01 与 MW-05 / MW-07 / MW-04 的中期对照接入表”与“第二梯队调用边界规则”，将古裂残天的中期外接问题正式锁定为：`MW-05` 负责师承 / 法脉 / 修行入口政治，`MW-07` 负责公开审证 / 判例连续性 / 记忆治理，`MW-04` 负责强制整编 / 边疆治理 / 征调秩序；同时写死《封绝之地》阶段只能承接这些更大秩序模型的逼近压力，不得提前展开完整宗链社会、正式审证裁定舞台或军政征拓主舞台。
+- 影响范围：`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：第二梯队、中期对照接入、师承政治、公开审证、判例连续性、强制整编、边疆治理
+- 关联文件：`worldbible/01_cosmology/07_universe_longline_master.md`、`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-06` 已完成的第一梯队挂点与边界；不替代 `15`、`16`、`21 / 22` 或 `50–58` 的具体施工职责，只为它们补足中期主世界进入时必须承接的秩序冲突轴。
+- 备注：本轮仍采用模式 A，未进入 `15_bailuyuan_region_bible.md`、未恢复旧 batch / narrative lab 口径、未进入任务层；下一步仍应继续留在 `17`，补第三梯队的后期蓄压表与调用边界。
+
+## REBUILD-2026-04-24-08：补强九主世界第三梯队后期蓄压表与调用边界
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：01_cosmology / 04_main_world / 05_history / 09_reference
+- 决策主题：在 `17_nine_main_world_longterm_usage_matrix.md` 内建立 `MW-01` 对 `MW-06 / MW-08 / MW-09` 的后期蓄压接口与阶段边界
+- 变更类型：九主世界调用矩阵补强 / 后期异序接口约束
+- 背景：完成第一梯队与第二梯队后，`17` 号文件已经知道古裂残天会先被哪些外压照见、又会被哪种更大秩序拖入中期冲突，但仍缺少“系列后期究竟会被哪几类高密度异序现实抬高到新尺度”的稳定接口，容易让 `MW-06`、`MW-08`、`MW-09` 在后续施工中退化成更怪、更强或更黑的风格标签。
+- 决策内容：确认在 `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md` 新增“MW-01 与 MW-06 / MW-08 / MW-09 的后期蓄压表”与“第三梯队调用边界规则”，将古裂残天的后期外接问题正式锁定为：`MW-06` 负责共栖协议与非人中心签字权，`MW-08` 负责强规则密度 / 资源挤压 / 淘汰合法性，`MW-09` 负责异化反照 / 存在论边界 / 高层宇宙边缘风险；同时写死《封绝之地》阶段只能远端感知这些世界的压力，不得提前展开完整多生灵秩序舞台、熔炉式强规则舞台或深渊反照主舞台。
+- 影响范围：`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：第三梯队、后期蓄压、共栖协议、非人中心签字权、强规则密度、淘汰合法性、异化反照、存在论边界
+- 关联文件：`worldbible/01_cosmology/07_universe_longline_master.md`、`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-06` 与 `REBUILD-2026-04-24-07` 已完成的第一、第二梯队挂点与边界；不替代 `05_history/09`、`15`、`16`、`21 / 22` 或 `50–58` 的具体施工职责，只为它们补足后期主世界进入时必须承接的异序尺度与调用上限。
+- 备注：本轮仍采用模式 A，未进入 `15_bailuyuan_region_bible.md`、未恢复旧 batch / narrative lab 口径、未进入任务层；`17_nine_main_world_longterm_usage_matrix.md` 已形成当前阶段的矩阵闭环，下一步应转入 `05_history/09_bailuyuan_prestory_timeline_rebuild.md`。
+
+## REBUILD-2026-04-24-09：补强白鹿原前史三类历史接口与继承规则
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：05_history / 04_main_world / 09_reference
+- 决策主题：在 `05_history/09_bailuyuan_prestory_timeline_rebuild.md` 内建立白鹿原三类历史接口的沉淀映射与下游继承边界
+- 变更类型：历史接口补强 / 下游调用约束
+- 背景：`14_gulie_cantian_rebuild_bible.md` 已写死白鹿原只能以 `地方共保伤区` 为主类型，并以 `断引资格边界区`、`誓约审证节点区` 作为次级压力接口；但 `05_history/09` 仍停留在七阶段摘要层，尚未把阶段四—七如何沉淀成今天的现实压力压成可被 `15 / 16` 直接继承的历史母表。
+- 决策内容：确认在 `worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md` 新增“阶段四—七对白鹿原三类历史接口的沉淀映射”与“前史—当代压力继承规则”，将阶段四—七分别压成 `地方共保伤区`、`断引资格边界区`、`誓约审证节点区` 的形成后果、当代压力与第一部调用边界，并明确 `15 / 16 / 21 / 22 / 50–58` 继承白鹿原前史时不得脱离三类接口扩写古战总史或让下游反向定义上游。
+- 影响范围：`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：地方共保伤区、断引资格边界区、誓约审证节点区、前史—当代压力继承规则、主动推离、紧急治理延续、旧签字链
+- 关联文件：`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/04_gulie_cantian_history.md`、`worldbible/05_history/08_first_arc_pre_story_timeline.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-05` 已在 `14` 号文件建立的地区类型—前史压力来源钩子；不替代 `15`、`16` 或 `50–58` 的具体展开，只为这些文件补足白鹿原前史的历史接口与继承边界。
+- 备注：本轮仍采用模式 A，未进入 `15_bailuyuan_region_bible.md`、未恢复旧 batch / narrative lab 口径、未进入任务层；`05_history/09_bailuyuan_prestory_timeline_rebuild.md` 已达到当前阶段的历史接口闭环，下一步应转入 `15_bailuyuan_region_bible.md`。
+
+## REBUILD-2026-04-24-10：补强白鹿原六区落位骨架与通路承压母表
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：04_main_world / 05_history / 09_reference
+- 决策主题：在 `15_bailuyuan_region_bible.md` 内建立六区的主类型落位骨架与八条关键通路的承压总表
+- 变更类型：地区圣经补强 / 流动系统约束
+- 背景：`14_gulie_cantian_rebuild_bible.md` 已写死白鹿原只能以 `地方共保伤区` 为主类型，并以 `断引资格边界区`、`誓约审证节点区` 作为压力接口；`05_history/09` 也已把这些接口的形成过程压成前史沉淀映射。但 `15` 号文件此前仍主要停留在“六区 + 五力 + 压力循环”的说明层，尚未把三类接口正式落成六区骨架，也未把区域之间的通路写成可继承的代价流动系统。
+- 决策内容：确认在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 新增“白鹿原主类型 / 次级压力接口的地区落位骨架”与“区域—通路—承压关系总表”，将鹿门集、回声渠、断引栈道、黑砂外缘、伏誓碑林、鹿眠内环分别压入三类接口的具体落位，明确各区的默认治理答案、首轮签字 / 首轮承压、前史沉淀来源、白鹿显化 / 法宝触发边界，并把八条关键流动线写成配额、风险、资格与发言权母表。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：地方共保伤区、断引资格边界区、誓约审证节点区、地区落位骨架、区域—通路—承压关系、白鹿显化边界、法宝触发边界
+- 关联文件：`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-05` 与 `REBUILD-2026-04-24-09` 已建立的地区类型钩子与前史沉淀接口；不替代 `16`、`21 / 22` 或 `50–58` 的具体施工职责，只为它们补足白鹿原地区级调用骨架与流动代价系统。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`15_bailuyuan_region_bible.md` 现已进入 `IN_PROGRESS`，下一步仍需继续留在该文件内补“六区的生计—征调—显化边界细表”与“地区状态变化触发表”。
+
+## REBUILD-2026-04-24-11：补强白鹿原六区运转细表与地区状态触发表
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `15_bailuyuan_region_bible.md` 内建立六区的生计—征调—显化边界细表，并同步建立地区状态变化触发表
+- 变更类型：地区圣经补强 / 状态机约束
+- 背景：`15_bailuyuan_region_bible.md` 已完成“地区落位骨架”与“区域—通路—承压关系总表”，但仍缺少六区各自如何日常运转、守稳时先抽走什么、白鹿与受损法宝最多能碰到哪里，以及白鹿原何时才算进入“收紧 / 封控 / 重开”不同状态的正式母表。
+- 决策内容：确认在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 新增“六区的生计—征调—显化边界细表”与“地区状态变化触发表”，把鹿门集、回声渠、断引栈道、黑砂外缘、伏誓碑林、鹿眠内环的日常生计底盘、首轮征调对象、白鹿显化边界与受损法宝触发上限正式压成地区级调用表；同时把 `共保紧缩`、`边界抬价`、`外缘封控`、`旧案重启`、`内环强征`、`有限重开试压` 六类状态变化写成供 `16 / 57 / 58` 继承的合法触发母表。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：生计底盘、优先征调、白鹿显化边界、受损法宝触发上限、共保紧缩、边界抬价、外缘封控、旧案重启、内环强征、有限重开试压
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-10` 已建立的地区落位骨架与通路承压母表；不替代 `16`、`21 / 22`、`57` 或 `58` 的具体施工职责，只为它们补足六区运转细节与合法状态切换边界。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；下一步仍需继续留在 `15_bailuyuan_region_bible.md`，补“五大主要力量在六区的默认驻点—不可越权边界表”与“六区的发言权 / 回收权 / 旧债争议表”。
+
+## REBUILD-2026-04-24-12：补强白鹿原势力落位边界与六区争议归属
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `15_bailuyuan_region_bible.md` 内建立“五大主要力量在六区的默认驻点—不可越权边界表”与“六区的发言权 / 回收权 / 旧债争议表”
+- 变更类型：地区圣经补强 / 权责与争议结构约束
+- 背景：`15_bailuyuan_region_bible.md` 已完成地区落位骨架、通路承压母表、六区运转细表与状态触发表，但仍缺少“谁默认站在哪些区域合法伸手”“谁有资格先为某一区域现实开口”“残局与旧债默认追到谁头上”的正式母表，导致白鹿原仍可能被写回抽象势力景观，而不是可继承的地区权责结构。
+- 决策内容：确认在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 新增“五大主要力量在六区的默认驻点—不可越权边界表”与“六区的发言权 / 回收权 / 旧债争议表”，把守衡司、白鹿共保会、断引行栈、灰缄线、誓碑院分别压入六区的默认驻点、惯常抓手与越权上限；同时把鹿门集、回声渠、断引栈道、黑砂外缘、伏誓碑林、鹿眠内环的默认发言权、残局优先回收主张与旧债争议落点正式写成可供 `16 / 21 / 22 / 50–58` 继承的地区级母表。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：默认驻点、不可越权边界、发言权、回收权、旧债争议、地区级母表
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-10` 与 `REBUILD-2026-04-24-11` 已建立的地区落位、通路承压、六区运转与状态触发母表；不替代 `16`、`21 / 22` 或 `50–58` 的具体施工职责，只为它们补足白鹿原的权责落位与争议归属约束。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`15_bailuyuan_region_bible.md` 已达到当前阶段闭环要求，下一步应转入 `16_book1_binding_boundary.md`。
+
+## REBUILD-2026-04-24-13：补强七席位地区接口与第一部职责边界
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：07_characters / 04_main_world / 09_reference
+- 决策主题：在 `21_party_story_function_bible.md` 内建立“七席位承接的地区接口继承表”与“七席位的第一部故事职责边界表”
+- 变更类型：角色总控补强 / 下游调用约束
+- 背景：`21_party_story_function_bible.md` 已完成七席位功能总表、硬边界与势力关系表，但仍缺少“每位角色到底先从白鹿原哪块现实进入、先扛哪条压力轴、在第一部前中后段具体负责什么、哪些职责不得提前越权”的正式母表，导致后续 `22` 与 `50–58` 仍可能把角色写回抽象性格分工或功能重叠槽位。
+- 决策内容：确认在 `worldbible/07_characters/21_party_story_function_bible.md` 新增“七席位承接的地区接口继承表”与“七席位的第一部故事职责边界表”，把沈行策、柳照禾、顾砺衡、祁渡川、宁折羽、穆问碑、桑沉岫各自对应的默认首接地区、首轮现实压力、默认争议口、不可越权接口、前段 / 中段 / 后段职责升级边界与禁止提前承担事项正式压成角色总控母表。
+- 影响范围：`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：地区接口继承、故事职责边界、首接地区、首轮现实压力、抬权交接、不可越权接口
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/16_party_bailuyuan_alignment.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-12` 已建立的六区争议与势力边界，以及 `16_book1_binding_boundary.md` 已锁定的揭示层级与越界禁区；不替代 `22` 或 `50–58` 的具体推进职责，只为它们补足七席位的角色总控边界。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`21_party_story_function_bible.md` 已达到当前阶段闭环要求，下一步应转入 `22_character_progression_master.md`。
+
+## REBUILD-2026-04-24-14：补强七席位抬权交接规则与角色推进联动边界
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：07_characters / 04_main_world / 09_reference
+- 决策主题：在 `22_character_progression_master.md` 内建立“七席位前 / 中 / 后段的抬权交接表”与“角色推进—章节 / 世界状态联动边界表”
+- 变更类型：角色推进母表补强 / 蓝图前置约束
+- 背景：`21_party_story_function_bible.md` 已写死七席位的地区接口与第一部职责边界，但 `22` 号文件此前仍主要停留在单角色摘要与关键章节清单层，尚未把七席位何时交接抬权、每位角色最多能推动哪些章节窗口与世界状态压成硬规则，导致后续 `50–58` 仍可能以章节需要反向改写角色层。
+- 决策内容：确认在 `worldbible/07_characters/22_character_progression_master.md` 新增“七席位前 / 中 / 后段的抬权交接表”“角色推进—章节 / 世界状态联动边界表”与“联动边界调用规则”，把前段落位、前段→中段交接、中段→后段交接正式压成团队层抬权硬规则；同时把沈行策、柳照禾、顾砺衡、祁渡川、宁折羽、穆问碑、桑沉岫各自允许主导的章节窗口、可直接联动的 `共保紧缩 / 边界抬价 / 外缘封控 / 旧案重启 / 内环强征 / 有限重开试压` 状态，以及不得越权推动的事项正式压成角色推进母表。
+- 影响范围：`worldbible/07_characters/22_character_progression_master.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：抬权交接、章节窗口、世界状态联动边界、角色推进母表、越权禁区、有限重开试压
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-13` 已建立的七席位地区接口与职责边界；不替代 `50–58` 的具体蓝图拆分，只为其提供不可反向改写的角色推进与世界状态联动边界。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`22_character_progression_master.md` 已达到当前阶段闭环要求，下一步应转入 `50_series_master_outline.md`。
+
+## REBUILD-2026-04-24-15：补强系列总问题递进表与第一部样本调用边界
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 07_characters / 04_main_world / 09_reference
+- 决策主题：在 `50_series_master_outline.md` 内建立“系列总问题的五段递进承压表”与“第一部样本定位 / 对 51、56、57、58 的调用边界表”
+- 变更类型：系列总纲补强 / 蓝图层继承约束
+- 背景：`21_party_story_function_bible.md` 与 `22_character_progression_master.md` 已分别锁定七席位的职责边界、抬权交接与可联动的章节 / 世界状态窗口，`16_book1_binding_boundary.md` 也已锁死第一部的现实压力与越界禁区；但 `50` 号文件此前仍主要停留在系列口号、五部概览与第一部位置说明层，尚未把“五部作品分别要把总命题落到哪一层、先付哪类代价、给后续留下什么未解问题”与“`51 / 56 / 57 / 58` 具体不得越过哪条样本边界”压成可继承母表。
+- 决策内容：确认在 `worldbible/08_story/50_series_master_outline.md` 新增“系列总问题的五段递进承压表”“第一部作为伤区样本部的压实标准”以及“对 `51 / 56 / 57 / 58` 的调用边界表 / 调用规则”，把 ARC-1 到 ARC-5 分别承担的签字问题层级、第一轮代价与后续未解问题写成系列级递进表；同时写死第一部只能压实白鹿原样本、七席位第一阶段闭环与 `有限重开、共享承责、保留缓冲` 的受限未来，并明确 `51 / 56 / 57 / 58` 只能在此尺度内细化，不得反向扩大第一部范围或改写既有边界。
+- 影响范围：`worldbible/08_story/50_series_master_outline.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：系列总问题、五段递进承压、伤区样本部、第一部样本定位、下游调用边界、受限未来
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-13` 与 `REBUILD-2026-04-24-14` 已锁定的角色职责、抬权交接与联动边界，以及 `16` 号文件已锁死的揭示层级与越界禁区；不替代 `51 / 56 / 57 / 58` 的具体章节级细化，只为它们补足系列层母题、样本尺度与继承上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`50_series_master_outline.md` 已达到当前阶段闭环要求，下一步应转入 `51_book1_master_outline.md`。
