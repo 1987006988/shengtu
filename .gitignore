@@ -1,0 +1,36 @@
+# OS / Explorer
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+.next/
+dist/
+build/
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Patch / merge leftovers
+*.orig
+*.rej
