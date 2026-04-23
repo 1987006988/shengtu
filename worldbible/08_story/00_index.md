@@ -1,72 +1,84 @@
-﻿# 00 故事模块索引
+# 00 故事模块索引
 
 ## 1. 模块定位
 
-`08_story` 是游戏聚焦层的故事模块。
+`08_story` 当前默认是《升途：封绝之地》的蓝图层入口。
 
-当前第一部标题统一为：`升途：封绝之地`。
+当前真实阶段不是旧的 game narrative 生产期，也不是旧 batch / review / final acceptance 口径下的任务文本工程阶段，而是：
 
-当前阶段的职责是：
+> `主世界承载层与第一部施工蓝图重建阶段`
 
-- 先写故事 premise、核心命题、幕结构、揭示顺序、冲突层与推进骨架。
-- 再写剧情分段、关键节点、章节束与推进链。
-- 只有在这些结构稳定后，才允许继续下沉到任务层、关卡层或对白层。
+因此，本模块当前默认处理的是：
 
-本模块必须建立在以下前置模块之上：
+- 第一部总纲与第一卷总纲
+- 卷 / 幕 / 章 / 场蓝图
+- 揭示与伏笔表
+- 角色推进表
+- 世界状态变化表
 
-- `04_main_world`：故事主世界 `古裂残天` 的结构、统治与空间骨架。
-- `05_history`：大战余波、残胜格局与修复期历史框架。
-- `06_society`：区域差异混合型社会、四级社会模型与残存社会结构。
-- `07_characters`：七席位角色与角色接口骨架。
+在上述蓝图闭环完成前，不默认进入任务层，不默认继续生成 `MQ / SQ / Journal / Codex / Item / System feedback` 正文包。
 
-## 2. 当前阶段的故事尺度
+## 2. 当前默认入口
 
-当前主线舞台不是整个 `古裂残天`，而是：
+当前进入 `08_story` 后，默认先读：
 
-- 古裂残天内部一片被高位大战推离主世界常规秩序带的隔绝地域。
+1. `50_series_master_outline.md`
+2. `51_book1_master_outline.md`
+3. `52_book1_volume_structure.md`
+4. `53_book1_act_structure.md`
+5. `54_book1_chapter_blueprint.md`
+6. `55_book1_scene_blueprint.md`
+7. `56_book1_reveal_foreshadow_table.md`
+8. `57_book1_character_progression_table.md`
+9. `58_book1_world_state_table.md`
 
-必须明确：
+## 3. 文件分层口径
 
-- 外界主世界仍然存在且强大，但当前主线中只作为背景层、威压层与潜在未来层存在。
-- 主角团当前无法决定整个古裂残天的命运。
-- 主角团当前真正能起决定作用的，是这片隔绝地域的命运。
-- 接引法宝是当前主线的核心装置，也是隔绝地域未彻底崩塌与主角团复生能力的关键来源。
+### 3.1 当前主入口母本
 
-## 3. 当前文件
+- `50–58`：当前阶段的正式施工母本，后续默认在这组文件内继续闭环第一部蓝图。
 
-- `01_story_premise_and_core_question.md`：故事 premise、核心命题与尺度边界。
-- `02_story_structure_draft.md`：四幕结构与各幕功能。
-- `03_party_entry_and_reveal_order.md`：七位角色的进入与揭示顺序。
-- `04_conflict_layers.md`：主线冲突、阵营冲突、历史冲突与角色冲突的叠合方式。
-- `05_space_progression_draft.md`：隔绝地域内部的空间推进草案。
-- `06_mainline_beats.md`：四幕主线节拍骨架。
-- `07_act_turning_points.md`：四幕关键转折结构。
-- `08_reveal_pacing_map.md`：真相与压力的揭示节奏。
-- `09_act_segment_skeleton.md`：四幕剧情分段骨架。
-- `10_story_progression_map.md`：整体推进图。
-- `11_reveal_and_pressure_curve.md`：揭示与压力曲线。
-- `12_story_node_skeleton.md`：关键剧情节点骨架。
-- `13_act_node_progression.md`：幕与节点推进链。
-- `14_character_node_weight_map.md`：角色在节点层的权重变化。
-- `15_chapter_cluster_skeleton.md`：章节束 / 主线任务簇骨架。
-- `16_cluster_progression_map.md`：章节束推进链。
-- `17_cluster_character_pressure_map.md`：章节束层的角色压力图。
-- `21_sealed_region_structure.md`：隔绝地域结构总图。
-- `22_sealed_region_tension_map.md`：隔绝地域内部的长期结构性张力图。
+### 3.2 可回收的上游骨架
 
-## 4. 当前写作边界
+- `01–17`：旧故事骨架文件，仍可回收结构、问题意识、揭示顺序或桥接思路，但不再单独作为当前主入口真相。
+- `21–29`：白鹿原隔绝地域与第一卷旧骨架文件，仍可作为上游素材池回收，但若与 `50–58` 冲突，以 `50–58` 为准。
 
-- 不写详细任务清单。
-- 不写对白草稿。
-- 不写详细关卡流程。
-- 不写恋爱线、结局树与详细分支脚本。
-- 不把故事推进写成地点打卡列表。
-- 不把主角团继续写成能够左右整个主世界命运的大人物。
-- 不得让 `08_story` 反向改写宇宙通则、主世界层、历史层、社会层与角色层既有口径。
+### 3.3 已降级的历史资产
 
-## 5. 当前状态
+以下文件统一视为：
 
-- 已完成故事尺度纠偏。
-- 当前主线舞台已正式收束为“古裂残天内部被大战推离的隔绝地域”。
-- 当前正在此尺度上重建四幕、分段、节点与章节束骨架。
-- 当前已开始补隔绝地域的结构层、托底逻辑与张力框架。
+> `历史资产 / narrative lab round 1 / 非当前默认正史入口`
+
+- `30_book1_story_draft.md`
+- `31_book1_story_revised.md`
+- `32_main_quest_architecture.md`
+- `33a_main_quest_act1_mq01_mq06_text.md`
+- `33b_main_quest_act1_mq07_mq12_text.md`
+- `34a_main_quest_act2_mq13_mq18_text.md`
+- `34b_main_quest_act2_mq19_mq24_text.md`
+- `35a_main_quest_act3_mq25_mq34_text.md`
+- `35b_main_quest_act3_mq35_epilogue_text.md`
+- `36_sidequest_matrix.md`
+- `37a_sidequest_text_pack_core_regions.md`
+- `38a_sidequest_text_pack_grayline_and_outskirts.md`
+- `39_settlement_and_region_texts.md`
+- `40a_codex_entries_bailuyuan_pack.md`
+- `41a_journal_and_update_texts_pack.md`
+- `42a_items_relics_and_documents_pack.md`
+- `43a_system_feedback_texts_pack.md`
+
+这些文件只可回收局部桥段、句群、术语或结构，不再作为当前阶段真相。
+
+## 4. 当前允许做什么
+
+- 继续完善第一部 `50–58` 蓝图闭环
+- 将旧骨架中的可用结构回收进 `50–58`
+- 校正第一部尺度、揭示边界、角色推进与世界状态变化
+- 为后续任务化试点保留接口，但不直接生成大体量任务正文包
+
+## 5. 当前明确禁止
+
+- 继续沿用旧 batch 口径推进
+- 默认从 `33a–43a` 继续往下补正文
+- 让旧任务包、Codex 包、Journal 包或 system 包反向定义当前主入口
+- 把第一部写成解决整个 `古裂残天`、九主世界或高层宇宙全部真相的作品

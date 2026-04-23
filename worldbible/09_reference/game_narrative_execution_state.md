@@ -56,6 +56,7 @@
 当前状态说明：
 
 - `END` 已完成，并通过 `game_batch_end_review.md`。
+- 2026-04-23 17:48:51 +08:00 已再次核验：当前执行状态表中不存在 `PENDING`、`IN_PROGRESS` 或 `BLOCKED` 批次；本轮 recurring run 不执行新的 batch，也不生成新的主输出或 review。
 - 本轮 batch schedule 已无剩余 `PENDING` batch；recurring batch run 到此应停止。
 - 若后续仍需继续自动批处理，必须先人工新增第二轮扩容 / 生产期 batch schedule，或显式更新 execution state。
 - 在新的 schedule 建立前，不得回头重做 `42a`、`43a`、`40a`、`41a`、`B14`、`B13`、`B12`、`B09`、`B10A`、`B10B`、`B11A` 或 `B11B`。

@@ -1,4 +1,4 @@
-﻿# AGENTS
+# AGENTS
 
 本文档定义 `升途` / `Ascendant Path` 的长期协作规范。所有参与本仓库维护的人类或代理，都应遵守以下规则。
 
@@ -11,6 +11,8 @@
 - 若本地物理路径仍显示旧工程名，文档与协作口径仍统一使用 `shengtu`；物理目录重命名需由人工在文件系统层执行。
 
 ## 核心原则
+
+- 默认入口统一：后续默认先读 worldbible/09_reference/project_total_verdict.md、worldbible/00_project_overview/04_current_state.md、worldbible/09_reference/session_handoff.md、worldbible/09_reference/reading_order.md 与 worldbible/09_reference/execution_plan_rebuild.md，不得再默认从旧 batch / acceptance 文件恢复上下文。
 
 - 术语统一：核心术语、模块术语、别名与暂定用法，统一记录在 `worldbible/09_reference/glossary.md`。
 - 禁止擅自新增核心设定：任何新的底层机制、世界级规则、核心世界结构、关键历史锚点或主干阵营框架，未经确认不得写入正典文件。
@@ -43,7 +45,7 @@
 - 不要让单个模块越权决定其他模块的底层规则。
 - 不要让 `04_main_world` 直接退化为 `古裂残天` 专属目录。
 - 不要让 `07_characters` 与 `08_story` 的游戏聚焦内容反向吞没整个仓库。
-- 当前下一步是“白鹿原势力与关键节点落位阶段”，不是任务层。
+- 当前下一步是“主世界承载层与第一部施工蓝图重建阶段”，不是任务层。
 - 进入任务层前，必须先回查 `worldbible/00_project_overview/06_stage_gates.md` 与 `worldbible/00_project_overview/08_pre_task_layer_requirements.md`，确认前置条件已满足。
 
 ## 文件优先级

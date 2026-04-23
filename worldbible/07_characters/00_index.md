@@ -1,55 +1,63 @@
-﻿# 07 角色索引
+# 07 角色索引
 
-## 模块定位
+## 1. 模块定位
 
-`07_characters` 是本项目的角色模块，用于维护游戏聚焦层的角色来源模型、主角团生成框架、角色类别与后续具体角色设计入口。
+`07_characters` 当前默认是七席位总控入口，而不是对白包或同伴文本包入口。
 
-本模块主要服务游戏聚焦层，但必须建立在宇宙设定、主世界差异、历史路径与社会结构之上；不得退化成零散人物小传堆积。
+当前真实任务是：
 
-## 编写原则
+- 重新锁定七席位的故事功能
+- 明确各席位的世界接口、角色权重曲线与阶段推进
+- 为第一部蓝图 `50–58` 提供稳定的角色控制表
 
-- 先写角色来源模型与主角团框架，再写具体角色。
-- 角色必须承接小世界模板、九主世界差异、古裂残天历史与社会结构。
-- 当前阶段不写完整人物传记，不写姓名、对白、任务线、恋爱线、结局线。
-- 角色模块不得反向定义宇宙通则文件。
+## 2. 当前默认入口
 
-## 当前文件
+进入本模块后，默认先读：
 
-- `01_character_source_models.md`：角色来源模型总论，说明飞升者、本土修士、地方势力人物、旧势力 / 新势力 / 隐势力 / 反抗网络人物如何从宇宙设定中长出来。
-- `02_protagonist_party_framework.md`：主角团生成框架，说明主角团如何覆盖宇宙广度与古裂残天现实格局。
-- `03_major_role_categories.md`：关键角色类别草案，说明各类角色承担什么设定功能、适合从哪些来源模型中生成。
-- `04_character_generation_rules.md`：角色生成规则与防跑偏约束。
-- `05_party_seat_blueprint.md`：主角团七席位角色原型卡，说明每个位子分别承接什么世界接口、社会接口与历史接口。
-- `06_party_role_distribution.md`：主角团席位分布说明，解释为什么采用 `1 主角位 + 6 关键同伴位` 与 `3 飞升者 / 3 本土灰线人物` 的整体比例。
-- `07_companion_contrast_rules.md`：同伴差异拉开规则，防止飞升位、本土位与灰线位写重或沦为功能重复。
-- `08_party_archetype_cards.md`：七张可落地的角色原型卡，以功能代号形式明确每个席位的来源模型、世界接口与结构张力。
-- `09_party_tension_map.md`：主角团结构张力图，梳理七张原型卡之间的互补、冲突与写重风险。
-- `10_party_entry_order.md`：主角团进入顺序结构建议，只处理“谁更适合早上桌、谁更适合后显形”的结构，不写剧情桥段。
-- `11_character_concept_cards.md`：七张具体角色概念卡，进一步回答“这些角色大概是什么样的人、从什么环境里长出来、进入主世界时带着什么核心困境”。
-- `12_party_internal_dynamics.md`：主角团内部动力结构，梳理价值观冲突、现实接口冲突、历史认知冲突与稳定互补关系。
-- `13_character_visibility_curve.md`：角色可见度曲线，说明哪些角色更适合前段显形、哪些更适合中后段抬高权重。
+1. `21_party_story_function_bible.md`
+2. `22_character_progression_master.md`
 
-## 模块范围
+## 3. 文件口径
 
-- 角色来源模型
-- 主角团生成框架
-- 主角团七席位角色原型
-- 七张角色原型卡与结构张力
-- 七个具体角色概念卡与内部动力结构
-- 关键角色类别与设定功能
-- 角色与小世界模板、主世界格局、古裂残天现实结构之间的接口
+### 3.1 当前主入口文件
 
-## 交叉引用
+- `21_party_story_function_bible.md`：七席位故事功能总控母本
+- `22_character_progression_master.md`：七席位推进、权重与阶段控制母本
 
-- 世界与道路：`../03_worlds_and_paths/00_index.md`
-- 主世界层：`../04_main_world/00_index.md`
-- 历史层：`../05_history/00_index.md`
-- 社会层：`../06_society/00_index.md`
-- 剧情层：`../08_story/00_index.md`
-- 模板：`../10_templates/character_template.md`
+### 3.2 可回收的前置结构文件
 
-## 当前状态
+- `02_protagonist_party_framework.md`
+- `05_party_seat_blueprint.md`
+- `10_party_entry_order.md`
+- `11_character_concept_cards.md`
+- `15_party_entry_interfaces.md`
+- `16_party_bailuyuan_alignment.md`
 
-- 状态：七个具体角色概念卡第一轮草案已建立
-- 内容深度：来源模型级 / 主角团框架级 / 角色类别级 / 席位原型级 / 角色原型卡级 / 角色概念卡级
-- 下一步：待人工审阅角色概念卡与内部动力结构是否合理，再决定是否进入正式人物设计
+这些文件仍可回收结构和概念，但不再单独作为当前主入口真相。
+
+### 3.3 已降级的历史资产
+
+以下文件统一视为：
+
+> `历史资产 / narrative lab round 1 / 非当前默认正史入口`
+
+- `17_companion_arc_matrix.md`
+- `18a_companion_dialogue_entry_act1_pack.md`
+- `18b_companion_dialogue_act2_reaction_pack.md`
+- `19a_companion_dialogue_act3_loyalty_pack.md`
+- `20a_companion_banter_route_reaction_pack.md`
+- `companion_route_state_map.md`
+
+这些文件只可回收局部桥段、局部状态表达或少量角色语气，不再作为当前角色总控的默认依据。
+
+## 4. 当前允许做什么
+
+- 继续锁定七席位分工
+- 继续补角色推进曲线与功能权重
+- 继续校正角色与 `白鹿原 / 古裂残天 / 第一部蓝图` 的接口
+
+## 5. 当前明确禁止
+
+- 默认继续写同伴对白包
+- 让 late-stage 文本包倒逼角色母本
+- 在 `21 / 22` 未稳定前进入任务层或路线层生产

@@ -1,4 +1,4 @@
-﻿# 升途（Ascendant Path）世界观仓库
+# 升途（Ascendant Path）世界观仓库
 
 ## 项目命名
 
@@ -65,7 +65,23 @@
 - 不要让 `04_main_world` 退化成只服务 `古裂残天` 的单世界目录。
 - 不要让 `03_worlds_and_paths` 退化成单纯为游戏职业找来源的目录。
 
-## 当前阶段说明
+
+## 当前默认入口
+
+当前仓库默认已切换到：`主世界承载层与第一部施工蓝图重建阶段`。
+
+后续默认先读：
+
+1. `worldbible/09_reference/project_total_verdict.md`
+2. `worldbible/00_project_overview/04_current_state.md`
+3. `worldbible/09_reference/session_handoff.md`
+4. `worldbible/09_reference/reading_order.md`
+5. `worldbible/09_reference/reconstruction_route_map.md`
+6. `worldbible/09_reference/execution_plan_rebuild.md`
+
+旧 `game_narrative_*`、`game_batch*`、`game_phase*`、`final_acceptance` 以及 `33a–43a`、`17–20a` 文本包现统一视为历史资产 / narrative lab round 1，不再作为当前主入口真相。
+
+
 
 当前仓库已完成宇宙结构、力量体系、小世界模板、九主世界草案与故事主世界 `古裂残天` 的阶段性展开。
 

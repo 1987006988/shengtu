@@ -1,5 +1,33 @@
 ﻿# 决策日志
 
+## REBUILD-2026-04-23-01：GPT Pro 重构结果接管轮
+
+- 日期：2026-04-23
+- 状态：已确认
+- 模块：00_project_overview / 01_cosmology / 04_main_world / 05_history / 07_characters / 08_story / 09_reference
+- 决策主题：以 `D:\download` 中的 GPT Pro 重构 bundle 正式接管仓库主入口与当前阶段口径
+- 变更类型：入口接管 / 阶段重定义 / 历史资产降级
+- 背景：仓库此前长期沿用旧 `game_narrative batch / END / final acceptance / 首轮大型 CRPG 文本工程已完成` 口径，已不再符合当前真实状态；用户要求以 GPT Pro 重构结果接管当前仓库，并将项目切换到“主世界承载层与第一部施工蓝图重建阶段”。
+- 决策内容：确认以 `D:\download\shengtu_rebuild_bundle.zip` 解压后的分文件 bundle 作为唯一主来源；正式落库 `project_total_verdict`、`project_core_conclusions`、`file_operations_rebuild`、`reconstruction_route_map`、`reading_order`、`execution_plan_rebuild`、`context_recovery_prompt`、`07_universe_longline_master`、`14–17`、`09_bailuyuan_prestory_timeline_rebuild`、`21/22`、`50–58`，并以 bundle 中的新 `04_current_state.md` 与新 `session_handoff.md` 接管项目入口；确认当前真实阶段改为 `主世界承载层与第一部施工蓝图重建阶段`，在 `50–58` 蓝图闭环完成前不默认进入任务层；确认旧 `33a–43a`、`17–20a`、`companion_route_state_map.md`、`game_narrative_*`、`game_batch*`、`game_phase*`、`*final_acceptance*`、`*execution_state*` 与 `story_master_execution_plan.md` 全部降级为历史资产 / narrative lab round 1，不再作为当前主入口真相。
+- 影响范围：`README.md`、`AGENTS.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/01_cosmology/07_universe_longline_master.md`、`worldbible/04_main_world/00_index.md`、`worldbible/04_main_world/11_bailuyuan_faction_landscape.md`、`worldbible/04_main_world/13_bailuyuan_functional_map.md`、`worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`、`worldbible/07_characters/00_index.md`、`worldbible/07_characters/11_character_concept_cards.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/00_index.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/00_index.md`、`worldbible/09_reference/project_total_verdict.md`、`worldbible/09_reference/project_core_conclusions.md`、`worldbible/09_reference/file_operations_rebuild.md`、`worldbible/09_reference/reconstruction_route_map.md`、`worldbible/09_reference/reading_order.md`、`worldbible/09_reference/execution_plan_rebuild.md`、`worldbible/09_reference/context_recovery_prompt.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：GPT Pro 重构结果接管轮、主世界承载层、第一部施工蓝图、历史资产、narrative lab round 1、白鹿原地区圣经、古裂残天长期承重主世界、七席位总控
+- 关联文件：`D:\download\shengtu_rebuild_bundle.zip`、`D:\download\shengtu_rebuild_master_document.md`、`D:\download\shengtu_rebuild_master_document (1).md`、`D:\download\04_current_state.md`、`D:\download\session_handoff.md`、`D:\download\context_recovery_prompt.md`
+- 替代或继承关系：替代旧 `END / final acceptance / 首轮大型 CRPG 文本工程已完成` 的当前状态口径；旧 batch 工程保留为历史记录，不再继承为默认工作主线
+- 备注：本次接管不是继续旧 batch，也不是继续扩写 `33a–43a`、`17–20a` 或任何 MQ / SQ / Journal / Codex / Item / System feedback 正文包；后续默认只继续 `古裂残天总层 + 白鹿原地区圣经 + 七席位总控 + 第一部 50–58 蓝图闭环`。
+## GAME-2026-04-23-07：schedule 终点复核与无任务停机确认
+
+- 日期：2026-04-23
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：本轮 recurring batch run 复核后确认当前无下一批可执行 batch
+- 变更类型：执行状态复核 / 停机断点同步
+- 背景：`END` 已在上一轮完成并通过 `game_batch_end_review.md`，但 recurring automation 再次唤醒时仍需按 batch rules 先读取 schedule、execution state、current state 与 handoff，确认是否存在新的 `IN_PROGRESS` 或依赖满足的最早 `PENDING` batch。
+- 决策内容：确认截至 2026-04-23 17:48:51 +08:00，`worldbible/09_reference/game_narrative_execution_state.md` 中不存在 `PENDING`、`IN_PROGRESS` 或 `BLOCKED` 批次；因此本轮不执行任何新的 batch，不生成新的主输出文件或 review 文件，也不擅自创建第二轮 schedule；仅同步执行状态、当前状态、会话交接与 automation memory，把断点锁定为“等待人工新增第二轮扩容 / 生产期 batch schedule”。
+- 影响范围：`09_reference/game_narrative_execution_state.md`、`00_project_overview/04_current_state.md`、`09_reference/session_handoff.md`
+- 关联术语：`END`、recurring batch run、execution state、schedule 终点、第二轮扩容 / 生产期 schedule
+- 关联文件：`worldbible/09_reference/game_narrative_execution_state.md`、`worldbible/09_reference/game_narrative_batch_schedule.md`、`worldbible/09_reference/game_narrative_batch_rules.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 替代或继承关系：继承 `GAME-2026-04-23-06` 的 `END` 完成结论；不新增任何后继 batch；仅把本轮 automation 行为明确为“无任务停机”
+- 备注：本次停机不构成 `BLOCKED`；原因不是依赖冲突，而是当前 schedule 已执行到终点。若后续仍需 recurring batch，必须先人工新增第二轮 schedule，再更新 execution state。
 ## GNB-2026-04-23-01：B15B 完成与最终验收入口切换
 
 - 日期：2026-04-23
