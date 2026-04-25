@@ -1,4 +1,4 @@
-﻿# 决策日志
+# 决策日志
 
 ## REBUILD-2026-04-23-01：GPT Pro 重构结果接管轮
 
@@ -1129,3 +1129,1097 @@
 - 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
 - 替代或继承关系：继承 `REBUILD-2026-04-24-13` 与 `REBUILD-2026-04-24-14` 已锁定的角色职责、抬权交接与联动边界，以及 `16` 号文件已锁死的揭示层级与越界禁区；不替代 `51 / 56 / 57 / 58` 的具体章节级细化，只为它们补足系列层母题、样本尺度与继承上限。
 - 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`50_series_master_outline.md` 已达到当前阶段闭环要求，下一步应转入 `51_book1_master_outline.md`。
+
+## REBUILD-2026-04-24-16：补强第一部整部主脉升级链与 `52–55` 拆分边界
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `51_book1_master_outline.md` 内建立“第一部默认正史主脉—六段承压升级总表”与“`51` 对 `52 / 53 / 54 / 55` 的调用边界表”
+- 变更类型：第一部总纲补强 / 蓝图下游拆分约束
+- 背景：`50_series_master_outline.md` 已锁定 ARC-1 的伤区样本定位与对 `51 / 56 / 57 / 58` 的系列层调用边界，`16 / 21 / 22` 也已分别锁死第一部的揭示禁区、七席位职责边界与角色推进联动规则；但 `51` 号文件此前仍停留在“一句话默认正史 + 高层问题说明”的总纲层，尚未把整部作品按什么顺序承压、每次升级后必须留下什么不可逆结果，以及 `52 / 53 / 54 / 55` 各自只能继承什么压成可调用母表。
+- 决策内容：确认在 `worldbible/08_story/51_book1_master_outline.md` 新增“第一部默认正史主脉—六段承压升级总表”与“承压升级调用规则”，把《封绝之地》从 `V1 / A1` 到 `V3 / A6` 的整部主脉升级顺序、角色抬权交接、不可逆结果与禁止提前越级完成事项正式压成整部母表；同时新增“`51` 对 `52 / 53 / 54 / 55` 的调用边界表”与“拆分调用规则”，把分卷、分幕、分章、分场四层各自能继承什么、允许细化到什么粒度、不得反向改写什么正式写死。
+- 影响范围：`worldbible/08_story/51_book1_master_outline.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：默认正史主脉、六段承压升级、不可逆结果、拆分边界、卷级调用边界、整部主控总纲
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-15` 已锁定的系列层样本定位，以及 `16 / 21 / 22` 已锁定的揭示禁区、角色职责与联动边界；不替代 `52 / 53 / 54 / 55` 的具体卷幕章场细化，只为它们补足整部主脉顺序与跨层拆分上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`51_book1_master_outline.md` 已达到当前阶段闭环要求，下一步应转入 `52_book1_volume_structure.md`。
+
+## REBUILD-2026-04-24-17：补强三卷问题切换链、卷末锁死结果与卷级调用边界
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `52_book1_volume_structure.md` 内建立“三卷问题切换链与卷间接力表”“三卷卷末不可逆结果校准表”与“`52` 对 `53 / 54 / 55` 的卷级调用边界表”
+- 变更类型：分卷母本补强 / 下游卷级继承约束
+- 背景：`51_book1_master_outline.md` 已锁定整部六段承压升级链与对 `52 / 53 / 54 / 55` 的跨层拆分边界，但 `52` 号文件此前仍主要停留在三卷名称、章节范围、卷主题与卷任务摘要层，尚未把三卷究竟按什么顺序切换主问题、每卷卷末到底锁死哪些不可逆结果，以及 `53 / 54 / 55` 细化时不得越过哪条卷级边界压成正式母表。
+- 决策内容：确认在 `worldbible/08_story/52_book1_volume_structure.md` 新增“三卷问题切换链与卷间接力表”，把 `V1 / V2 / V3` 各自承接的两段主脉、卷首必须先接住的问题、本卷必须切开的新问题、卷末必须锁死的不可逆结果、交给下卷的唯一硬接口与不得提前越权完成的事项正式压成卷级总表；同时新增“三卷卷末不可逆结果校准表”与“`52` 对 `53 / 54 / 55` 的卷级调用边界表 / 卷级调用规则”，把每卷结束时必须锁死的白鹿原状态、队伍状态、秩序 / 合法性状态，以及分幕、分章、分场各自只能继承什么、允许细化到什么粒度、不得反向改写什么正式写死。
+- 影响范围：`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：卷级母本、问题切换链、卷末不可逆结果、卷间接力、卷级调用边界、卷内承压节奏
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-16` 已锁定的整部六段承压升级链，以及 `16 / 21 / 22` 已锁定的揭示禁区、角色职责与联动边界；不替代 `53 / 54 / 55` 的具体幕章场细化，只为它们补足卷级问题切换、卷末锁死结果与继承上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`52_book1_volume_structure.md` 已进入施工中，下一步应继续留在 `52` 补卷内承压节奏，不得提前跳到 `53–58`。
+
+## REBUILD-2026-04-24-18：补强三卷卷内承压节奏并完成 `52` 卷级闭环
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `52_book1_volume_structure.md` 内建立“三卷卷首—卷中—卷尾承压母表”与“三卷内部两段主脉的卷内承压节奏校准表”
+- 变更类型：分卷母本补强 / 卷内节奏约束
+- 背景：`52_book1_volume_structure.md` 已通过 `REBUILD-2026-04-24-17` 锁定三卷主问题切换链、卷末不可逆结果与对 `53 / 54 / 55` 的卷级调用边界，但文件内部仍缺少“三卷各自究竟如何从卷首起手、何时切进第二段主脉、卷尾到底交出什么状态、哪些写法属于卷内回退”的正式母表，导致后续 `53` 仍可能把卷结构写回松散的前后半拼接。
+- 决策内容：确认在 `worldbible/08_story/52_book1_volume_structure.md` 新增“三卷卷首—卷中—卷尾承压母表”与“三卷内部两段主脉的卷内承压节奏校准表”，把 `V1 / V2 / V3` 各自的卷首起手状态、卷中两段主脉的放大任务、卷尾交卷状态、下卷继承提醒、前半段先压实什么、何时触发转段、后半段必须升级成什么与不得退回什么正式压成卷级母表，并据此确认 `52` 已达到当前阶段闭环，可转入 `53_book1_act_structure.md`。
+- 影响范围：`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：卷首起手状态、卷中放大任务、卷尾交卷状态、卷内承压节奏、转段触发器、卷级闭环
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-17` 已锁定的卷级问题切换链、卷末不可逆结果与对 `53 / 54 / 55` 的卷级调用边界；不替代 `53` 的具体幕级拆分，只为其补足卷内节奏、转段触发与交卷状态的直接上游约束。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`52_book1_volume_structure.md` 已达到当前阶段闭环要求，下一步应转入 `53_book1_act_structure.md`，不得提前跳到 `54–58`。
+
+## REBUILD-2026-04-24-19：补强六幕承压切换链与幕末交卷接口
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `53_book1_act_structure.md` 内建立“六幕承压切换总表”与“六幕幕末交卷 / 转段接口表”
+- 变更类型：幕级母本补强 / 幕间接口约束
+- 背景：`52_book1_volume_structure.md` 已通过 `REBUILD-2026-04-24-18` 锁定三卷卷内承压节奏、卷尾交卷状态与对 `53 / 54 / 55` 的卷级继承边界，但 `53` 号文件此前仍主要停留在六幕标题、功能、揭示与简短施工提醒层，尚未把六幕究竟按什么顺序切换承压、每幕幕首必须接住什么、幕末必须交出什么、下一幕只能从哪里继续放大正式压成可调用母表。
+- 决策内容：确认在 `worldbible/08_story/53_book1_act_structure.md` 新增“六幕承压切换总表”，把 `A1 / A2 / A3 / A4 / A5 / A6` 各自所属卷、对应卷内承压段、幕首必须先接住的问题、幕中必须放大的承压任务、幕末必须交出的硬结果、下一幕唯一硬接口与不得提前越权完成事项正式压成幕级总表；同时新增“六幕幕末交卷 / 转段接口表”与“幕级调用规则”，把每幕幕末必须锁死的队伍状态、白鹿原状态、合法性 / 历史 / 未来状态、下幕只允许从哪里起手与不得回退成什么正式写死。
+- 影响范围：`worldbible/08_story/53_book1_act_structure.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：幕级母本、承压切换链、幕末交卷、转段接口、幕级调用规则、幕间硬接口
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-18` 已锁定的卷首—卷中—卷尾承压节奏，以及 `16 / 21 / 22` 已锁定的揭示禁区、角色职责与联动边界；不替代 `54 / 55` 的章节与场景细化，只为它们补足幕级切换顺序、交卷状态与转段接口。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`53_book1_act_structure.md` 已完成当前阶段的首个幕级闭环，但仍需继续留在 `53` 补幕内节奏与对 `54 / 55` 的幕级调用边界，不得提前跳到 `54–58`。
+
+## REBUILD-2026-04-24-20：补强六幕内部承压节奏并完成 `53` 幕级闭环
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `53_book1_act_structure.md` 内建立“六幕幕首—幕中—幕尾承压母表”“六幕内部前半 / 后半承压节奏校准表”与“`53` 对 `54 / 55` 的幕级调用边界表 / 调用规则”
+- 变更类型：幕级母本补强 / 幕内节奏与下游继承约束
+- 背景：`53_book1_act_structure.md` 已通过 `REBUILD-2026-04-24-19` 锁定六幕承压切换链、幕末交卷状态与转段接口，但文件内部仍缺少“每一幕怎样从幕首起手、何时切进后半承压、幕尾到底交出什么状态、哪些写法属于回退”与“`54 / 55` 细化时最多能继承到哪一级”的正式母表，导致后续章节与场景拆分仍可能把同一幕写回松散的前后半拼接，或反向改写幕级结构。
+- 决策内容：确认在 `worldbible/08_story/53_book1_act_structure.md` 新增“六幕幕首—幕中—幕尾承压母表”与“六幕内部前半 / 后半承压节奏校准表”，把 `A1 / A2 / A3 / A4 / A5 / A6` 各自的幕首起手状态、前半必须先压实什么、转段触发器、后半必须升级成什么、幕尾交卷状态与不得退回什么正式压成幕级内部母表；同时新增“`53` 对 `54 / 55` 的幕级调用边界表 / 调用规则”，把章节层与场景层必须继承什么、允许展开到什么粒度、不得反向改写什么正式写死，并据此确认 `53` 已达到当前阶段幕级闭环，可转入 `54_book1_chapter_blueprint.md`。
+- 影响范围：`worldbible/08_story/53_book1_act_structure.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：幕首起手状态、幕中前半 / 后半承压、转段触发器、章级调用边界、场级调用边界、幕级闭环
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-19` 已锁定的六幕承压切换链与幕末交卷接口，以及 `16 / 21 / 22` 已锁定的揭示禁区、角色职责与联动边界；不替代 `54 / 55` 的具体章节与场景细化，只为它们补足幕内节奏、转段触发与继承上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`53_book1_act_structure.md` 已达到当前阶段闭环要求，下一步应转入 `54_book1_chapter_blueprint.md`，不得提前跳到 `55–58`。
+
+## REBUILD-2026-04-24-21：补强十八章承压切换链与章末交卷接口
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `54_book1_chapter_blueprint.md` 内建立“十八章承压切换总表”与“十八章节章末交卷 / 转章接口表”
+- 变更类型：章节母本补强 / 章间接口约束
+- 背景：`53_book1_act_structure.md` 已通过 `REBUILD-2026-04-24-20` 锁定六幕承压切换链、幕内前半 / 后半节奏与对 `54 / 55` 的幕级调用边界，但 `54` 号文件此前仍主要停留在逐章目标、冲突、信息与章尾因果桥摘要层，尚未把十八章究竟按什么顺序承接六幕承压链、每章章首必须接住什么、章末必须交出什么、下一章只能从哪里继续放大正式压成可调用母表。
+- 决策内容：确认在 `worldbible/08_story/54_book1_chapter_blueprint.md` 新增“十八章承压切换总表”，把 `CH01–CH18` 各自所属幕、对应幕内承压段、章首必须先接住的问题、章中必须放大的承压任务、章末必须交出的硬结果、下一章唯一硬接口与不得提前越权完成事项正式压成章节级总表；同时新增“十八章节章末交卷 / 转章接口表”与“章节级调用规则”，把每章章末必须锁死的队伍状态、白鹿原状态、合法性 / 历史 / 未来状态、下章只允许从哪里起手与不得回退成什么正式写死。
+- 影响范围：`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：章节级母表、章首起手状态、章末交卷、转章接口、章间硬接口、章节级调用规则
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-20` 已锁定的六幕承压切换链、幕内节奏与幕级调用边界，以及 `16 / 21 / 22` 已锁定的揭示禁区、角色职责与联动边界；不替代 `55 / 56 / 57 / 58` 的具体场景、揭示、角色推进与世界状态细化，只为它们补足章节级起手顺序、交卷状态与转章接口。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`54_book1_chapter_blueprint.md` 已完成首轮章节级承压链补强，但仍需继续留在 `54`，补对 `55 / 56 / 57 / 58` 的章级调用边界，不得提前跳到 `55–58`。
+
+## REBUILD-2026-04-24-22：补强 `54` 对 `55 / 56 / 57 / 58` 的章级调用边界并完成章节级闭环
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `54_book1_chapter_blueprint.md` 内建立“`54` 对 `55 / 56 / 57 / 58` 的章级调用边界表”与“章级调用规则”
+- 变更类型：章节母本补强 / 下游章级继承约束
+- 背景：`54_book1_chapter_blueprint.md` 已通过 `REBUILD-2026-04-24-21` 锁定十八章承压切换链、章末交卷状态与转章接口，但文件内部仍缺少“场景层、揭示表、角色推进表与世界状态表各自究竟该从章节层继承什么、最多只能细化到什么粒度、不能反向改写什么”的正式母表，导致 `55 / 56 / 57 / 58` 后续仍可能各自拆分、重新打散章节级因果。
+- 决策内容：确认在 `worldbible/08_story/54_book1_chapter_blueprint.md` 新增“`54` 对 `55 / 56 / 57 / 58` 的章级调用边界表”，把 `55` 必须继承的章首起手、章中承压任务、章末交卷与转场因果，`56` 必须继承的允许揭示 / 禁止提前揭示边界，`57` 必须继承的重点推进角色、关系变化与抬权顺序，以及 `58` 必须继承的章末队伍 / 白鹿原 / 合法性状态分别写死；同时新增“章级调用规则”，明确四类下游只能在章节层已锁死的承压链内继续细化，不得以更细粒度反向改写 `54`，并据此确认 `54` 已达到当前阶段章节级闭环，可转入 `55_book1_scene_blueprint.md`。
+- 影响范围：`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：章级调用边界、场景级母表、揭示递进边界、角色推进边界、世界状态锁死、章节级闭环
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-21` 已锁定的十八章承压切换链与章末交卷接口，以及 `16 / 21 / 22` 已锁定的揭示禁区、角色职责与联动边界；不替代 `55 / 56 / 57 / 58` 的具体场景、揭示、角色推进与世界状态细化，只为它们补足章节级继承上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`54_book1_chapter_blueprint.md` 已达到当前阶段闭环要求，下一步应转入 `55_book1_scene_blueprint.md`，不得提前跳到 `56–58`。
+
+## REBUILD-2026-04-24-23：补强 `55` 的场景承压切换链与场末转场接口
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `55_book1_scene_blueprint.md` 内建立“场景承压切换总表”与“场末交卷 / 转场接口表”
+- 变更类型：场景母本补强 / 场间接口约束
+- 背景：`54_book1_chapter_blueprint.md` 已通过 `REBUILD-2026-04-24-22` 锁定十八章承压链、章末交卷状态与对 `55 / 56 / 57 / 58` 的章级调用边界，但 `55` 号文件此前仍主要停留在逐场地点、目标、冲突、释放信息与进入下一场摘要层，尚未把每章四场究竟如何按顺序承接章节起手、章中放大、章末交卷与转章硬接口正式压成场景级母表，导致后续细化仍可能把同章四场重新写回松散片段。
+- 决策内容：确认在 `worldbible/08_story/55_book1_scene_blueprint.md` 新增“场景承压切换总表”，把 `CH01–CH18` 各自 `S01–S04` 的章内承压链、场首必须先接住的问题、场中必须完成的承压切换、场末必须交出的硬结果、下章唯一硬接口与不得提前越权完成事项正式压成场景级总表；同时新增“场末交卷 / 转场接口表”，把每章内部 `S01→S02→S03→S04` 与 `S04→下章` 的唯一合法转场链正式写死。当前确认 `55` 已补齐场景承压链与转场接口，但尚未达到阶段闭环，下一步仍需留在 `55`，补“`55` 对 `56 / 57 / 58` 的场级调用边界表 / 调用规则”。
+- 影响范围：`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：场景承压链、场末交卷、转场接口、场级母表、场级调用边界、章节继承上限
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-22` 已锁定的十八章承压链、章末交卷接口与章级调用边界，以及 `16 / 21 / 22` 已锁定的揭示禁区、角色职责与联动边界；不替代 `56 / 57 / 58` 的具体揭示、角色推进与世界状态细化，只为它们补足场景层的承压链与转场接口。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`55_book1_scene_blueprint.md` 已进入施工中，下一步应继续留在 `55`，补“`55` 对 `56 / 57 / 58` 的场级调用边界表 / 调用规则”，不得提前跳到 `56–58`。
+
+## REBUILD-2026-04-24-24：补强 `55` 对 `56 / 57 / 58` 的场级调用边界并完成场景级闭环
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `55_book1_scene_blueprint.md` 内建立“`55` 对 `56 / 57 / 58` 的场级调用边界表”与“场级调用规则”
+- 变更类型：场景母本补强 / 下游场级继承约束
+- 背景：`55_book1_scene_blueprint.md` 已通过 `REBUILD-2026-04-24-23` 锁定 `CH01–CH18` 的场景承压切换总表与场末交卷 / 转场接口，但文件内部仍缺少“揭示递进表、角色推进表、世界状态表各自究竟该从场景层继承什么、最多只能细化到什么粒度、不能反向改写什么”的正式母表，导致 `56 / 57 / 58` 后续仍可能各自拆分、重新打散场景级因果链。
+- 决策内容：确认在 `worldbible/08_story/55_book1_scene_blueprint.md` 新增“`55` 对 `56 / 57 / 58` 的场级调用边界表”，把 `56` 必须继承的场景目标、冲突、释放信息、场末结果与转场因果，`57` 必须继承的出场人物、推进线、场景结果与角色抬权落点，以及 `58` 必须继承的地点、场末硬结果、跨场继承状态与不得回退项分别写死；同时新增“场级调用规则”，明确三类下游只能在 `55` 已锁死的场景承压链内继续细化，不得以更细粒度反向改写场景级结构，并据此确认 `55` 已达到当前阶段场景级闭环，可转入 `56_book1_reveal_foreshadow_table.md`。
+- 影响范围：`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：场级调用边界、揭示递进、角色推进、世界状态锁死、场景级闭环
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-23` 已锁定的场景承压链与场末转场接口，以及 `54 / 16 / 21 / 22` 已锁定的章节边界、揭示禁区、角色职责与联动边界；不替代 `56 / 57 / 58` 的具体表格细化，只为它们补足场景层继承上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`55_book1_scene_blueprint.md` 已达到当前阶段闭环要求，下一步应转入 `56_book1_reveal_foreshadow_table.md`，不得提前跳到 `57 / 58`。
+
+## REBUILD-2026-04-24-25：补强 `56` 的章场揭示递进母表并完成揭示控制闭环
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `56_book1_reveal_foreshadow_table.md` 内建立“章节—场景揭示递进总表”与“揭示递进调用规则”
+- 变更类型：揭示控制母本补强 / 章场揭示继承约束
+- 背景：`55_book1_scene_blueprint.md` 已通过 `REBUILD-2026-04-24-24` 锁定 `CH01–CH18` 的场景承压链、场末转场接口与对 `56 / 57 / 58` 的场级调用边界，但 `56` 号文件此前仍主要停留在 `R01–R22 / F01–F04` 的总体揭示与伏笔编号层，尚未把 `54 / 55` 已锁死的章首起手、章中放大、章末交卷与 `S01–S04` 转场顺序，正式压成“本章能坐实什么、只可种下什么、必须压到哪一章回收”的章场揭示母表。
+- 决策内容：确认在 `worldbible/08_story/56_book1_reveal_foreshadow_table.md` 新增“章节—场景揭示递进总表”，把 `CH01–CH18` 各自的章内场景揭示链、允许正式坐实的揭示、只可种下 / 必须延后的信息、必须回收或压入下章的伏笔，以及不得提前讲成什么正式写死；同时新增“揭示递进调用规则”，明确 `56` 只负责信息顺序、延后边界与伏笔回收，不得改写 `54 / 55` 已锁死的章节与场景承压链，并写死 `57 / 58` 不得以角色推进或世界状态变化为由反向提前揭示顺序。据此确认 `56` 已达到当前阶段揭示控制闭环，可转入 `57_book1_character_progression_table.md`。
+- 影响范围：`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：揭示递进母表、章场揭示链、允许揭示、必须延后、伏笔回收、揭示控制闭环
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-24` 已锁定的场景承压链、场末转场接口与场级调用边界，以及 `16 / 21 / 22 / 54` 已锁定的揭示禁区、角色职责、章节承压链与越权边界；不替代 `57 / 58` 的角色推进与世界状态细化，只为它们补足揭示顺序、延后边界与伏笔回收上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`56_book1_reveal_foreshadow_table.md` 已达到当前阶段揭示控制闭环要求，下一步应转入 `57_book1_character_progression_table.md`，不得提前跳到 `58`。
+
+## REBUILD-2026-04-24-26：补强 `57` 的章场角色推进母表并完成角色推进控制闭环
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `57_book1_character_progression_table.md` 内建立“章节—场景角色推进总表”与“角色推进调用规则”
+- 变更类型：角色推进母本补强 / 章场角色继承约束
+- 背景：`56_book1_reveal_foreshadow_table.md` 已通过 `REBUILD-2026-04-24-25` 锁定 `CH01–CH18` 的章场揭示递进、允许揭示 / 必须延后边界与伏笔回收规则，但 `57` 号文件此前仍主要停留在七席位总表、阶段性抬权规则与硬约束摘要层，尚未把 `21 / 22 / 54 / 55 / 56` 已锁死的七席位抬权顺序、章场职责、关系转折与不得越权接口正式压成“每章怎样落位、逐场怎样放大、章末怎样锁死”的角色推进母表。
+- 决策内容：确认在 `worldbible/08_story/57_book1_character_progression_table.md` 新增“章节—场景角色推进总表”，把 `CH01–CH18` 各自的章内角色推进链、本章主抬席位、必须改变的关系 / 判断、章末必须锁死的角色状态与不得越权推进事项正式写死；同时新增“角色推进调用规则”，明确 `57` 只负责角色抬权、关系转折、判断变化与章末角色状态锁死，不得改写 `54 / 55` 的章场承压链，不得越过 `56` 的揭示递进边界，也不得提前替代 `58` 写世界状态结论。据此确认 `57` 已达到当前阶段角色推进控制闭环，可转入 `58_book1_world_state_table.md`。
+- 影响范围：`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：章场角色推进母表、角色抬权顺序、关系转折、不得越权接口、角色推进调用规则、角色推进控制闭环
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-25` 已锁定的章场揭示递进边界，以及 `21 / 22 / 54 / 55` 已锁定的七席位职责、抬权交接、章节承压链与场景承压链；不替代 `58` 的世界状态细化，只为它补足角色抬权顺序、关系转折与章末角色状态的继承上限。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`57_book1_character_progression_table.md` 已达到当前阶段角色推进控制闭环要求，下一步应转入 `58_book1_world_state_table.md`，不得提前跳到任务层或旧 batch 口径。
+
+## REBUILD-2026-04-24-27：补强 `58` 的章场世界状态母表并完成蓝图闭环
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `58_book1_world_state_table.md` 内建立“章节—场景世界状态总表”与“世界状态调用规则”，并确认第一部 `50–58` 蓝图全部闭环
+- 变更类型：世界状态母本补强 / 章场状态继承约束 / 蓝图闭环确认
+- 背景：`57_book1_character_progression_table.md` 已通过 `REBUILD-2026-04-24-26` 锁定七席位章场抬权顺序、关系转折与不得越权接口，但 `58` 号文件此前仍主要停留在“每章大概发生什么变化”的摘要层，尚未把 `15 / 16 / 54 / 55 / 56 / 57` 已锁死的地区承压、章场承压、揭示边界与角色状态正式压成“每章怎样逐场沉淀、章末锁死什么、下章只能从哪一种世界状态起手、哪些结果不可回退”的世界状态母表。
+- 决策内容：确认在 `worldbible/08_story/58_book1_world_state_table.md` 新增“章节—场景世界状态总表”，把 `CH01–CH18` 各自的章内世界状态推进链、章末必须锁死的白鹿原状态、队伍 / 合法性 / 历史 / 未来状态、下章唯一合法起手状态与不得回退事项正式写死；同时新增“世界状态调用规则”，明确 `58` 只负责压实章末状态增量、锁死项、不可回退项与下一章唯一合法起手状态，不得反向改写 `54 / 55` 的章场承压链，也不得越权提前完成 `16` 已锁死的越界禁区。基于此，确认 `58_book1_world_state_table.md` 已达到当前阶段世界状态控制闭环，第一部 `50–58` 蓝图现已全部闭环；但进入任务层前仍必须先回查 `06_stage_gates.md` 与 `08_pre_task_layer_requirements.md`，不得自动切入任务层。
+- 影响范围：`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：章场世界状态母表、不可回退项、下章唯一合法起手状态、世界状态调用规则、第一部蓝图闭环、阶段门槛核查
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-26` 已锁定的角色推进边界，以及 `15 / 16 / 54 / 55 / 56` 已锁定的地区承压、绑定边界、章场承压链与揭示顺序；不替代后续任务层，只把第一部蓝图层的世界状态继承上限正式写死，并把下一步收口为阶段门槛核查。
+- 备注：本轮仍采用模式 A，未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；`50–58` 虽已全部闭环，但当前真实阶段仍是 `主世界承载层与第一部施工蓝图重建阶段`，下一轮只允许做门槛核查，不得直接跳入任务层。
+
+## REBUILD-2026-04-24-28：完成 `50–58` 闭环后的门槛核查并清除旧任务层授权冲突
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：回查 `06_stage_gates.md` 与 `08_pre_task_layer_requirements.md`，统一蓝图闭环后的当前有效门槛口径
+- 变更类型：阶段门槛核查 / 控制文件纠偏
+- 背景：`58_book1_world_state_table.md` 已通过 `REBUILD-2026-04-24-27` 完成世界状态控制闭环，`50–58` 第一部蓝图已全部闭环。`rebuild_execution_state.md` 已将下一步锁定为回查 `06 / 08` 两份门槛文件，但实际核查时发现这两份文件尾部仍混入 2026-04-18 的旧任务层授权口径，与当前 Pro 重构状态、`04_current_state.md`、`session_handoff.md` 与 `rebuild_execution_state.md` 的现行结论直接冲突。
+- 决策内容：确认 `06_stage_gates.md` 与 `08_pre_task_layer_requirements.md` 的当前有效结论应为：`14 / 15 / 16 / 21 / 22 / 50–58` 已提供进入任务层所需的上游承载条件，门槛核查本身已通过；但当前自动化仍停留在 `主世界承载层与第一部施工蓝图重建阶段` 的收口状态，任务层不自动开放，必须等待新的 Pro 控制文件或人工确认新的 `Current Target File` 后，才可正式切换工作流。两份文件中混入的旧 `game_narrative_* / game_batch* / final_acceptance*` 授权口径一律降回无效历史残留，不再作为当前控制依据。
+- 影响范围：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阶段门槛核查、前置条件已满足、任务层不自动开放、Pro 入口、当前目标文件、旧任务层授权口径
+- 关联文件：`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-27` 已锁死的蓝图闭环结论，只处理门槛核查与控制口径统一；替代 `06_stage_gates.md` 与 `08_pre_task_layer_requirements.md` 尾部混入的旧任务层授权口径，但不替代 `14 / 15 / 16 / 21 / 22 / 50–58` 的任何上游结构结论。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；门槛核查通过后，当前唯一允许的下一步不是直接写任务层，而是等待新的 Pro 入口或人工确认新的目标文件。
+
+## REBUILD-2026-04-24-29：复核阻塞状态并维持 `58` 收口等待态
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态
+- 变更类型：阻塞复核 / 控制链续写
+- 背景：`REBUILD-2026-04-24-28` 已确认 `50–58` 蓝图闭环后的门槛核查通过，并将当前状态收口为“前置条件已满足，但任务层不自动开放”。本轮 recurring automation 再次运行时，必须先确认阻塞是否仍真实存在，避免在没有新入口定义时误把 `58` 或任务层当作当前可继续施工对象。
+- 决策内容：确认本轮复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md` 与最近相关 `rebuild_run_review.md` 后，当前有效结论不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，但新的 Pro 入口与新的 `Current Target File` 仍未定义。因此当前自动化继续维持 `BLOCKED`，本轮只允许续写 review、状态、交接与当前状态口径，不新增任何蓝图正文，也不切入任务层。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、控制链续写
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-28` 的门槛核查结论；不替代任何蓝图文件，只确认该结论在本轮复核后仍成立。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-24-30：再次复核阻塞并修正执行状态模式口径
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，继续维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态，并修正执行状态文件中的模式口径冲突
+- 变更类型：阻塞复核 / 控制文件纠偏 / 控制链续写
+- 背景：`REBUILD-2026-04-24-29` 已确认当前阻塞来自“新的 Pro 任务层入口与新的 Current Target File 尚未定义”。本轮 recurring automation 再次运行时，需要确认这一判断是否仍成立，并检查控制链中是否存在会误导后续自动化的状态口径冲突。
+- 决策内容：确认再次复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md` 与最近相关 `rebuild_run_review.md` 后，当前有效结论仍不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，但新的 Pro 入口与新的 `Current Target File` 仍未定义；因此当前自动化继续维持 `BLOCKED`，不得切入任务层。同时修正 `rebuild_execution_state.md` 中 `Status = BLOCKED` 但 `Current Mode` 仍写作门槛核查收口的口径冲突，统一为“阻塞复核与控制链续写”。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、执行状态口径、控制链续写
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-29` 的阻塞结论；不替代任何蓝图文件，只修正控制状态文件的模式口径并确认该结论在本轮复核后继续成立。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-24-31：再次复核阻塞并维持单一等待入口
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，继续维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态，并续写最小必要控制链
+- 变更类型：阻塞复核 / 控制链续写
+- 背景：`REBUILD-2026-04-24-30` 已确认当前阻塞来自“新的 Pro 任务层入口与新的 Current Target File 尚未定义”，并修正了执行状态文件中的模式口径冲突。本轮 recurring automation 再次运行时，需要确认结论是否保持稳定，避免重复运行把 `58` 或任务层重新误判为可施工对象。
+- 决策内容：确认再次复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md`、最近相关 `rebuild_run_review.md` 与 `decision_log.md` 后，当前有效结论仍不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，但新的 Pro 入口与新的 `Current Target File` 仍未定义；因此当前自动化继续维持 `BLOCKED`，本轮只允许续写 review、状态、交接与当前状态口径，不新增任何蓝图正文，也不切入任务层。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、控制链续写、等待入口
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-30` 的阻塞结论；不替代任何蓝图文件，只确认该结论在本轮复核后继续成立。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-24-32：继续复核阻塞并维持最小必要控制链同步
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，继续维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态，并仅做最小必要控制链同步
+- 变更类型：阻塞复核 / 控制链续写
+- 背景：`REBUILD-2026-04-24-31` 已确认当前阻塞来自“新的 Pro 任务层入口与新的 Current Target File 尚未定义”，且控制链没有出现新的目标漂移。本轮 recurring automation 再次运行时，需要继续确认该判断是否保持稳定，避免重复运行把 `58` 或任务层重新误判为可施工对象。
+- 决策内容：确认继续复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md`、最近相关 `rebuild_run_review.md` 与 `decision_log.md` 后，当前有效结论仍不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，但新的 Pro 入口与新的 `Current Target File` 仍未定义；因此当前自动化继续维持 `BLOCKED`，本轮只允许续写 review、状态、交接与当前状态口径，不新增任何蓝图正文，也不切入任务层。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、控制链续写、最小必要同步
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-31` 的阻塞结论；不替代任何蓝图文件，只确认该结论在本轮复核后继续成立。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-24-33：继续复核阻塞并压实当前目标文件的等待入口口径
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，继续维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态，并确认当前目标文件只能停在等待新入口的收口位
+- 变更类型：阻塞复核 / 控制链续写
+- 背景：`REBUILD-2026-04-24-32` 已确认当前阻塞来自“新的 Pro 任务层入口与新的 Current Target File 尚未定义”，且控制链没有出现新的目标漂移。本轮 recurring automation 再次运行时，需要继续确认这一判断是否保持稳定，并避免重复运行把 `58` 重新误判成可继续补写的结构目标。
+- 决策内容：确认继续复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md`、最近相关 `rebuild_run_review.md` 与 `decision_log.md` 后，当前有效结论仍不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，但新的 Pro 入口与新的 `Current Target File` 仍未定义；因此当前自动化继续维持 `BLOCKED`，本轮只允许续写 review、状态、交接与当前状态口径，不新增任何蓝图正文，也不切入任务层；同时明确 `58` 当前作为目标文件仅承担等待新入口的收口定位，不再被视作仍有待补写的蓝图对象。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、等待入口口径、控制链续写
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-32` 的阻塞结论；不替代任何蓝图文件，只继续压实当前目标文件在本阶段的等待入口定位。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-24-34：继续复核阻塞并维持等待新入口的收口态
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，继续维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态，并把当前目标文件继续锁定为等待新入口的收口位
+- 变更类型：阻塞复核 / 控制链续写
+- 背景：`REBUILD-2026-04-24-33` 已确认当前阻塞来自“新的 Pro 任务层入口与新的 Current Target File 尚未定义”，并明确 `58` 当前只承担等待新入口的目标文件定位。本轮 recurring automation 再次运行时，需要继续确认该判断是否保持稳定，避免重复运行重新引入“58 仍可继续补写”或“任务层可自动开放”的误判。
+- 决策内容：确认继续复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md`、最近相关 `rebuild_run_review.md` 与 `decision_log.md` 后，当前有效结论仍不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，但新的 Pro 入口与新的 `Current Target File` 仍未定义；因此当前自动化继续维持 `BLOCKED`，本轮只允许续写 review、状态、交接与当前状态口径，不新增任何蓝图正文，也不切入任务层；同时继续把 `58` 锁定为等待新入口的收口位，而不是待补写蓝图对象。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、等待新入口、收口态、控制链续写
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-33` 的阻塞结论；不替代任何蓝图文件，只继续确认当前目标文件在本阶段的等待入口定位。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-24-35：继续复核阻塞并确认控制链未发生漂移
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，继续维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态，并确认等待入口定位与控制链稳定性均未变化
+- 变更类型：阻塞复核 / 控制链续写
+- 背景：`REBUILD-2026-04-24-34` 已确认当前阻塞来自“新的 Pro 任务层入口与新的 Current Target File 尚未定义”，并继续把 `58` 锁定为等待新入口的收口位。本轮 recurring automation 再次运行时，需要继续确认该判断是否保持稳定，避免重复运行重新引入目标漂移、阶段漂移或“58 仍可继续补写”的误判。
+- 决策内容：确认继续复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md`、最近相关 `rebuild_run_review.md` 与 `decision_log.md` 后，当前有效结论仍不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，且当前目标文件仍只承担等待新入口的收口定位；新的 Pro 入口与新的 `Current Target File` 仍未定义，因此当前自动化继续维持 `BLOCKED`，本轮只允许续写 review、状态、交接与当前状态口径，不新增任何蓝图正文，也不切入任务层。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、等待新入口、控制链稳定性、收口态
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-34` 的阻塞结论；不替代任何蓝图文件，只继续确认当前目标文件的等待入口定位与控制链稳定性。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-24-36：继续复核阻塞并确认等待入口口径仍稳定成立
+
+- 日期：2026-04-24
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，继续维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态，并确认等待新入口的目标文件口径与控制链稳定性仍无变化
+- 变更类型：阻塞复核 / 控制链续写
+- 背景：`REBUILD-2026-04-24-35` 已确认当前阻塞来自“新的 Pro 任务层入口与新的 Current Target File 尚未定义”，且 `58` 继续只承担等待新入口的收口定位。本轮 recurring automation 再次运行时，需要继续确认该判断是否保持稳定，避免重复运行重新引入目标漂移、阶段漂移，或把 `58` / 任务层重新误判成可施工对象。
+- 决策内容：确认继续复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md`、最近相关 `rebuild_run_review.md` 与 `decision_log.md` 后，当前有效结论仍不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，当前目标文件仍只承担等待新入口的收口定位；新的 Pro 入口与新的 `Current Target File` 仍未定义，因此当前自动化继续维持 `BLOCKED`，本轮只允许续写 review、状态、交接与当前状态口径，不新增任何蓝图正文，也不切入任务层。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、等待新入口、控制链稳定性、收口态
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-35` 的阻塞结论；不替代任何蓝图文件，只继续确认当前目标文件的等待入口定位与控制链稳定性。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-25-37：继续复核阻塞并维持 58 的等待入口收口态
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：在新 Pro 入口落库前，继续维持 `58_book1_world_state_table.md` 所在工作流的 `BLOCKED` 收口状态，并确认等待新入口的目标文件口径与控制链稳定性到 2026-04-25 仍无变化
+- 变更类型：阻塞复核 / 控制链续写
+- 背景：`REBUILD-2026-04-24-36` 已确认当前阻塞来自“新的 Pro 任务层入口与新的 Current Target File 尚未定义”，且 `58` 继续只承担等待新入口的收口定位。本轮 recurring automation 再次运行时，需要继续确认该判断是否保持稳定，避免重复运行重新引入目标漂移、阶段漂移，或把 `58` / 任务层重新误判成可施工对象。
+- 决策内容：确认继续复核 `06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`58_book1_world_state_table.md`、最近相关 `rebuild_run_review.md` 与 `decision_log.md` 后，当前有效结论仍不变：上游承载条件已具备，`58` 号文件继续保持闭环完成状态，当前目标文件仍只承担等待新入口的收口定位；新的 Pro 入口与新的 `Current Target File` 仍未定义，因此当前自动化继续维持 `BLOCKED`，本轮只允许续写 review、状态、交接与当前状态口径，不新增任何蓝图正文，也不切入任务层。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阻塞复核、任务层不自动开放、Pro 入口、Current Target File、等待新入口、控制链稳定性、收口态
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-24-36` 的阻塞结论；不替代任何蓝图文件，只继续确认当前目标文件的等待入口定位与控制链稳定性。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口明确前，继续禁止进入任务层、文本包层或恢复旧 batch 口径。
+
+## REBUILD-2026-04-25-38：纠正“等待新 Pro 入口 / BLOCKED”控制链漂移
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 04_main_world / 08_story / 09_reference
+- 决策主题：取消把当前主线误写成“`58` 闭环后长期等待新 Pro 入口”的假阻塞口径，恢复为按既有 Pro 重构路线继续审计与施工的真实阶段表述
+- 变更类型：审计纠偏 / 状态校正 / 控制链修复
+- 背景：本轮《升途》Pro 重构审计自动化明确要求检查仓库是否仍沿着已落库的重构路线推进。复核主入口文件、执行计划、run review、execution state 与最近改动记录后，发现近期真正的偏航不是旧 batch 回潮或任务层偷跑，而是多份控制链文件被持续续写成“新的 Pro 入口与新的 Current Target File 尚未定义，因此当前只能长期 BLOCKED”的假阻塞叙述。
+- 决策内容：确认当前真实阶段仍是 `主世界承载层与第一部施工蓝图重建阶段`，默认继续方向仍是 `14 / 15 / 16 / 17 / 21 / 22 / 50–58` 范围内的补强、校准与承载力复核；`50–58` 的闭环不等于任务层自动开放，但也不构成“只能等待新入口”的结构性阻塞。自本条起，凡是“等待新的 Pro 入口 / Current Target File / 长期 BLOCKED / 58 仅是等待入口收口位”的控制链叙述，均视为失真记录，不再作为当前默认状态。
+- 影响范围：`worldbible/09_reference/rebuild_daily_audit.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：重构路线审计、阶段漂移、假阻塞、控制链纠偏、白鹿原地区圣经、任务层不自动开放
+- 关联文件：`worldbible/09_reference/project_total_verdict.md`、`worldbible/09_reference/reconstruction_route_map.md`、`worldbible/09_reference/file_operations_rebuild.md`、`worldbible/09_reference/execution_plan_rebuild.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`
+- 替代或继承关系：纠正并覆盖 `REBUILD-2026-04-24-28` 至 `REBUILD-2026-04-25-37` 这一串“等待新入口 / BLOCKED”收口口径中的当前状态判断；保留其“未恢复旧 batch、未提前进入任务层”的有效部分。
+- 备注：本轮仍未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance` 作为主入口；下一轮若只允许推进一个唯一目标文件，默认优先 `worldbible/04_main_world/15_bailuyuan_region_bible.md`。
+
+## REBUILD-2026-04-25-39：完成审计母本补齐并恢复唯一施工目标到 15
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 04_main_world / 09_reference
+- 决策主题：把 `rebuild_daily_audit.md` 从一次性纠偏记录补成可执行审计母本，并在审计通过后正式恢复唯一施工目标到 `15_bailuyuan_region_bible.md`
+- 变更类型：审计母本补齐 / 目标切换校正 / 控制链收口
+- 背景：`REBUILD-2026-04-25-38` 已纠正“等待新 Pro 入口 / 长期 BLOCKED”的假阻塞口径，但 `rebuild_daily_audit.md` 本身仍只写了问题与结论，没有把“审计通过后是否还应继续占用 Current Target File”写成硬规则，导致后续自动化仍可能在 audit 文件上空转。
+- 决策内容：确认在 `rebuild_daily_audit.md` 中新增“审计通过后的唯一目标恢复规则”与“本轮审计完成后的状态落点”，明确审计结论若为“允许继续推进”且无真实阻塞，则 audit 文件不得继续作为下一轮 `Current Target File`；当前默认恢复的唯一目标文件为 `worldbible/04_main_world/15_bailuyuan_region_bible.md`，继续补强白鹿原地区圣经承载力，而不是切入任务层。
+- 影响范围：`worldbible/09_reference/rebuild_daily_audit.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：审计母本、唯一目标恢复、白鹿原地区圣经、Current Target File、任务层不自动开放、控制链收口
+- 关联文件：`worldbible/09_reference/rebuild_daily_audit.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-38` 的审计纠偏结论，并把其“默认优先回到 15”从建议升级为控制链中的正式状态落点。
+- 备注：本轮仍未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance` 作为主入口；后续除非再次出现路线偏航、真实阻塞或控制链冲突，否则 `rebuild_daily_audit.md` 不再作为默认施工目标。
+
+## REBUILD-2026-04-25-40：收束白鹿原六区的下游继承接口并转入 16
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `15_bailuyuan_region_bible.md` 中补齐六区稳态—失稳—不可逆结果与对 `16 / 57 / 58` 的直接继承接口，确认 `15` 达到当前阶段收口点，并把下一唯一目标切换到 `16_book1_binding_boundary.md`
+- 变更类型：单文件阶段施工 / 目标切换校正 / 承载接口收束
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续在 `15_bailuyuan_region_bible.md` 内围绕白鹿原六区承载力做一轮连续补强，把既有地区骨架、通路、生计与权责母表进一步收束成可被 `16 / 57 / 58` 直接继承的地区级调用结构。此前 `15` 已有地区、通路、生计、状态触发、势力驻点与发言权母表，但还缺一层把六区从“会运转”压成“会如何失稳、何时锁死不可逆结果、下游必须从哪里继承”的收束结构。
+- 决策内容：确认在 `15_bailuyuan_region_bible.md` 中新增“六区的稳态—失稳—不可逆结果收束表”“六区对 `16 / 57 / 58` 的直接继承接口表”与“地区级继承规则（供 `16 / 57 / 58` 调用）”，把白鹿原六区的稳态写法、先被抽空的位置、继续升级后必须锁死的不可逆结果，以及第一部绑定边界、角色推进表、世界状态表各自必须从哪里继承正式写死；据此，`15` 号文件在当前阶段达到明确收口点，下一唯一默认目标正式切换为 `worldbible/04_main_world/16_book1_binding_boundary.md`，继续压实第一部绑定边界，而不是进入任务层。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：六区稳态、不可逆结果、地区级继承接口、第一部绑定边界、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-39` 的“唯一目标恢复到 15”结论，并把该目标推进到当前阶段收口点后，正式转入下一个允许目标 `16_book1_binding_boundary.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch 体系、跳入任务层或让 `57 / 58` 反向改写白鹿原地区本体。
+
+## REBUILD-2026-04-25-41：把六区地区锚点压回第一部三段绑定边界
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `16_book1_binding_boundary.md` 中把 `15` 已锁死的六区锚点正式压回第一部前段 / 中段 / 后段的绑定边界，并维持 `16` 继续作为当前唯一目标
+- 变更类型：单文件阶段施工 / 绑定边界补强 / 控制链续推
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续在 `16_book1_binding_boundary.md` 内围绕第一部强绑定边界做一轮连续补强，把 `15` 新增的六区稳态、不可逆结果与直接继承接口压回前段 / 中段 / 后段的现实压力锚点。此前 `16` 已有现实压力轴与远端投影禁区，但仍更偏“抽象压力控制表”，缺少把六区现实锚点与第一部三段结构直接绑死的中层收束。
+- 决策内容：确认在 `worldbible/04_main_world/16_book1_binding_boundary.md` 中新增“六区现实锚点压回前段 / 中段 / 后段的绑定收束表”“第一部三段各自必须绑定的地区组合边界表”与“地区锚点绑定规则”，把鹿门集、回声渠、断引栈道、黑砂外缘、伏誓碑林、鹿眠内环分别该先落地什么、何时允许升级、哪些组合缺一不可、哪些跳法绝对越界正式写死；据此，`16` 已完成当前轮最关键的地区落点补强，但当前阶段仍未收口，下一唯一允许动作继续留在 `16_book1_binding_boundary.md` 内做终局前收口校准，而不是切换到下一个文件。
+- 影响范围：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：六区地区锚点、三段绑定边界、前段 / 中段 / 后段组合、终局前允许收口、必须延后、绝对禁跳、任务层不自动开放
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-40` 已完成的六区地区级继承接口，把这些接口从 `15` 的地区母表继续压回 `16` 的第一部绑定边界；不改变当前唯一目标仍为 `16` 的控制链判断。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或以 `21 / 22 / 50–58` 的下游需求反向放大内环权限、远端外压或全面重开口径。
+
+## REBUILD-2026-04-25-42：完成 16 的终局前收口校准并转入 21
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：04_main_world / 07_characters / 09_reference
+- 决策主题：在 `16_book1_binding_boundary.md` 中补齐终局前允许收口 / 必须延后 / 绝对禁跳的绑定校准层，确认 `16` 达到当前阶段收口点，并把下一唯一默认目标切换到 `21_party_story_function_bible.md`
+- 变更类型：单文件阶段施工 / 收口校准 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续在 `16_book1_binding_boundary.md` 内把六区前段 / 中段 / 后段组合进一步收束成“终局前允许收口 / 必须延后 / 绝对禁跳”的绑定校准表。此前 `16` 已有现实压力轴、六区锚点、三段组合与远端投影禁区，但仍缺一层把“第一部终局到底允许收口到哪里、哪些必须压后、哪些绝对不能跳”的硬校准母表。
+- 决策内容：确认在 `worldbible/04_main_world/16_book1_binding_boundary.md` 中新增“第一部终局前允许收口 / 必须延后 / 绝对禁跳绑定校准表”与“终局前收口校准规则”，把共保紧缩、路权结构、外缘封控、旧案发言资格、内环权限、有限重开、主角绑定升级与远端外压分别允许推进到哪一层、必须压到哪里、绝不能跳成什么正式写死；据此，`16` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/07_characters/21_party_story_function_bible.md`，继续把七席位故事功能压到已锁死的地区锚点和绑定边界之内。
+- 影响范围：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：终局前允许收口、必须延后、绝对禁跳、第一部绑定校准、七席位故事功能、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/07_characters/21_party_story_function_bible.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-41` 已完成的六区锚点与三段组合边界，把这些边界继续压成终局前硬校准层，并在此基础上结束 `16` 当前阶段施工，转入角色层的下一个允许目标 `21`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或以 `21 / 22 / 50–58` 的下游需求放宽 `16` 已锁死的全面重开、内环越权或远端舞台化口径。
+
+## REBUILD-2026-04-25-43：补齐 21 的七席位越权禁区规则并转入 22
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：07_characters / 09_reference
+- 决策主题：在 `21_party_story_function_bible.md` 中补齐七席位越权禁区与调用规则，确认 `21` 达到当前阶段收口点，并把下一唯一目标切换到 `22_character_progression_master.md`
+- 变更类型：单文件阶段施工 / 角色禁区收束 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `21_party_story_function_bible.md` 内，把七席位对白鹿原六区的现实接口分配、前中后段故事功能推进与角色越权禁区压成同一层角色母表。此前 `21` 已具备地区接口继承表与故事职责边界表，但仍缺一层把“不准谁替谁说话、不准谁一次吞并多个接口、不准谁越过 \`16\` 的绝对禁跳线”正式写死的硬规则，导致 `22 / 50–58` 仍存在把角色层重新写松的风险。
+- 决策内容：确认在 `worldbible/07_characters/21_party_story_function_bible.md` 中新增“七席位越权禁区规则”与“越权禁区调用规则”，把现实托底、制度裁断、通路开口、灰线揭示、历史翻面、身体代价以及内环 / 白鹿之灵相关的越权写法正式压成角色级硬禁区，并明确 `22 / 50–58` 只能继承这些禁区、不能重分接口；据此，`21` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/07_characters/22_character_progression_master.md`，继续压实七席位抬权交接与角色推进联动边界。
+- 影响范围：`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：七席位越权禁区、角色总控母表、抬权交接、角色推进、章节 / 世界状态联动、绝对禁跳线、任务层不自动开放
+- 关联文件：`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-42` 已完成的第一部绑定边界收口结论，把 `15 / 16 / 17` 已锁死的地区锚点、收口层与远端投影边界继续压回角色层；不替代 `22` 的角色推进母表，只为其提供不得越权的上游硬边界。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或让 `22 / 50–58` 反向放宽 `21` 已锁死的独占接口与越权禁区。
+
+## REBUILD-2026-04-25-44：补齐 22 的角色推进增量收束与 57 / 58 继承接口
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：07_characters / 09_reference
+- 决策主题：在 `22_character_progression_master.md` 中补齐七席位的连续增量收束、对 `57 / 58` 的直接继承接口与调用规则，并保持 `22` 继续作为当前唯一目标
+- 变更类型：单文件阶段施工 / 角色推进母表补强 / 控制链续推
+- 背景：`rebuild_execution_state.md` 已把当前 `Next Smallest Step` 锁定在 `22_character_progression_master.md`。复核正文后确认：文件已经具备“前 / 中 / 后段抬权交接表”与“角色推进—章节 / 世界状态联动边界表”，但仍缺一层把七席位每段究竟改掉什么、`57 / 58` 必须先继承什么、下游不得如何倒灌改写 `22` 正式写死的角色级母表。
+- 决策内容：确认在 `worldbible/07_characters/22_character_progression_master.md` 中新增“七席位判断 / 关系 / 路线 / 代价排序增量收束表”“22 对 57 / 58 的直接继承接口表”与“角色推进继承规则（供 57 / 58 调用）”，把七席位的阶段抬权从“谁在何时抬权、最多能动什么”，继续压成“每段至少改掉什么、角色推进如何先于世界状态被继承、`57 / 58` 不得倒灌改写角色总控”的连续母表；据此，`22` 的当前阶段施工明显推进，但尚未达到收口点，下一唯一允许动作仍留在 `22` 内，继续把角色推进边界压回 `50–56` 的卷 / 幕 / 章 / 场蓝图调用层。
+- 影响范围：`worldbible/07_characters/22_character_progression_master.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：七席位抬权交接、角色推进增量、判断 / 关系 / 路线 / 代价排序、57 / 58 继承接口、角色总控母表、任务层不自动开放
+- 关联文件：`worldbible/07_characters/22_character_progression_master.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-43` 已锁死的七席位独占接口与越权禁区，把这些上游硬边界继续压成 `22` 面向 `57 / 58` 的角色推进继承规则；不切换目标文件，继续维持 `22` 为当前唯一施工目标。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或让 `50–58` 反向重分七席位抬权顺序与独占接口。
+
+## REBUILD-2026-04-25-45：完成 22 的蓝图调用边界收口并转入 50
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：07_characters / 08_story / 09_reference
+- 决策主题：在 `22_character_progression_master.md` 中补齐对 `50 / 51 / 52 / 53 / 54 / 55 / 56` 的直接调用边界与收口规则，确认 `22` 达到当前阶段收口点，并把下一唯一默认目标切换到 `50_series_master_outline.md`
+- 变更类型：单文件阶段施工 / 角色推进收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `22_character_progression_master.md` 内，把七席位抬权交接、增量收束与 `57 / 58` 继承接口进一步压回 `50–56` 的卷 / 幕 / 章 / 场蓝图调用层。此前 `22` 已能约束 `57 / 58`，但还缺一层把系列总纲、整部书总纲、分卷、分幕、分章、分场与揭示控制层各自必须先继承什么、最多只能展开到哪一层、不得如何越权正式写死的收口结构。
+- 决策内容：确认在 `worldbible/07_characters/22_character_progression_master.md` 中新增“22 对 `50 / 51 / 52 / 53 / 54 / 55 / 56` 的直接调用边界表”与“角色推进收口规则（供 `50–56` 调用）”，把七席位角色推进母表对白下游蓝图层的调用顺序、展开粒度、越权禁区与冲突处理原则正式写死；据此，`22` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/50_series_master_outline.md`，继续把角色长线承重接口压回系列总纲层，而不是进入任务层。
+- 影响范围：`worldbible/07_characters/22_character_progression_master.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：七席位抬权交接、角色推进收口、50–56 调用边界、系列总纲、第一部后续长线接力、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/07_characters/22_character_progression_master.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-44` 已完成的 `57 / 58` 继承接口，把同一套角色推进母表继续压回 `50–56` 的蓝图调用边界，并在此基础上结束 `22` 当前阶段施工，转入下一个允许目标 `50_series_master_outline.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或让 `50–58` 反向重分七席位抬权顺序、独占接口与越权禁区。
+
+## REBUILD-2026-04-25-46：补齐 50 的七席位长线接口与角色升级禁区
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `50_series_master_outline.md` 中补齐七席位在 ARC-1 收口后进入后续长线的承重接口、系列总纲不得提前兑现的角色升级边界与相应调用规则，并维持 `50` 继续作为当前唯一目标
+- 变更类型：单文件阶段施工 / 系列总纲补强 / 控制链续推
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `50_series_master_outline.md` 内，先把第一部结束后七席位进入后续长线的承重接口与系列总纲不得提前兑现的角色升级边界压回总纲层。此前 `50` 已具备系列总命题、五部递进、ARC-1 样本定位与对 `51 / 56 / 57 / 58` 的调用边界，但仍缺一层把 `22` 已锁死的七席位收口结果正式压成系列层母表，导致后续部数接口与第一部不得提前兑现的角色升级边界仍偏口头结论。
+- 决策内容：确认在 `worldbible/08_story/50_series_master_outline.md` 中新增“七席位在第一部收口后进入后续长线的承重接口表”“系列总纲不得提前兑现的角色升级边界表”与“角色长线接口调用规则”，把七席位在 ARC-1 结束后各自带着什么未完成代价进入 ARC-2 以后、哪些升级只能延后到后续部数、以及 `51 / 57 / 58` 只能如何继承这些系列层边界正式写死；据此，`50` 的系列层承载力明显提高，但当前阶段尚未收口，下一唯一允许动作继续留在 `50_series_master_outline.md` 内，补 ARC-1 终局结果到 ARC-2 开篇承接的系列级接力母表。
+- 影响范围：`worldbible/08_story/50_series_master_outline.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：系列总纲、七席位长线接口、角色升级禁区、ARC-1 样本部、ARC-2 承接接口、任务层不自动开放
+- 关联文件：`worldbible/08_story/50_series_master_outline.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-45` 已完成的 `22 -> 50–56` 调用边界，把七席位角色推进收口结果正式压回系列总纲层；不切换目标文件，继续维持 `50` 为当前唯一施工目标。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或跳去 `51–58` 之前让 `50` 的 ARC-1 -> ARC-2 总纲接力接口保持空缺。
+
+## REBUILD-2026-04-25-47：完成 50 的 ARC-1 -> ARC-2 接力收口并转入 51
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `50_series_master_outline.md` 中补齐 ARC-1 终局结果到 ARC-2 开篇的系列级承接接口、放大不回退规则与接力调用规则，确认 `50` 达到当前阶段收口点，并把下一唯一默认目标切换到 `51_book1_master_outline.md`
+- 变更类型：单文件阶段施工 / 系列总纲收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `50_series_master_outline.md` 内，补“ARC-1 终局结果 -> ARC-2 开篇承接接口表”与“系列总纲层的放大不回退规则”。此前 `50` 已具备样本定位、对 `51 / 56 / 57 / 58` 的调用边界、七席位长线接口与角色升级禁区，但仍缺一层把白鹿原样本终局结果正式压成第二部开篇必须先接住的系列级硬前提，导致 ARC-1 与 ARC-2 之间仍存在“自然变大即可”的空跳风险。
+- 决策内容：确认在 `worldbible/08_story/50_series_master_outline.md` 中新增“ARC-1 终局结果 -> ARC-2 开篇承接接口表”“系列总纲层的放大不回退规则”与“ARC-1 -> ARC-2 接力调用规则”，把白鹿原样本已锁定的受限未来、六区不可逆代价链、路价政治、旧债与发言资格分层、有限未来比较、七席位后续承压方向、灰线裂口与主角地方锚点身份正式压成 `ARC-2` 的总纲接力母表；据此，`50` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/51_book1_master_outline.md`，继续把这些系列层接力接口压回第一部整部书总纲，而不是提前跳到 `52–58` 或任务层。
+- 影响范围：`worldbible/08_story/50_series_master_outline.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：ARC-1 终局结果、ARC-2 开篇承接、放大不回退、系列总纲收口、第一部整部书总纲、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/08_story/50_series_master_outline.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-46` 已完成的七席位长线接口与角色升级禁区，把同一套系列层承重方向继续压成 ARC-1 -> ARC-2 的接力母表，并在此基础上结束 `50` 当前阶段施工，转入下一个允许目标 `51_book1_master_outline.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在未推进 `51` 前跳去 `52–58`。
+
+## REBUILD-2026-04-25-48：完成 51 的整部书终局承接校准并转入 52
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `51_book1_master_outline.md` 中补齐整部书主脉对 `ARC-1` 终局结果的承接校准层与终局不清零规则，确认 `51` 达到当前阶段收口点，并把下一唯一默认目标切换到 `52_book1_volume_structure.md`
+- 变更类型：单文件阶段施工 / 整部书总纲收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `51_book1_master_outline.md` 内，把 `50` 新增的 `ARC-1 -> ARC-2` 接力接口与放大不回退规则压回第一部整部书总纲。此前 `51` 已具备第一部默认正史主脉、六段承压升级链与对 `52 / 53 / 54 / 55` 的拆分边界，但仍缺一层把“整部书终局到底必须怎样承接系列层硬前提、哪些结果绝不能被书末洗平”正式写死的整部书级校准结构。
+- 决策内容：确认在 `worldbible/08_story/51_book1_master_outline.md` 中新增“整部书主脉对 `ARC-1` 终局结果的承接校准表”与“整部书层的终局不清零规则”，把受限未来锁定、六区不可逆代价链、路价与有限窗口、旧债与发言资格、白鹿之灵 / 受损法宝的有限比较、七席位未完成代价、主角被写入地方未来以及更大伤区接口逐项压回《封绝之地》书末应如何收束；据此，`51` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/52_book1_volume_structure.md`，继续把这些整部书层边界压回三卷结构，而不是跳去更下游文件或任务层。
+- 影响范围：`worldbible/08_story/51_book1_master_outline.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：ARC-1 终局结果、ARC-2 开篇承接、整部书主脉承接校准、终局不清零、六区不可逆代价链、七席位未完成代价、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/52_book1_volume_structure.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-47` 已完成的系列层接力接口，把同一套终局后果与不回退底线继续压成第一部整部书终局母表，并在此基础上结束 `51` 当前阶段施工，转入下一个允许目标 `52_book1_volume_structure.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在未推进 `52` 前跳去 `53–58`。
+
+## REBUILD-2026-04-25-49：完成 52 的卷级终局承接校准并转入 53
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `52_book1_volume_structure.md` 中补齐三卷对整部书终局结果的卷级收口校准层与不清零继承规则，确认 `52` 达到当前阶段收口点，并把下一唯一默认目标切换到 `53_book1_act_structure.md`
+- 变更类型：单文件阶段施工 / 分卷结构收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `52_book1_volume_structure.md` 内，把 `51` 新增的整部书终局承接校准与不清零规则压回三卷结构。此前 `52` 已具备三卷主问题切换链、卷末不可逆结果、卷内承压节奏与对 `53 / 54 / 55` 的调用边界，但仍缺一层把“每卷如何逐步承接整部书终局、哪些卷末结果绝不能洗平 ARC-1 已成立后果”正式写死的卷级收口结构。
+- 决策内容：确认在 `worldbible/08_story/52_book1_volume_structure.md` 中新增“三卷对整部书终局结果的卷级收口校准表”与“卷级结果不得洗平 ARC-1 后果的继承规则”，把受限未来锁定、六区不可逆代价链、路价与有限窗口、旧债与说话资格、白鹿之灵 / 受损法宝的有限比较、七席位未完成代价、主角地方未来绑定与更大伤区接口逐项压回 `V1 / V2 / V3` 的种下、放大与收口方式；据此，`52` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/53_book1_act_structure.md`，继续把这些卷级终局承接与不清零规则压回六幕结构，而不是提前跳去 `54–58` 或任务层。
+- 影响范围：`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：卷级收口校准、终局不清零、ARC-1 后果继承、三卷结构、六幕继承、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/50_series_master_outline.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/53_book1_act_structure.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-48` 已完成的整部书终局承接校准，把同一套终局后果与不归零底线继续压成三卷级母表，并在此基础上结束 `52` 当前阶段施工，转入下一个允许目标 `53_book1_act_structure.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在未推进 `53` 前跳去 `54–58`。
+
+## REBUILD-2026-04-25-50：完成 53 的幕级终局承接校准并转入 54
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `53_book1_act_structure.md` 中补齐六幕对整部书终局结果的幕级收口校准层与不清零继承规则，确认 `53` 达到当前阶段收口点，并把下一唯一默认目标切换到 `54_book1_chapter_blueprint.md`
+- 变更类型：单文件阶段施工 / 分幕结构收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `53_book1_act_structure.md` 内，把 `52` 新增的卷级终局承接校准与不清零规则压回六幕结构。此前 `53` 已具备六幕总表、幕间交卷接口、幕内承压节奏与对 `54 / 55` 的调用边界，但仍缺一层把“六幕如何逐步承接整部书终局、哪些幕末结果绝不能洗平 ARC-1 已成立后果”正式写死的幕级收口结构。
+- 决策内容：确认在 `worldbible/08_story/53_book1_act_structure.md` 中新增“六幕对整部书终局结果的幕级收口校准表”与“幕级结果不得洗平 ARC-1 后果的继承规则”，把受限未来锁定、六区不可逆代价链、路价与有限窗口、旧债与说话资格、白鹿之灵 / 受损法宝的有限比较、七席位未完成代价与主角地方未来绑定逐项压回 `A1 / A2 / A3 / A4 / A5 / A6` 的种下、压实、翻面、临界与收口方式；据此，`53` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/54_book1_chapter_blueprint.md`，继续把这些幕级终局承接与不清零规则压回十八章结构，而不是提前跳去 `55–58` 或任务层。
+- 影响范围：`worldbible/08_story/53_book1_act_structure.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：幕级收口校准、终局不清零、ARC-1 后果继承、六幕结构、十八章继承、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-49` 已完成的卷级终局承接校准，把同一套终局后果与不归零底线继续压成六幕级母表，并在此基础上结束 `53` 当前阶段施工，转入下一个允许目标 `54_book1_chapter_blueprint.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在未推进 `54` 前跳去 `55–58`。
+
+## REBUILD-2026-04-25-51：完成 54 的章级终局承接校准并转入 55
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `54_book1_chapter_blueprint.md` 中补齐十八章对整部书终局结果的章级收口校准层与不清零继承规则，确认 `54` 达到当前阶段收口点，并把下一唯一默认目标切换到 `55_book1_scene_blueprint.md`
+- 变更类型：单文件阶段施工 / 分章结构收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `54_book1_chapter_blueprint.md` 内，把 `53` 新增的幕级终局承接校准与不清零规则压回十八章结构。此前 `54` 已具备十八章承压切换总表、章末交卷接口与对 `55 / 56 / 57 / 58` 的调用边界，但仍缺一层把“十八章如何逐步承接整部书终局、哪些章末结果绝不能洗平 ARC-1 已成立后果”正式写死的章级收口结构。
+- 决策内容：确认在 `worldbible/08_story/54_book1_chapter_blueprint.md` 中新增“十八章对整部书终局结果的章级收口校准表”与“章节结果不得洗平 `ARC-1` 后果的继承规则”，把受限未来锁定、六区不可逆代价链、路价与有限窗口、旧债与说话资格、白鹿之灵 / 受损法宝的有限比较、七席位未完成代价与主角地方未来绑定逐项压回 `CH01–CH03 / CH04–CH06 / CH07–CH09 / CH10–CH12 / CH13–CH15 / CH16–CH18` 的种下、压实、翻面、临界与收口方式；据此，`54` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/55_book1_scene_blueprint.md`，继续把这些章级终局承接与章场转场硬接口压回场景结构，而不是提前跳去 `56–58` 或任务层。
+- 影响范围：`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：章级收口校准、终局不清零、`ARC-1` 后果继承、十八章结构、场景继承、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/55_book1_scene_blueprint.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-50` 已完成的幕级终局承接校准，把同一套终局后果与不归零底线继续压成十八章节级母表，并在此基础上结束 `54` 当前阶段施工，转入下一个允许目标 `55_book1_scene_blueprint.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在未推进 `55` 前跳去 `56–58`。
+
+## REBUILD-2026-04-25-52：完成 55 的场级终局承接校准并转入 56
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `55_book1_scene_blueprint.md` 中补齐十八章四场对整部书终局结果的场级收口校准层与不清零继承规则，确认 `55` 达到当前阶段收口点，并把下一唯一默认目标切换到 `56_book1_reveal_foreshadow_table.md`
+- 变更类型：单文件阶段施工 / 场景蓝图收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `55_book1_scene_blueprint.md` 内，把 `54` 已锁死的章首起手、章中放大、章末交卷与转章硬接口压回场景结构。复核正文后确认：`55` 已具备 `CH01–CH18` 的场景分解、场景承压切换总表、场末交卷 / 转场接口表与对 `56 / 57 / 58` 的场级调用边界，但仍缺一层把“每章四场如何继续承接整部书终局、哪些场末结果绝不能洗平 ARC-1 已成立后果”正式写死的场级收口结构。
+- 决策内容：确认在 `worldbible/08_story/55_book1_scene_blueprint.md` 中新增“十八章四场对整部书终局结果的场级收口校准表”与“场景结果不得洗平 `ARC-1` 后果的继承规则”，把受限未来锁定、六区不可逆代价链、路价与有限窗口、旧债与说话资格、白鹿之灵 / 受损法宝的有限比较、七席位未完成代价与主角地方未来绑定逐项压回 `CH01–CH03 / CH04–CH06 / CH07–CH09 / CH10–CH12 / CH13–CH15 / CH16–CH18` 各章四场的起手、升压、定性与交卷过程；据此，`55` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/56_book1_reveal_foreshadow_table.md`，继续把这些章场承压链压回允许揭示 / 必须延后 / 伏笔回收的揭示控制层，而不是提前跳去 `57 / 58` 或任务层。
+- 影响范围：`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：场级收口校准、终局不清零、`ARC-1` 后果继承、章场承压链、揭示递进控制、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-51` 已完成的章级终局承接校准，把同一套终局后果与不归零底线继续压成每章四场的场级母表，并在此基础上结束 `55` 当前阶段施工，转入下一个允许目标 `56_book1_reveal_foreshadow_table.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在未推进 `56` 前跳去 `57–58`。
+
+## REBUILD-2026-04-25-53：补齐 56 的揭示级调用边界并继续留在 56
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `56_book1_reveal_foreshadow_table.md` 中补齐对白下游 `57 / 58` 的揭示级调用边界与调用规则，确认 `56` 继续作为当前唯一目标
+- 变更类型：单文件阶段施工 / 揭示控制补强 / 控制链续推
+- 背景：`rebuild_execution_state.md` 原把本轮 `Next Smallest Step` 锁定为：在 `56_book1_reveal_foreshadow_table.md` 内补“章节—场景揭示递进总表”与“揭示递进调用规则”。复核正文后确认：这两层内容已在库内成立，若继续机械补写，只会制造重复施工。当前真正缺口是：`56` 虽已锁死章场级揭示顺序，却仍未正式写死 `57 / 58` 各自必须先继承什么揭示边界、最多只能压到哪一层、冲突时该删改哪里，导致下游仍存在凭角色抬权或状态变化提前泄露真相的风险。
+- 决策内容：确认在 `worldbible/08_story/56_book1_reveal_foreshadow_table.md` 中新增“56 对 `57 / 58` 的揭示级调用边界”与“揭示级调用规则”，把角色推进表与世界状态表对白下游揭示控制的继承顺序、展开粒度与越权禁区正式写死；据此，`56` 已从“揭示总表”推进到“对白下游 `57 / 58` 可直接调用的揭示控制母表”，但当前阶段尚未收口，下一唯一允许动作继续留在 `56` 内，补揭示层对整部书终局结果的收口校准与不洗平规则，而不是提前跳去 `57 / 58`。
+- 影响范围：`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：揭示控制母表、揭示级调用边界、角色推进表、世界状态表、允许揭示、必须延后、伏笔回收、任务层不自动开放
+- 关联文件：`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-52` 已完成的场级终局承接校准，把同一套章场承压链继续压回揭示控制层；不切换目标文件，继续维持 `56_book1_reveal_foreshadow_table.md` 为当前唯一施工目标。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在 `56` 收口前跳去 `57–58`。
+
+## REBUILD-2026-04-25-54：完成 56 的揭示级终局收口校准并转入 57
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `56_book1_reveal_foreshadow_table.md` 中补齐揭示层对整部书终局结果的收口校准层与不清零继承规则，确认 `56` 达到当前阶段收口点，并把下一唯一默认目标切换到 `57_book1_character_progression_table.md`
+- 变更类型：单文件阶段施工 / 揭示控制收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `56_book1_reveal_foreshadow_table.md` 内，把 `54 / 55` 已锁死的章场承压链与 `56` 已锁死的揭示顺序继续压成不提前兑付终局后果的揭示收口母表。此前 `56` 已具备揭示与伏笔总表、章节—场景揭示递进总表、揭示递进调用规则与对白下游 `57 / 58` 的揭示级调用边界，但仍缺一层把“哪些终局后果只能先种下、怎样逐步加重、哪些直到终局也只能给受限版本”正式写死的揭示级收口结构。
+- 决策内容：确认在 `worldbible/08_story/56_book1_reveal_foreshadow_table.md` 中新增“揭示层对整部书终局结果的揭示级收口校准表”与“揭示结果不得洗平 `ARC-1` 后果的继承规则”，把受限未来锁定、六区不可逆代价链、路价与有限窗口、旧债与说话资格、白鹿之灵 / 受损法宝的有限比较、七席位未完成代价与主角地方未来绑定逐项压回 `CH01–CH03 / CH04–CH06 / CH07–CH09 / CH10–CH12 / CH13–CH15 / CH16–CH18` 的允许揭示、继续加价、临界揭示与终局受限收口方式；据此，`56` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/57_book1_character_progression_table.md`，继续把 `22` 已锁死的抬权顺序与 `56` 已锁死的揭示顺序压回角色推进控制层，而不是提前跳去 `58` 或任务层。
+- 影响范围：`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：揭示级收口校准、终局不清零、`ARC-1` 后果继承、受限未来、七席位未完成代价、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/57_book1_character_progression_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-53` 已完成的揭示级调用边界，把同一套章场承压链与终局不归零底线继续压成揭示级终局收口母表，并在此基础上结束 `56` 当前阶段施工，转入下一个允许目标 `57_book1_character_progression_table.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在未推进 `57` 前跳去 `58`。
+
+## REBUILD-2026-04-25-55：完成 57 的角色级终局收口校准并转入 58
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 09_reference
+- 决策主题：在 `57_book1_character_progression_table.md` 中补齐角色推进对整部书终局结果的角色级收口校准层与不清零继承规则，确认 `57` 达到当前阶段收口点，并把下一唯一默认目标切换到 `58_book1_world_state_table.md`
+- 变更类型：单文件阶段施工 / 角色推进收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `57_book1_character_progression_table.md` 内，把 `22` 已锁死的抬权顺序与 `56` 已锁死的揭示顺序压回角色推进控制层。复核正文后确认：`57` 已具备七席位总表、章节—场景角色推进总表与角色推进调用规则，但仍缺一层把“这些角色增量怎样一路承接到第一部终局、哪些终局后果绝不能在角色推进层被洗平”正式写死的角色级收口结构。
+- 决策内容：确认在 `worldbible/08_story/57_book1_character_progression_table.md` 中新增“角色推进对整部书终局结果的角色级收口校准表”与“角色推进结果不得洗平 `ARC-1` 后果的继承规则”，把受限未来锁定、六区不可逆代价链、路价与有限窗口、旧债与说话资格、白鹿之灵 / 受损法宝的有限比较、七席位未完成代价与主角地方未来绑定逐项压回 `CH01–CH03 / CH04–CH06 / CH07–CH09 / CH10–CH12 / CH13–CH15 / CH16–CH18` 的角色判断变化、关系翻面、站位锁死与共同承责顺序；据此，`57` 号文件达到当前阶段收口点，下一唯一默认目标正式切换为 `worldbible/08_story/58_book1_world_state_table.md`，继续把章场交卷结果与角色状态锁死压回世界状态控制层，而不是进入任务层。
+- 影响范围：`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：角色级收口校准、终局不清零、`ARC-1` 后果继承、七席位共同承责、受限未来、Current Target File、任务层不自动开放
+- 关联文件：`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-54` 已完成的揭示级终局收口校准，把同一套章场承压链、揭示顺序与终局不归零底线继续压成角色推进母表，并在此基础上结束 `57` 当前阶段施工，转入下一个允许目标 `58_book1_world_state_table.md`。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch、进入任务层，或在未推进 `58` 前越界做任务层生产。
+
+## REBUILD-2026-04-25-56：完成 58 的状态级终局收口校准并转入阶段门槛核查
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：08_story / 00_project_overview / 09_reference
+- 决策主题：在 `58_book1_world_state_table.md` 中补齐世界状态对整部书终局结果的状态级收口校准层与不清零继承规则，确认 `58` 达到当前阶段收口点，并把下一唯一允许目标切换到 `06_stage_gates.md`
+- 变更类型：单文件阶段施工 / 世界状态收口 / 目标切换
+- 背景：`rebuild_execution_state.md` 已把本轮 `Next Smallest Step` 锁定为：继续留在 `58_book1_world_state_table.md` 内，把 `54 / 55` 已锁死的章场交卷结果与 `57` 已锁死的角色状态压回世界状态控制层。复核正文后确认：`58` 已具备章节状态总表、章节—场景世界状态总表、调用规则与终局后默认状态，但仍缺一层把“这些状态怎样逐章承接整部书终局、哪些后果绝不能在世界状态层被洗平”正式写死的状态级收口结构。
+- 决策内容：确认在 `worldbible/08_story/58_book1_world_state_table.md` 中新增“世界状态对整部书终局结果的状态级收口校准表”与“世界状态结果不得洗平 `ARC-1` 后果的继承规则”，把受限未来锁定、六区不可逆代价链、路价与有限窗口、旧债与说话资格、白鹿之灵 / 受损法宝的有限比较、七席位未完成代价与主角地方未来绑定逐项压回 `CH01–CH03 / CH04–CH06 / CH07–CH09 / CH10–CH12 / CH13–CH15 / CH16–CH18` 的世界状态种下、压实、翻面、临界与收口方式；据此，`58` 号文件达到当前阶段收口点，`50–58` 第一部蓝图闭环成立，但任务层仍未自动开放，下一唯一允许目标正式切换为 `worldbible/00_project_overview/06_stage_gates.md`，并以 `worldbible/00_project_overview/08_pre_task_layer_requirements.md` 为直接依赖，先做阶段门槛核查，而不是直接进入任务层。
+- 影响范围：`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：状态级收口校准、终局不清零、`ARC-1` 后果继承、世界状态控制层、蓝图闭环、阶段门槛核查、任务层不自动开放
+- 关联文件：`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-55` 已完成的角色级终局收口校准，把同一套章场承压链、角色状态与终局不归零底线继续压成世界状态母表，并在此基础上结束 `58` 当前阶段施工，转入下一步唯一允许的阶段门槛核查。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续仍禁止恢复旧 batch，且在完成 `06_stage_gates.md` 与 `08_pre_task_layer_requirements.md` 核查前，不得进入任务层。
+
+## REBUILD-2026-04-25-57：完成 06 的阶段门槛核查收口并转入等待新入口
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 中补齐当前 Pro 重构阶段顺序、门槛核查矩阵与双层结论，确认结构门槛通过但执行授权未开放，并把当前执行状态改写为等待新的 Pro 入口
+- 变更类型：单文件阶段施工 / 阶段门槛收口 / 阻塞态确认
+- 背景：`rebuild_execution_state.md` 已把本轮 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，并以 `worldbible/00_project_overview/08_pre_task_layer_requirements.md` 与 `worldbible/08_story/58_book1_world_state_table.md` 为直接依赖。复核正文后确认：`06` 虽已写入“蓝图闭环后门槛核查已完成”的结论，但主体仍停留在旧的通用阶段表，缺少一份与当前 Pro 重构链一致的阶段状态表，也缺少一份把“结构条件已满足”与“任务层执行授权尚未打开”明确分开的核查矩阵，导致控制链容易再次漂回“既然前置条件已满足，就默认可以进入任务层”的错误口径。
+- 决策内容：确认在 `worldbible/00_project_overview/06_stage_gates.md` 中新增“当前 Pro 重构阶段顺序与状态表”“当前唯一门槛核查矩阵”以及“结构门槛通过 / 执行授权未开放”的双层结论，正式写死：`50–58` 蓝图闭环后，上游承载条件与 `08_pre_task_layer_requirements.md` 所列前置条件均已具备；但在新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File` 写入前，任务层仍不得自动开放。基于此，`06` 号文件达到当前阶段收口点，`rebuild_execution_state.md` 的 `Current Target File` 保持为 `worldbible/00_project_overview/06_stage_gates.md`，但 `Status` 必须改为 `BLOCKED`，其含义是“等待新的执行授权”，而不是“上游结构尚未完成”。
+- 影响范围：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：阶段门槛核查、结构门槛、执行授权、当前唯一目标、`Current Target File`、`BLOCKED`、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-56` 已完成的 `50–58` 第一部蓝图闭环，把蓝图闭环结果正式压回项目级阶段门槛文件；不再继续生产新的蓝图文件，转入等待新 Pro 入口或人工阶段切换的阻塞态。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；后续在新的 Pro 入口落库前，只允许做阻塞核查与最小必要控制文件同步，不得擅自进入任务层，也不得回头重开 `50–58`。
+## REBUILD-2026-04-25-58：确认 06 收口后的阻塞未变化并维持控制链一致
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已完成阶段门槛收口后，复核当前 `BLOCKED` 是否仍有效，并确认本轮只做阻塞核查与最小必要控制链同步，不推进任何新的正文施工。
+- 变更类型：阻塞核查 / 控制链同步 / 非正文推进
+- 背景：`rebuild_execution_state.md` 当前把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，其直接依赖为 `worldbible/00_project_overview/08_pre_task_layer_requirements.md` 与 `worldbible/08_story/58_book1_world_state_table.md`。本轮按自动化规则重读控制集、当前目标、直接依赖与最近直接相关 run 记录后，需要先确认这一阻塞是否仍然真实成立，而不是因为控制链漂移、阶段口径回潮或依赖冲突而被误保留。
+- 决策内容：确认 `06_stage_gates.md`、`08_pre_task_layer_requirements.md` 与 `58_book1_world_state_table.md` 之间不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有失效。当前 `BLOCKED` 仍只表示“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未写入控制链”，并不表示需要回头重开 `50–58` 或继续扩写 `06`。因此本轮只允许把这一结论同步回 `rebuild_run_review.md`、`rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、`Current Target File`、执行授权未落库、阶段门槛核查、控制链一致性、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-57` 已完成的阶段门槛收口结论；本轮不新增新的阶段路线，只把“阻塞仍成立且无新冲突”的结果写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-59：再次确认 06 的阻塞口径未漂移
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口、且上一轮已确认阻塞真实成立后，再次复核 `BLOCKED` 是否仍保持为“执行授权未落库”，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮必须复核这一阻塞结论是否仍然成立。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md` 与 `worldbible/08_story/58_book1_world_state_table.md` 之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-58` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径仍稳定”继续写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-60：继续确认 06 的阻塞仅属执行授权待写入
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近两轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论追加同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链从“等待新入口”再次漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 run / decision / handoff 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-59` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-61：再次确认 06 的阻塞仍仅代表执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近数轮已确认阻塞成立后，再次复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 50–58”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-60 / RUN-2026-04-25-59`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-60` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-62：继续确认 06 的阻塞未发生口径漂移
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-61 / RUN-2026-04-25-60`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-61` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-63：继续确认 06 的阻塞口径仍未漂移
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-62 / RUN-2026-04-25-61`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-62` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-64：继续确认 06 的阻塞仍只代表执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-63 / RUN-2026-04-25-62`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-63` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-65：再次确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，再次复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-64 / RUN-2026-04-25-63`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-64` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-66：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-65 / RUN-2026-04-25-64`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-65` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-67：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 \`50–58\`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-66 / RUN-2026-04-25-65`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-66` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-68：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-67 / RUN-2026-04-25-66`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-67` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-69：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-68 / RUN-2026-04-25-67`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-68` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-70：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-69 / RUN-2026-04-25-68`、decision 尾部记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md`，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-69` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-71：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-70 / RUN-2026-04-25-69`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-70` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-72：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 \`50–58\`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-71 / RUN-2026-04-25-70`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-71` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-73：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 `50–58`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-72 / RUN-2026-04-25-71`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-72` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-74：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 \`50–58\`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-73 / RUN-2026-04-25-72`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-73` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-75：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 \`50–58\`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-74 / RUN-2026-04-25-73`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-74` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-76：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 \`50–58\`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-75 / RUN-2026-04-25-74`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-75` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-25-77：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-25
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 \`50–58\`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-76 / RUN-2026-04-25-75`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-76` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-26-78：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 \`50–58\`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-25-77 / RUN-2026-04-25-76`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-25-77` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-26-79：继续确认 06 的阻塞仍仅属执行授权未落库
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：在 `06_stage_gates.md` 已收口且最近多轮已确认阻塞成立后，继续复核 `BLOCKED` 是否仍只代表执行授权未落库，并把结论同步回长期控制链
+- 变更类型：阻塞核查 / 控制链复核 / 非正文推进
+- 背景：`rebuild_execution_state.md` 继续把 `Current Target File` 锁定为 `worldbible/00_project_overview/06_stage_gates.md`，`Status` 为 `BLOCKED`，`Next Smallest Step` 也已限定为：若没有新的 Pro 控制文件、人工阶段切换或新的任务层 `Current Target File`，则只允许继续做 `06 / 08 / 04_current_state / session_handoff` 的阻塞核查与一致性维护。为避免控制链再次从“等待新入口”漂回“可以直接进入任务层”或“需要回头重开 \`50–58\`”，本轮继续按最小输入集复核这一阻塞结论，并补读 automation memory 确认上一轮已落库结论。
+- 决策内容：确认 `worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md` 以及最近直接相关的 `RUN-2026-04-26-78 / RUN-2026-04-25-77`、decision / handoff / memory 记录之间仍不存在新的结构冲突；`50–58` 的蓝图闭环事实没有回退，`08` 所列结构前置条件也没有新增缺口。当前 `BLOCKED` 的唯一含义继续是“新的 Pro 入口 / 人工阶段切换 / 新的任务层 Current Target File 尚未落库”，不表示应继续扩写 `06`，也不表示可以越过控制链直接进入任务层。基于此，本轮只追加新的 run / decision 记录，并同步更新 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，维持控制链一致。
+- 影响范围：`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：`BLOCKED`、执行授权未落库、阶段门槛核查、控制链一致性、最小必要修补、任务层不自动开放
+- 关联文件：`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-78` 已确认的阻塞核查结论；本轮不新增新的阶段路线，也不恢复旧 batch，只把“阻塞口径继续稳定且无新冲突”再次写回长期控制链。
+- 备注：本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance`；在新的 Pro 入口落库前，仍只允许做阻塞核查与最小必要控制文件同步，不得进入任务层，也不得回头重开 `50–58`。
+
+## REBUILD-2026-04-26-80：日审计确认控制链膨胀偏航并恢复默认目标到 15
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：00_project_overview / 04_main_world / 09_reference
+- 决策主题：以 Pro 重构日审计覆盖“长期 BLOCKED / 等待新 Pro 入口”的失真口径，并恢复承重文件续推目标
+- 变更类型：审计纠偏 / 控制链校正 / 默认目标恢复
+- 背景：最近几轮新增内容主要集中在 `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md`、`rebuild_run_review.md` 与 `decision_log.md` 的阻塞复核段落。虽然这些记录正确保住了“不进入任务层、不恢复旧 batch”的底线，但也把仓库逐步误写成“除了等待新的 Pro 入口外没有下一步”，与当前自动化的唯一目标不一致。
+- 决策内容：确认本轮最严重问题不是旧 batch 回潮、任务层偷跑或 `50–58` 回退，而是控制链膨胀导致的阶段漂移；当前真实阶段仍是 `主世界承载层与第一部施工蓝图重建阶段`。因此本轮审计结论改写为：允许重构施工自动化继续推进，且默认唯一目标恢复到 `worldbible/04_main_world/15_bailuyuan_region_bible.md`；`06_stage_gates.md` 继续只作为阶段门槛护栏，不再作为常驻 `Current Target File`。
+- 影响范围：`worldbible/09_reference/rebuild_daily_audit.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/decision_log.md`
+- 关联术语：日审计、控制链膨胀、阶段漂移、默认目标恢复、白鹿原地区圣经、任务层未开放
+- 关联文件：`worldbible/09_reference/project_total_verdict.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`worldbible/09_reference/reconstruction_route_map.md`、`worldbible/09_reference/execution_plan_rebuild.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`
+- 替代或继承关系：覆盖 `REBUILD-2026-04-26-78` 与 `REBUILD-2026-04-26-79` 所延续的“长期阻塞复核即默认工作流”口径；不否定门槛文件关于“任务层未自动开放”的结论，只纠正“仓库只能继续等待”的误写。
+- 备注：本轮仍禁止进入任务层、禁止恢复旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance / END` 体系、禁止顺手扩写任务与文本包；本轮只把默认施工目标纠回承重文件。
+
+## REBUILD-2026-04-26-81：将白鹿原从静态接口母表继续压成活体地区母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `15_bailuyuan_region_bible.md` 内补齐白鹿原的常态—紧急—失稳运转节律与主压力传导顺序，避免地区圣经回退成功能地图
+- 变更类型：承载层补强 / 地区母表深化 / 下游调用护栏
+- 背景：`rebuild_execution_state.md` 已把默认目标恢复到 `worldbible/04_main_world/15_bailuyuan_region_bible.md`，且 `Next Smallest Step` 明确要求继续核查白鹿原是否仍以“地区圣经”而非“功能地图”承载 `16 / 57 / 58`。当前 `15` 号文件已具备六区结构、通路、状态触发、发言权与下游接口，但仍偏重“结构与接口”，对白鹿原如何在常态、紧急、失稳之间持续运转的节律说明仍不够硬。
+- 决策内容：确认本轮唯一合法施工包为在 `15_bailuyuan_region_bible.md` 内继续补强活体地区母表，而不是跳转到 `16 / 57 / 58` 或重开门槛文件。具体补入三层内容：一是“六区的常态—紧急—失稳运转节律表”，把六区每天先盯什么、紧急时先切什么、公众先从哪里感到失稳、最后必须回写到哪条现实账目正式写死；二是“白鹿原六条主压力的地区传导顺序表”，把 `共保紧缩 / 边界抬价 / 外缘封控 / 旧案重启 / 内环强征 / 有限重开试压` 的起压区、传导区与收口区压成固定顺序；三是“活体地区校准规则”，规定 `16 / 57 / 58` 只能在这些地区节律和传导链上继续细化，不能把白鹿原重新写成功能块拼图。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：白鹿原地区圣经、功能地图回退、活体地区母表、常态—紧急—失稳节律、地区传导顺序、主承压区、传导区、收口区
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-80` 对“默认目标恢复到 15”的纠偏结论；本轮不改变文件顺序、不开放任务层、不恢复旧 batch，只把 `15` 从“已具接口的地区母表”继续推进到“具备活体运转顺序的地区母表”。
+- 备注：本轮仍只服务当前唯一目标文件；仍禁止进入任务层、禁止恢复旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance / END` 体系，也不得顺手推进 `16 / 57 / 58`。
+
+## REBUILD-2026-04-26-82：把白鹿原高位变化正式压回鹿门集 / 回声渠双落点
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `15_bailuyuan_region_bible.md` 内补齐“高位变化必须回写回低位公共现实”的双落点母表，避免白鹿原再次被写成功能地图或高位舞台拼接
+- 变更类型：承载层补强 / 地区母表深化 / 下游调用护栏
+- 背景：`REBUILD-2026-04-26-81` 已把白鹿原补强到“有六区运转节律与主压力传导顺序”的活体地区母表，但 `rebuild_execution_state.md` 的 `Next Smallest Step` 继续指向同一真实缺口：还需确认任何高位变化是否都能回写回鹿门集 / 回声渠的人命账、价差与资格现实。若这一层不补齐，`16 / 57 / 58` 仍可能把鹿眠内环、伏誓碑林、断引栈道、黑砂外缘或远端外压写成自己就能完成结论的高位变化。
+- 决策内容：确认本轮唯一合法施工包仍留在 `worldbible/04_main_world/15_bailuyuan_region_bible.md`，并补入三层连续内容：一是“高位变化压回鹿门集 / 回声渠的双落点校准表”，把 `内环强征扩大 / 旧案重启升级 / 有限重开试压 / 外缘封控再升级 / 深封保稳或临时保稳令 / 外部法统与路权压力逼近` 统一压回鹿门集的人命账与回声渠的价差 / 资格现实；二是“高位变化的双落点回写顺序表”，写死高位变化必须先改写哪类名单、再改写哪类价差与窗口，最后才能算地区升级；三是“双落点回写规则”，明确 `16 / 57 / 58` 只能继承已经完成双落点回写的变化，不能跳过公共现实直接写高位结论。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：白鹿原地区圣经、双落点回写、鹿门集人命账、回声渠价差、资格现实、高位变化、公共现实
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-81` 已建立的活体地区节律与主压力传导顺序；本轮不改变目标顺序、不开放任务层、不恢复旧 batch，只把 `15` 从“高位变化会传导”继续推进到“高位变化必须落回双落点公共现实”。
+- 备注：本轮仍只服务当前唯一目标文件；仍禁止进入任务层、禁止恢复旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance / END` 体系，也不得顺手推进 `16 / 57 / 58`。
+
+## REBUILD-2026-04-26-83：把双落点回写继续压成公共现实落账字段与回震链
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `15_bailuyuan_region_bible.md` 内补齐“双落点回写”落到哪些公共字段、并如何继续震回六区运转的地区级闭环
+- 变更类型：承载层补强 / 地区母表深化 / 下游调用护栏
+- 背景：`REBUILD-2026-04-26-82` 已把白鹿原补强到“任何高位变化都必须压回鹿门集 / 回声渠双落点”的地区母表，但 `rebuild_execution_state.md` 的 `Next Smallest Step` 继续指向同一真实缺口：还需确认这些高位变化究竟改写哪些公共字段，以及在完成双落点后如何继续震回六区、形成可持续的地区现实。若这一层不补齐，`16 / 57 / 58` 仍可能把双落点写成抽象原则，而不是可锁死的名单、价差、窗口、资格与追债现实。
+- 决策内容：确认本轮唯一合法施工包仍留在 `worldbible/04_main_world/15_bailuyuan_region_bible.md`，并补入三层连续内容：一是“鹿门集 / 回声渠的公共现实落账字段表”，把 `延后加厚 / 资格失效 / 追债显形 / 窗口变窄 / 断供落地 / 说话分层` 压成必须改写的公共变量；二是“六区高位压力的公共现实回震链表”，写死高位压力完成双落点后只能继续震回哪些地区现实，不能停成一次性高位结论；三是“公共现实落账校准规则”，明确 `16 / 57 / 58` 只有在同时锁死鹿门集字段、回声渠字段与至少一条继续震回六区的现实链时，才算完成合法地区落账。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：白鹿原地区圣经、双落点回写、公共现实落账字段、公共现实回震链、鹿门集人命账、回声渠价差、资格现实、地区级闭环
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-82` 已建立的双落点回写口径；本轮不改变目标顺序、不开放任务层、不恢复旧 batch，只把 `15` 从“高位变化必须回到双落点”继续推进到“高位变化必须改写公共字段并继续震回六区现实”。
+- 备注：本轮仍只服务当前唯一目标文件；仍禁止进入任务层、禁止恢复旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance / END` 体系，也不得顺手推进 `16 / 57 / 58`。
+
+## REBUILD-2026-04-26-84：2026-04-25确认 50–58 已落库，当前阶段改判为蓝图一致性审计与试点准入复核；废止 2026-04-18 广义任务层专项授权口径
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：00_project_overview / 09_reference
+- 决策主题：把仓库控制面同步到 `50–58` 已落库的现实，并将当前阶段正式改判为“蓝图一致性审计与任务化试点准入复核”
+- 变更类型：控制层改判 / 协作入口同步 / 护栏收口
+- 背景：`51–58` 已在主干上落库，`54_book1_chapter_blueprint.md` 已写到 `CH18`，`55_book1_scene_blueprint.md` 已写到 `CH18-S04`，`execution_plan_rebuild.md` 也已明确：蓝图闭环后只允许 `Act I` 最小试点、最小 `Journal / Codex` 样例与 `1–2` 条支线试点。但 `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md`、`06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`reading_order.md` 与 `README.md` 仍残留“继续补蓝图”“长期等待新的 Pro 入口”或“广义任务层专项授权”口径，已落后于仓库现实。
+- 决策内容：确认 `50–58` 已落库并形成第一部蓝图闭环；当前阶段正式改判为 `蓝图一致性审计与任务化试点准入复核`。当前默认动作不再是继续补某一个蓝图文件，也不是长期 `BLOCKED` 等待，而是先对 `15 / 16 / 21 / 22 / 51–58` 与控制层文件做跨文件一致性审计。若审计 `PASS`，只允许定义 `Act I` 最小试点范围，不允许恢复大规模 batch / narrative-lab 生产线。与此同时，废止 `2026-04-18` 起延续的广义任务层专项授权口径；该口径不再作为当前默认执行授权来源。
+- 影响范围：`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/09_reference/reading_order.md`、`README.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`
+- 关联术语：`50–58 已落库`、蓝图一致性审计、任务化试点准入复核、Act I 最小试点、控制层同步、旧 batch 历史资产
+- 关联文件：`worldbible/09_reference/execution_plan_rebuild.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `execution_plan_rebuild.md` 已成立的“蓝图闭环后只允许最小试点”口径；覆盖此前仍残留在控制层文件中的“继续补蓝图 / 长期 BLOCKED / 广义任务层专项授权”表达。
+- 备注：本轮不推翻 `execution_plan_rebuild.md`；修的是控制面对齐，不是重写 `14 / 15 / 16 / 17 / 21 / 22 / 50–58` 主体内容。
+
+## REBUILD-2026-04-26-85：把 15 号文件继续压成下游合法继承闭环的地区母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 内补齐“下游怎样合法继承双落点、公共字段与六区回震链”的最后一层调用闭环
+- 变更类型：承载层补强 / 地区母表深化 / 控制链纠偏
+- 背景：`REBUILD-2026-04-26-82` 与 `REBUILD-2026-04-26-83` 已把白鹿原补到“双落点回写”“公共现实落账字段”“六区回震链”层级，但 `16 / 57 / 58` 仍可能绕开这些母表，直接把边界结论、角色推进或章节状态写成悬空结果。与此同时，`rebuild_execution_state.md` 一度把“蓝图一致性审计”误写成当前目标，偏离了本自动化应继续推进唯一目标文件的执行规则。
+- 决策内容：确认本轮唯一合法施工包仍只服务 `worldbible/04_main_world/15_bailuyuan_region_bible.md`。具体补入三层连续内容：一是“下游合法继承闭环表”，把 `16 / 57 / 58` 分别必须先锁死的高位变化类型、鹿门集字段、回声渠字段与六区回震区写成可反查接口；二是“下游调用次序校验规则”，明确边界结论、角色成长与章节状态都不得先写结果、后补落账；三是“15 号文件当前阶段收口判据”，把何时允许切换到下一目标文件写回 `15` 本体。同时同步把 `rebuild_execution_state.md` 纠正回 `Current Target File = worldbible/04_main_world/15_bailuyuan_region_bible.md`，并把当前真实阶段重新锁定为“主世界承载层与第一部施工蓝图重建阶段”。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：白鹿原地区圣经、下游合法继承、双落点回写、公共现实落账字段、六区回震链、阶段收口判据、Current Target File
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-82` 与 `REBUILD-2026-04-26-83` 已建立的双落点与公共字段闭环；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `15` 从“已能要求落账”继续推进到“已能约束下游合法继承”。
+- 备注：在 `15` 达到明确阶段收口前，下一轮仍不得切到 `16 / 57 / 58`，更不得进入任务层或恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-86：把 15 号文件继续压成三份下游文件共用同一阶段主导线的地区母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 内补齐前段 / 中段 / 后段的高位变化主导次序与三份下游文件的阶段级共用绑定，防止 `16 / 57 / 58` 各自发明不同阶段主导线
+- 变更类型：承载层补强 / 地区母表深化 / 阶段级调用护栏
+- 背景：`REBUILD-2026-04-26-85` 已把 `15` 补到“下游合法继承闭环”和“阶段收口判据”层级，但 `rebuild_execution_state.md` 的 `Next Smallest Step` 继续指向同一真实缺口：还需确认 `16 / 57 / 58` 在前段 / 中段 / 后段里是否会继续各自挑不同的高位变化、字段包与回震区。若这一层不补齐，白鹿原仍可能被拆回三个各自说理的下游文件，而不是一个可共用的地区母表。
+- 决策内容：确认本轮唯一合法施工包仍只服务 `worldbible/04_main_world/15_bailuyuan_region_bible.md`。具体补入三层连续内容：一是“第一部前段 / 中段 / 后段的高位变化主导次序表”，写死哪些高位变化可以在各段主导、哪些只能先做边角投影；二是“三份下游文件的阶段级共用绑定表”，写死 `16 / 57 / 58` 在同一段里必须共用同一组高位变化包、鹿门集字段、回声渠字段与回震区；三是“阶段级调用顺序校验规则”，把阶段错位继承、先跳后补与各自发明阶段主导线正式列为不合法调用。与此同时，把 `8.20` 的收口判据继续压到 `8.21–8.23`，明确在这些规则通过前仍不得视为 `15` 已明确收口。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：白鹿原地区圣经、阶段级主导次序、阶段级共用绑定、前段 / 中段 / 后段、高位变化包、鹿门集字段、回声渠字段、六区回震区、阶段收口判据
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-85` 已建立的下游合法继承闭环；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `15` 从“已能约束下游怎么继承”继续推进到“已能约束下游在每一段里共用什么主导线继承”。
+- 备注：下一轮仍不得提前切到 `16 / 57 / 58`；只能继续核查 `15` 在 `8.20–8.23` 补齐后是否已达到明确阶段收口点，且仍禁止进入任务层与恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-87：把 15 号文件继续压成可直接判定阶段收口与切换条件的地区母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 内补齐阶段完成总核查矩阵与切到 `16` 前的切换前校验规则，避免下一轮仍停留在抽象收口判断
+- 变更类型：承载层补强 / 地区母表深化 / 收口校验护栏
+- 背景：`REBUILD-2026-04-26-86` 已把 `15` 补到“前段 / 中段 / 后段主导线”和“三份下游文件阶段级共用绑定”层级，但 `rebuild_execution_state.md` 的 `Next Smallest Step` 继续指向同一真实缺口：还需确认 `8.20–8.23` 这些原则性收口判据能否被直接逐项核查。若这一层不补齐，下一轮仍可能知道该查“段落 / 字段 / 回震区 / 共用包”，却不能直接回答哪一类高位变化还没有真正闭合，因此仍无法稳妥判断是否具备切到 `16` 的条件。
+- 决策内容：确认本轮唯一合法施工包仍只服务 `worldbible/04_main_world/15_bailuyuan_region_bible.md`。具体补入两层连续内容：一是“允许进入第一部的高位变化阶段完成总核查矩阵”，把 `共保紧缩 / 边界抬价 / 外缘封控 / 旧案重启 / 深封保稳或临时保稳令 / 内环强征 / 有限重开试压 / 远端外压逼近` 统一压成“哪一段允许先主导、至少一项鹿门集字段、至少一项回声渠字段、至少一条六区回震区、必须共用哪组下游阶段包”的可查母表；二是“切到 16 前的切换前校验规则”，写死何时才算 `15` 的阶段完成判据具备可执行核查性、何时仍必须继续留在 `15`。与此同时，同步把 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md` 的下一步口径从“核查 8.20–8.23”更新为“核查 8.24–8.25”。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：白鹿原地区圣经、阶段完成总核查矩阵、切换前校验规则、阶段收口判据、下游阶段包、鹿门集字段、回声渠字段、六区回震区
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-86` 已建立的阶段级主导线与共用绑定口径；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `15` 从“已能约束阶段继承”继续推进到“已能逐项核查是否具备切换条件”。
+- 备注：下一轮仍不得提前切到 `16 / 57 / 58`；只能继续核查 `15` 在 `8.24–8.25` 补齐后是否已达到明确阶段收口点，且仍禁止进入任务层与恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-88：把 15 号文件继续压成切到 16 时不得扩轴的地区母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在 `worldbible/04_main_world/15_bailuyuan_region_bible.md` 内补齐 `15 -> 16` 的高位变化归并继承关系与轴线扩容禁止规则，防止切换时由下游反向扩容上游
+- 变更类型：承载层补强 / 地区母表深化 / 切换护栏
+- 背景：`REBUILD-2026-04-26-87` 已把 `15` 补到“阶段完成总核查矩阵”和“切换前校验规则”层级，但在对照 `16_book1_binding_boundary.md` 的既有现实压力轴后，仍存在一个实际切换风险：`8.24` 已列出八类高位变化，而 `16` 并未拥有对应的八条并列现实压力轴。若不先把归并关系写死，后续一旦切到 `16`，就很容易借“解释更清楚”为名新增 `深封保稳` 或 `远端外压` 等并列主轴，等于在切换动作中重新让下游扩容上游。
+- 决策内容：确认本轮唯一合法施工包仍只服务 `worldbible/04_main_world/15_bailuyuan_region_bible.md`。具体补入两层连续内容：一是“切到 16 时的高位变化归并继承表”，把 `8.24` 中八类高位变化明确压回 `16` 当前已成立的现实压力轴与阶段包，其中 `深封保稳或临时保稳令`、`远端外压逼近` 均不得在 `16` 新增为并列主轴；二是“切到 16 前的轴线扩容禁止规则”，明确只要切换仍需靠 `16` 新开压力轴、补开阶段包或重命名现实压力轴来解释 `8.24` 任一行，就说明 `15` 仍未收口，必须继续留在 `15`。与此同时，把控制链中的下一步口径从“核查 8.24–8.25”更新为“核查 8.24–8.27”。
+- 影响范围：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：白鹿原地区圣经、归并继承、轴线扩容禁止、阶段收口判据、切到 16 前校验、深封保稳、远端外压逼近
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-87` 已建立的总核查矩阵与切换前校验口径；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `15` 从“已能判断是否可切换”继续推进到“已能约束切换时不得扩出新第一部主轴”。
+- 备注：下一轮仍不得提前切到 `16 / 57 / 58`；只能继续核查 `15` 在 `8.24–8.27` 补齐后是否已达到明确阶段收口点，且仍禁止进入任务层与恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。

@@ -1,25 +1,28 @@
 # 重构执行状态
-
-- Current Target File: `worldbible/08_story/51_book1_master_outline.md`
-- Current Workstream: `第一部完整总纲重建`
-- Current Mode: `A / 单文件双模块闭环`
-- Status: `PENDING`
+- Current Target File: `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+- Current Workstream: `主世界承载层与第一部施工蓝图重建`
+- Current Mode: `BUILD / 单文件阶段施工`
+- Status: `IN_PROGRESS`
 - Dependencies:
-  - `worldbible/00_project_overview/05_scope_map.md`
-  - `worldbible/04_main_world/14_gulie_cantian_rebuild_bible.md`
-  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
   - `worldbible/04_main_world/16_book1_binding_boundary.md`
-  - `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
-  - `worldbible/05_history/09_bailuyuan_prestory_timeline_rebuild.md`
-  - `worldbible/07_characters/21_party_story_function_bible.md`
-  - `worldbible/07_characters/22_character_progression_master.md`
-- Closed Loop This Run: `在 50 号文件内完成“系列总问题的五段递进承压表”与“第一部样本定位 / 对 51、56、57、58 的调用边界表”，把系列总问题、ARC-1 样本尺度与下游继承边界正式压成第一部蓝图层母本。`
+  - `worldbible/08_story/57_book1_character_progression_table.md`
+  - `worldbible/08_story/58_book1_world_state_table.md`
+- Control Sync Targets:
+  - `worldbible/09_reference/rebuild_run_review.md`
+  - `worldbible/09_reference/decision_log.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+- Deliverables:
+  - `15 号文件的切到 16 前归并继承与轴线扩容禁止补强`
+  - `本轮 run / decision / state 同步`
+- Closed Loop This Run: `已在 15 号文件内补入“切到 16 时的高位变化归并继承表”与“切到 16 前的轴线扩容禁止规则”，把 8.24–8.25 的收口核查继续压到真正的切换动作上；现在即便未来允许切文件，16 也只能继承既有现实压力轴，不得借切换之机新长出第一部主导轴线。`
 - Last Run Summary:
-  - 已在 `worldbible/08_story/50_series_master_outline.md` 补入“系列总问题的五段递进承压表”，把五部作品分别要把“谁有资格替未来签字”落到哪一层、先压实哪些第一轮代价，以及必须留给后续放大的未解问题正式写成系列级母表。
-  - 已同步补入“第一部作为伤区样本部的压实标准”与“对 `51 / 56 / 57 / 58` 的调用边界表 / 调用规则”，把 ARC-1 只能压实到什么程度、只能给下游留下什么接口，以及 `51 / 56 / 57 / 58` 不得反向改写的尺度与职责正式锁死。
-  - `worldbible/08_story/50_series_master_outline.md` 已达到当前阶段的系列总纲闭环要求；本轮未读取旧 `33a–43a`、`17–20a`、`game_batch*`、`game_narrative_*` 或 `final_acceptance` 作为施工输入，也未进入 `51–58` 下游正文、任务层或文本包层。
-- Next Smallest Step: 转入 `worldbible/08_story/51_book1_master_outline.md`，先压实第一部正史主脉、整部承压升级链与对 `52 / 53 / 54 / 55` 的拆分边界。
+  - `15_bailuyuan_region_bible.md` 上一轮已完成“允许进入第一部的高位变化阶段完成总核查矩阵”与“切到 16 前的切换前校验规则”补强。
+  - 本轮继续只服务 `15`，把 `8.24` 中的八类高位变化进一步压成 `15 -> 16` 的归并继承关系，并明确 `16` 不得借切换扩出新的现实压力轴，避免下一轮一旦切换就重新让下游扩容上游。
+  - 控制链已同步回“当前真实阶段 = 主世界承载层与第一部施工蓝图重建阶段；默认不进入任务层；旧 batch 体系继续禁用”。
+- Next Smallest Step: `继续只核查 15 号文件在 8.24–8.27 补齐后是否仍存在尚未闭合的阶段完成判据；若仍有缺口，只在 15 内补强；若无，再确认是否具备切到 16 的明确条件，但本轮不得先切。`
 - Risks / Notes:
-  - `09_reference` 中旧 `game_batch*` / `final_acceptance` 文件仍存在，默认只视为历史资产，不得重新接管主线。
-  - 当前真实阶段仍是 `主世界承载层与第一部施工蓝图重建阶段`，任务层默认关闭。
-  - `51_book1_master_outline.md` 未完成前，不得提前跳到 `52–58`、任务层或旧 batch 口径。
+  - `15` 尚未达到明确阶段完成点前，不得切换到下一目标文件。
+  - 旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance* / END / 33a–43a / 17–20a` 仍只视为历史资产。
+  - 当前仍处于主世界承载层与第一部施工蓝图重建阶段，不得默认进入任务层。
+  - 若后续发现缺口，只允许最小必要地继续补强 `15`，不得顺手推进下游蓝图文件。

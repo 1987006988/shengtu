@@ -51,9 +51,9 @@
 4. 若本轮结论影响跨模块口径，同步更新 `worldbible/09_reference/glossary.md` 与 `worldbible/09_reference/decision_log.md`。
 5. 结束时同步更新 `worldbible/00_project_overview/04_current_state.md` 与 `worldbible/09_reference/session_handoff.md`。
 
-当前不默认进入任务层。写入具体任务、对白、分支、结局或玩法前，必须先确认状态页与护栏文件允许下沉。
+当前不默认进入任务层。写入具体任务、对白、分支、结局或玩法前，必须先确认状态页、执行状态页与护栏文件允许下沉。
 
-当前下一步为“白鹿原势力与关键节点落位阶段”。进入任务层前，应先回查 `worldbible/00_project_overview/06_stage_gates.md` 与 `worldbible/00_project_overview/08_pre_task_layer_requirements.md`。
+当前下一步为“蓝图一致性审计与试点准入复核”。默认先做控制层同步与跨文件审计；若审计通过，仅允许 `Act I` 最小试点，不允许恢复旧式大规模 batch schedule。
 
 ## 如何避免设定冲突
 
@@ -68,16 +68,17 @@
 
 ## 当前默认入口
 
-当前仓库默认已切换到：`主世界承载层与第一部施工蓝图重建阶段`。
+当前仓库默认已切换到：`蓝图一致性审计与任务化试点准入复核`。
 
 后续默认先读：
 
 1. `worldbible/09_reference/project_total_verdict.md`
 2. `worldbible/00_project_overview/04_current_state.md`
 3. `worldbible/09_reference/session_handoff.md`
-4. `worldbible/09_reference/reading_order.md`
-5. `worldbible/09_reference/reconstruction_route_map.md`
-6. `worldbible/09_reference/execution_plan_rebuild.md`
+4. `worldbible/09_reference/execution_plan_rebuild.md`
+5. `worldbible/09_reference/rebuild_execution_state.md`
+6. `worldbible/09_reference/rebuild_run_review.md`
+7. `worldbible/09_reference/reading_order.md`
 
 旧 `game_narrative_*`、`game_batch*`、`game_phase*`、`final_acceptance` 以及 `33a–43a`、`17–20a` 文本包现统一视为历史资产 / narrative lab round 1，不再作为当前主入口真相。
 
