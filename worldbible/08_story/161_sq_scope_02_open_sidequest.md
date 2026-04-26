@@ -1,27 +1,33 @@
-# 161 SQ-SCOPE-02 Open Sidequest
+# SQ-SCOPE-02 正式支线资产
 
-## 1. Scope
+## 1. 文件定位
 
-This is the formal production asset for `SQ-SCOPE-02《断路前的空名册》`.
+本文件是 `SQ-SCOPE-02《断路前的空名册》` 的正式生产资产。  
+它只承接 `96 / 97` 已通过的范围，不再承担“能否继续解冻支线层”的证明职责。
 
-## 2. Inherited Evidence
+## 2. 继承依据
 
 - `96_sq_scope_02_task_pilot.md`
 - `97_sq_scope_02_pilot_review.md`
+- `83_a2_mainline_prose_ch04.md`
+- `91_a2_mainline_mq.md`
+- `92_a2_mainline_journal.md`
 
-## 3. Approved Window
+## 3. 已批准窗口
 
-- `CH04-S01–S02`
-- Attached chain: outpost -> broken-bridge window
+- `chapter_window`：`CH04-S01–S02`
+- `attach_chain`：`断引栈道前哨 -> 旧接引节点残桥`
+- `lead_roles`：`沈行策 / 顾砺衡 / 祁渡川`
 
-## 4. Scope Limits
+## 4. 正式化约束
 
-- Do not expand beyond the approved window.
-- Do not rewrite the mainline explanation layer.
-- Do not reopen `A3–A6`.
-- Do not touch `Item / System feedback`.
+1. 只允许附着 `MQ-A2-04A《谁给这条路起名》` 已落库的前段承压链。
+2. 只允许放大“护送空位是谁让出来的”与“空名册如何改写责任”的现实重量。
+3. 不得越入 `CH04-S03`、`CH05+` 或任何矩阵外支线窗口。
+4. 不得反写主线解释层，不得新增 `Codex`、主线终点或世界状态支线分支。
+5. 不得触碰 `A3–A6` 支线，不得触碰 `Item / System feedback`。
 
-## 5. Conclusion
+## 5. 当前可写口径
 
-`SQ-SCOPE-02` remains an attach-only amplifier. It can strengthen the mainline, but it cannot redefine the mainline.
-
+`SQ-SCOPE-02` 是一条附着型正式支线。  
+它可以加强 `A2` 前段的路权与责任排序压力，但不能改写 `A2` 主线，也不能把支线层写成独立解释器。
