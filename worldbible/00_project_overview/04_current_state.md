@@ -9,8 +9,8 @@
 第一部《升途：封绝之地》当前聚焦 `古裂残天` 内部的 `白鹿原`，但项目整体不等于白鹿原，也不等于古裂残天。
 
 ## 3. 当前真实阶段
-- 当前阶段：`Act I 最小任务化试点阶段`
-- 当前口径：已通过蓝图一致性审计；当前只允许 `CH01–CH02` 级别的一条最小主线试点与最小 `Journal / Codex` 样例；仍不开放全面任务层
+- 当前阶段：`Act I 最小任务化试点复盘阶段`
+- 当前口径：已通过蓝图一致性审计，并已完成 `CH01–CH02` 级别的一条最小主线试点、最小 `Journal / Codex` 样例与首轮复盘；仍不开放支线正文或全面任务层
 - 当前主入口：`project_total_verdict.md`、`04_current_state.md`、`session_handoff.md`、`reading_order.md`、`execution_plan_rebuild.md`、`rebuild_execution_state.md`
 
 ## 4. 当前已成立且可继续调用的部分
@@ -20,7 +20,9 @@
 - `14 / 15 / 16 / 17` 已把主世界承载层、白鹿原地区承载层与第一部绑定边界压成可调用母表；
 - `21 / 22` 已把七席位接口、抬权顺序与角色推进边界压成可调用母表；
 - `50–58` 已落库并形成第一部施工蓝图闭环。
-- `Act I / CH01–CH02` 最小试点范围、最小主线试点与最小 `Journal / Codex` 样例已落入 `act1_minimal_pilot_package.md`。
+- `Act I / CH01–CH02` 最小试点范围已落入 `act1_minimal_pilot_package.md`。
+- `59_act1_minimal_main_quest_pilot.md`、`60_act1_minimal_journal_pilot.md`、`61_act1_minimal_codex_pilot.md` 已作为首轮最小试点产出落库。
+- `act1_minimal_pilot_review.md` 已完成首轮试点复盘并给出 `PASS` 结论。
 
 ## 5. 当前不再沿用 / 已废止的口径
 - `END 已完成，因此项目默认进入扩容 / 生产期`
@@ -43,16 +45,16 @@
 
 ## 8. 当前最短板
 按优先级排序：
-1. 当前最短板已从“16 是否收口”转成“最小试点包是否会越过 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58 的上游边界”，也就是试点复盘问题而不是蓝图缺失问题；
-2. 控制层文件需要持续防止把“最小试点已开放”误写成“全面任务层已开放”；
-3. `Act I` 试点当前只允许停在 `CH01–CH02` 与最小 `Journal / Codex` 样例，不得顺手扩到后续章节或旧 batch 口径；
+1. 当前最短板已从“最小试点包是否越权”转成“是否有必要、且是否允许定义一组极小支线试点范围”，也就是扩容边界问题而不是蓝图或试点缺失问题；
+2. 控制层文件需要持续防止把“首轮试点复盘通过”误写成“支线正文或全面任务层已开放”；
+3. `Act I` 试点当前只允许停在 `CH01–CH02` 的主线样本、最小 `Journal / Codex` 样例与复盘结论，不得顺手扩到后续章节或旧 batch 口径；
 4. 旧资产目前仍只可作为历史资产，不得重新接管执行链。
 
 ## 9. 当前下一步
 **唯一默认下一步**：
-> 只复盘 [act1_minimal_pilot_package.md](/E:/python_learn/shengtu/worldbible/09_reference/act1_minimal_pilot_package.md:1) 是否越过 `16 / 21 / 22 / 54 / 55 / 56 / 57 / 58` 的上游边界；若没有，再决定是否允许扩到支线试点范围定义，仍不得进入全面任务文本工程。
+> 只使用 [act1_minimal_pilot_review.md](/E:/python_learn/shengtu/worldbible/09_reference/act1_minimal_pilot_review.md:1) 的结论，判断是否允许定义一组极小支线试点范围；在正式扩容评估前，仍不得进入支线正文或全面任务文本工程。
 
 ## 10. 备注
 - `execution_plan_rebuild.md` 仍是正确计划源，不应推翻；
-- 当前修的是承载层与控制链，而不是恢复旧 batch 或提前做任务层资产；
+- 当前修的是最小试点控制链与复盘结论，而不是恢复旧 batch 或提前做全面任务层资产；
 - 若后续护栏文件与本页冲突，以 `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md` 的同步控制口径为准，直到护栏文件被重新同步。

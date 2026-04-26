@@ -2313,3 +2313,18 @@
 - 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
 - 替代或继承关系：继承 `REBUILD-2026-04-26-93` 已完成的 `16` 收口结论；本轮不再把唯一目标留在单个蓝图文件，而是把整个审计阶段正式收口，并把下一阶段的最小试点控制包直接落库。
 - 备注：当前仍只允许最小试点，不允许扩成全面任务文本工程；下一轮若继续推进，默认只复盘 `act1_minimal_pilot_package.md` 是否越权，而不是顺手扩章或恢复旧 batch 体系。
+
+## REBUILD-2026-04-26-95：完成首轮最小试点产出并通过试点复盘
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：00_project_overview / 09_reference / 08_story
+- 决策主题：在蓝图一致性审计与试点准入完成后，修正 `act1_minimal_pilot_package.md` 的前置泄露，补齐 `CH01–CH02` 的最小主线 / Journal / Codex 试点文件，并完成首轮试点复盘
+- 变更类型：试点产出 / 复盘落库 / 控制链同步
+- 背景：`REBUILD-2026-04-26-94` 已把仓库推进到 `Act I` 最小任务化试点阶段，并落库了 `act1_minimal_pilot_package.md`。但该文件中 `Codex / 白鹿原` 条目仍有“被推离主世界常规秩序带”的前置泄露，同时仓库还没有真正落库最小主线、最小 Journal、最小 Codex 试点文件，也没有完成首轮复盘。因此当前需要把试点从“准入包”推进到“准入包 + 试点样本 + 复盘结论”的完整闭环。
+- 决策内容：确认本轮唯一正确推进方向是完成首轮最小试点样本与复盘，而不是扩写支线正文或全面任务层。具体动作包括：一，修正 `act1_minimal_pilot_package.md` 中 `Codex / 白鹿原` 的前置泄露，回到前段可知口径；二，新增 `59_act1_minimal_main_quest_pilot.md`、`60_act1_minimal_journal_pilot.md` 与 `61_act1_minimal_codex_pilot.md`，把 `CH01–CH02` 的最小主线、最小 Journal、最小 Codex 产出正式落库；三，新增 `act1_minimal_pilot_review.md`，完成首轮越权核查并将结果判为 `PASS`；四，同步 `README.md`、`session_handoff.md`、`04_current_state.md`、`06_stage_gates.md`、`08_pre_task_layer_requirements.md` 与 `rebuild_execution_state.md`，把当前阶段统一改写为“Act I 最小任务化试点复盘”，并锁死“首轮复盘通过不等于支线正文或全面任务层已开放”的护栏。
+- 影响范围：`README.md`、`worldbible/09_reference/act1_minimal_pilot_package.md`、`worldbible/08_story/59_act1_minimal_main_quest_pilot.md`、`worldbible/08_story/60_act1_minimal_journal_pilot.md`、`worldbible/08_story/61_act1_minimal_codex_pilot.md`、`worldbible/09_reference/act1_minimal_pilot_review.md`、`worldbible/09_reference/session_handoff.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：Act I 最小任务化试点、CH01–CH02、最小主线试点、最小 Journal、最小 Codex、前置泄露、试点复盘 PASS、扩容评估护栏
+- 关联文件：`worldbible/09_reference/act1_minimal_pilot_package.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-94` 已建立的“最小试点已开放”结论；本轮不进入支线正文、不开放全面任务层、不恢复旧 batch，只把最小试点从“已准入”推进到“已有样本且已完成首轮复盘”。
+- 备注：首轮复盘虽为 `PASS`，但当前仍只能停在最小试点复盘与极小扩容评估讨论前状态；不得把该结论误写成支线正文或全面任务层已经开放。

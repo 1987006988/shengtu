@@ -49,22 +49,30 @@
 - 最小主线试点、最小 `Journal / Codex` 样例与禁止事项已正式写入；
 - `rebuild_execution_state.md` 已同步到试点口径。
 
+### 3.6 首轮最小试点输出与复盘已落库
+
+- `worldbible/08_story/59_act1_minimal_main_quest_pilot.md`
+- `worldbible/08_story/60_act1_minimal_journal_pilot.md`
+- `worldbible/08_story/61_act1_minimal_codex_pilot.md`
+- `worldbible/09_reference/act1_minimal_pilot_review.md`
+
 ## 4. 此前未满足项的当前状态
 
 1. `15 / 16 / 21 / 22 / 51–58` 与控制层文件之间的跨文件一致性审计已通过；
 2. `Act I` 最小试点范围已锁定为 `CH01–CH02`；
 3. 最小任务 schema、最小交付件与禁止事项已写入 `act1_minimal_pilot_package.md`；
-4. `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md` 与 `06_stage_gates.md` 已同步到试点口径；
-5. 旧资产已在控制层与执行层被集中降级为历史资产，不再具有默认执行权。
+4. 最小主线、最小 `Journal`、最小 `Codex` 与首轮复盘已正式落库；
+5. `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md` 与 `06_stage_gates.md` 已同步到试点复盘口径；
+6. 旧资产已在控制层与执行层被集中降级为历史资产，不再具有默认执行权。
 
 ## 5. 现在允许进入什么层级
 
-当前允许进入的，只有：
+当前允许继续停留的，只有：
 
 - `Act I` 最小主线任务化试点；
 - `CH01–CH02` 级别的最小试点范围；
 - 最小 `Journal / Codex` 样例；
-- 至多 `1–2` 条支线试点的范围定义。
+- 至多 `1–2` 条支线试点的范围定义讨论。
 
 ## 6. 现在仍然不允许什么
 
@@ -85,4 +93,4 @@
 
 ## 8. 当前阶段结论
 
-> 当前已具备进入 `Act I` 最小试点的条件；当前允许推进的，是 `CH01–CH02` 级别的一条最小主线试点与最小 `Journal / Codex` 样例，而不是全面任务文本工程。
+> 当前已完成 `Act I` 首轮最小试点输出与首轮复盘；若继续推进，最多只允许先讨论极小支线试点范围定义，而不是进入支线正文或全面任务文本工程。

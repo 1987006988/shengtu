@@ -1,9 +1,13 @@
 # 重构执行状态
-- Current Target File: `worldbible/09_reference/act1_minimal_pilot_package.md`
-- Current Workstream: `Act I 最小任务化试点`
-- Current Mode: `PILOT / CH01–CH02 最小试点`
-- Status: `IN_PROGRESS`
+- Current Target File: `worldbible/09_reference/act1_minimal_pilot_review.md`
+- Current Workstream: `Act I 最小任务化试点复盘`
+- Current Mode: `REVIEW / CH01–CH02 最小试点复盘`
+- Status: `COMPLETED`
 - Dependencies:
+  - `worldbible/09_reference/act1_minimal_pilot_package.md`
+  - `worldbible/08_story/59_act1_minimal_main_quest_pilot.md`
+  - `worldbible/08_story/60_act1_minimal_journal_pilot.md`
+  - `worldbible/08_story/61_act1_minimal_codex_pilot.md`
   - `worldbible/04_main_world/16_book1_binding_boundary.md`
   - `worldbible/07_characters/21_party_story_function_bible.md`
   - `worldbible/07_characters/22_character_progression_master.md`
@@ -18,17 +22,19 @@
   - `worldbible/00_project_overview/04_current_state.md`
   - `worldbible/09_reference/session_handoff.md`
 - Deliverables:
-  - `Act I / CH01–CH02 最小任务化试点包`
-  - `最小 Journal / Codex 样例`
+  - `Act I / CH01–CH02 最小主线试点文件`
+  - `Act I / CH01–CH02 最小 Journal 试点文件`
+  - `Act I / CH01–CH02 最小 Codex 试点文件`
+  - `首轮试点复盘结论`
   - `本轮 run / decision / state 同步`
-- Closed Loop This Run: `已跳出单文件阶段施工节奏，对 15 / 16 / 21 / 22 / 51–58 与控制层进行了当前轮蓝图一致性审计判定，并将结果判为 PASS；随后把 Act I 最小试点范围正式锁到 CH01–CH02，并把最小主线试点、最小 Journal / Codex 样例与禁止事项落入 act1_minimal_pilot_package.md。`
+- Closed Loop This Run: `已修正 act1_minimal_pilot_package.md 中 Codex / 白鹿原 的前置泄露，产出 59 / 60 / 61 三份 CH01–CH02 最小试点文件，并完成 act1_minimal_pilot_review.md 的首轮复盘，结论为 PASS。`
 - Last Run Summary:
-  - 已确认 `16` 达到当前阶段收口要求，并以此为前提判定蓝图一致性审计 `PASS`。
-  - 已把试点范围锁定为 `Act I / CH01–CH02`，并把最小交付件压成一条主线试点与最小 `Journal / Codex` 样例。
-  - 控制链已同步回“当前阶段 = Act I 最小任务化试点；仍禁止全面任务文本工程与旧 batch 体系回归”。
-- Next Smallest Step: `只复盘 act1_minimal_pilot_package.md 是否越过 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58 的上游边界；若无，则再决定是否允许扩到支线试点定义，仍不得进入大规模任务文本工程。`
+  - 已把最小试点从“控制包”推进到“控制包 + 最小主线 + 最小 Journal + 最小 Codex + 首轮复盘”五件套。
+  - `Codex / 白鹿原` 已移除“被推离主世界常规秩序带”的前置泄露，回到前段可知口径。
+  - 控制链已同步回“当前阶段 = Act I 最小任务化试点复盘；仍禁止支线正文、全面任务文本工程与旧 batch 体系回归”。
+- Next Smallest Step: `若后续继续推进，只允许先定义一组极小支线试点范围，并证明它仍不越过 15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58 的上游边界；在此之前，不得进入支线正文或全面任务文本工程。`
 - Risks / Notes:
   - `15 / 16 / 21 / 22 / 51–58` 当前已作为试点上游母表使用。
   - 旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance* / END / 33a–43a / 17–20a` 仍只视为历史资产。
-  - 当前仅开放 `Act I / CH01–CH02` 最小试点，不得扩成全面任务层。
-  - 若后续发现缺口，优先回修试点包或控制层，不得反向改写 `15 / 16 / 21 / 22 / 51–58`。
+  - 当前首轮复盘虽为 `PASS`，但仍不得把结果误写成支线正文或全面任务层已开放。
+  - 若后续发现缺口，优先回修试点文件或控制层，不得反向改写 `15 / 16 / 21 / 22 / 51–58`。

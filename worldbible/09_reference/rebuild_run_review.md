@@ -2381,6 +2381,54 @@
 - Review Result: `PASS`
 - Blockers: `无新的结构性阻塞；当前仍仅有“任务层执行授权未开放”的阶段护栏，不影响继续补强 15 号文件。`
 
+## RUN-2026-04-26-95
+
+- Unique Target File: `worldbible/09_reference/act1_minimal_pilot_review.md`
+- Mode: `PILOT+REVIEW / CH01–CH02 最小试点产出与复盘`
+- Work Package:
+  - `修 act1_minimal_pilot_package.md 中 Codex / 白鹿原 的前置泄露`
+  - `同步 README.md 与 session_handoff.md 的阶段一句话`
+  - `产出 CH01–CH02 的最小主线任务文件、最小 Journal 文件、最小 Codex 文件`
+  - `完成首轮 act1_minimal_pilot_review.md 复盘`
+- Inputs Read:
+  - `C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/09_reference/act1_minimal_pilot_package.md`
+  - `README.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/07_characters/21_party_story_function_bible.md`
+  - `worldbible/07_characters/22_character_progression_master.md`
+  - `worldbible/08_story/51_book1_master_outline.md`
+  - `worldbible/08_story/52_book1_volume_structure.md`
+  - `worldbible/08_story/53_book1_act_structure.md`
+  - `worldbible/08_story/54_book1_chapter_blueprint.md`
+  - `worldbible/08_story/55_book1_scene_blueprint.md`
+  - `worldbible/08_story/56_book1_reveal_foreshadow_table.md`
+  - `worldbible/08_story/57_book1_character_progression_table.md`
+  - `worldbible/08_story/58_book1_world_state_table.md`
+  - `worldbible/00_project_overview/06_stage_gates.md`
+  - `worldbible/00_project_overview/08_pre_task_layer_requirements.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（最近与当前阶段直接相关的尾部记录）
+  - `worldbible/09_reference/decision_log.md`（最近与当前阶段直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮虽已进入最小任务化试点，但仍严格停在 `Act I / CH01–CH02` 的最小主线、最小 Journal、最小 Codex 与首轮复盘，没有进入支线正文或全面任务层。
+2. 本轮闭环是否真实成立：`是。` 本轮不是只补控制包，而是完成了泄露修正、三份最小试点文件与复盘文件的连续闭环。
+3. 是否让下游反向定义了上游：`否。` 所有新增文件都只继承 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58` 的既有边界，没有反向改写上游母表。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 新文件使用当前试点 ID、当前试点边界与当前复盘口径，没有恢复旧式批次生产链。
+5. 本轮新增内容是否真正提高了承载力：`是。` 当前仓库已从“只有试点控制包”推进到“有最小试点样本、可复盘样本与明确护栏”的状态，下游是否可扩容有了直接依据。
+6. 本轮是否让下一步更容易施工：`是。` 若后续需要继续推进，下一轮已可以直接讨论是否允许定义一组极小支线试点范围，而不是回头补最小主线样本。
+
+- Review Result: `PASS`
+- Blockers: `无新的结构性阻塞；当前唯一护栏是：首轮复盘通过不等于支线正文或全面任务层已开放。`
+
 ## RUN-2026-04-26-94
 
 - Unique Target File: `worldbible/09_reference/act1_minimal_pilot_package.md`

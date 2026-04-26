@@ -34,6 +34,12 @@
 - 大规模 `MQ / SQ / Journal / Codex / System feedback`
 - 旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance*`
 
+### 2.3 本轮正式输出文件
+
+- `worldbible/08_story/59_act1_minimal_main_quest_pilot.md`
+- `worldbible/08_story/60_act1_minimal_journal_pilot.md`
+- `worldbible/08_story/61_act1_minimal_codex_pilot.md`
+
 ## 3. 上游继承边界
 
 本试点只能继承以下已经落库的上游结论：
@@ -108,8 +114,9 @@
 
 ### 7.1 条目：`白鹿原`
 
-一处被推离主世界常规秩序带的伤区共同体。  
-这里还活着的人，不是因为奇迹，而是因为有人每天继续签字、继续分账、继续决定谁先被延后。
+一片还在勉强活着的隔绝地带。  
+你现在只知道这里有人靠护撤、配额、病床和安置位撑着今天，  
+而且每一个被留下的人，都会让别人的日子更紧一点。
 
 ### 7.2 条目：`鹿门集`
 
