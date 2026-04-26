@@ -1,9 +1,10 @@
 # 重构执行状态
 
-- Current Target File: `worldbible/08_story/book1_sidequest_integration_review.md`
-- Current Workstream: `Book1 主线正文 + 主线任务层 + 支线矩阵受控开放收口`
-- Current Mode: `COMPLETED / REVIEW+SYNC`
-- Status: `COMPLETED`
+- Current Target File: `worldbible/08_story/157_book1_production_manifest.md`
+- Current Workstream: `Book1 生产执行模式 / 现役正文与任务层就地修订 + 支线正式化`
+- Current Mode: `PRODUCTION / OPEN-SCOPE`
+- Status: `ACTIVE`
+- Production Queue: `157–162`
 - Dependencies:
   - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
   - `worldbible/04_main_world/16_book1_binding_boundary.md`

@@ -3641,3 +3641,33 @@
 
 - Review Result: `PASS`
 - Blockers: `有。Book1 当前仍未开放 Item / System feedback；支线矩阵外范围仍需逐条补验证。`
+
+## RUN-2026-04-27-99
+
+- Unique Target File: `worldbible/08_story/157_book1_production_manifest.md`
+- Mode: `SYNC / Book1 production open-scope`
+- Work Package:
+  - `创建 157_book1_production_manifest.md / 158_book1_open_scope_work_queue.md / 159_book1_change_control.md`
+  - `创建 160_sq_scope_01_open_sidequest.md / 161_sq_scope_02_open_sidequest.md / 162_book1_open_scope_production_review.md`
+  - `同步 00_index / 04_current_state / 06_stage_gates / 08_pre_task_layer_requirements / README / session_handoff / rebuild_execution_state`
+- Inputs Read:
+  - `worldbible/08_story/book1_sidequest_scope_matrix.md`
+  - `worldbible/08_story/book1_sidequest_integration_review.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/00_project_overview/06_stage_gates.md`
+  - `worldbible/00_project_overview/08_pre_task_layer_requirements.md`
+  - `worldbible/08_story/00_index.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `README.md`
+- Legacy Asset Recovery: `无。本轮未恢复旧 batch / narrative-lab 作为默认入口。`
+
+## Review
+
+1. 本轮是否把仓库切到生产执行模式：`是。` 已建立 `157–162` 控制与正式化资产。
+2. 本轮是否仍保持 `Item / System feedback` 冻结：`是。` 未开启新试点。
+3. 本轮是否写成“全面开放”：`否。` 新口径仍是 `Book1` 开放范围内生产中。
+4. 本轮是否保留试点证据链：`是。` `79 / 80 / 96 / 97` 仍只是证据链。
+
+- Review Result: `PASS`
+- Blockers: `无新阻塞；后续只需按生产队列消耗现役资产。`

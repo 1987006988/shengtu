@@ -2373,3 +2373,18 @@
 - 关联文件：`worldbible/08_story/52_book1_volume_structure.md`、`worldbible/08_story/53_book1_act_structure.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
 - 替代或继承关系：继承 `REBUILD-2026-04-27-97` 已建立的 `Act I` 与 `V1` 闭环结论；本轮不把仓库改写成“全面开放”，只把当前真实开放边界从 `V1` 级推进到 `Book1` 级受控开放。
 - 备注：若后续继续推进，默认只允许两类新增动作：一，为支线矩阵中仍为 `FROZEN` 的范围补独立试点；二，为 `Item / System feedback` 补独立试点与审计。在那之前，不得把当前状态继续扩写成“所有层级全面开放”。
+
+## REBUILD-2026-04-27-99：切换到 Book1 生产执行模式，并正式化 157–162 控制链
+
+- 日期：2026-04-27
+- 状态：已确认
+- 模块：`08_story / 00_project_overview / 09_reference`
+- 决策主题：在 `Book1` 受控开放边界内，从“继续验证能否开放”切换为“生产执行模式”，并把生产控制、工作队列、变更门禁、正式化支线与总复盘一次性落库
+- 变更类型：生产模式切换 / 控制链收口 / 正式化支线 / 日志同步
+- 背景：当前 `Book1` 的主线正文、主线任务层、全书审计与支线矩阵审计已经全部通过；继续把默认入口停留在验证链会导致后续协作再次围绕“能不能开放”打转。为避免这一点，需要把仓库的默认口径改成生产执行模式，并把 `157–162` 作为新的控制与复盘带宽。
+- 决策内容：确认本轮唯一正确推进方向，是立刻建立 `157_book1_production_manifest.md`、`158_book1_open_scope_work_queue.md`、`159_book1_change_control.md`、`160_sq_scope_01_open_sidequest.md`、`161_sq_scope_02_open_sidequest.md`、`162_book1_open_scope_production_review.md`，并同步 `00_index.md`、`04_current_state.md`、`06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`README.md`、`session_handoff.md`、`rebuild_execution_state.md`、`book1_sidequest_scope_matrix.md` 与 `book1_sidequest_integration_review.md`，把当前真实状态统一写成 `Book1` 开放范围内生产中，而不是继续写成新的验证链。
+- 影响范围：`worldbible/08_story/157_book1_production_manifest.md`、`worldbible/08_story/158_book1_open_scope_work_queue.md`、`worldbible/08_story/159_book1_change_control.md`、`worldbible/08_story/160_sq_scope_01_open_sidequest.md`、`worldbible/08_story/161_sq_scope_02_open_sidequest.md`、`worldbible/08_story/162_book1_open_scope_production_review.md`、`worldbible/08_story/00_index.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/09_reference/session_handoff.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`README.md`
+- 关联术语：`Book1 生产执行模式`、`157–162`、生产队列、变更门禁、正式化支线、open-scope production review
+- 关联文件：`worldbible/08_story/book1_sidequest_scope_matrix.md`、`worldbible/08_story/book1_sidequest_integration_review.md`、`worldbible/08_story/160_sq_scope_01_open_sidequest.md`、`worldbible/08_story/161_sq_scope_02_open_sidequest.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-27-98` 的全书审计结论；本轮不把仓库改写成“全面开放”，只把控制链切到生产执行模式。
+- 备注：后续默认工作不再是反复证明能否开放，而是按 `157–159` 的生产控制文件消耗现役资产；如果后面真的要再开新验证链，也必须单独立项，而不能混在生产队列里。
