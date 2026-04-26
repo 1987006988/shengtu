@@ -2381,6 +2381,56 @@
 - Review Result: `PASS`
 - Blockers: `无新的结构性阻塞；当前仍仅有“任务层执行授权未开放”的阶段护栏，不影响继续补强 15 号文件。`
 
+## RUN-2026-04-26-96
+
+- Unique Target File: `worldbible/08_story/64_act1_linear_prose_pilot_review.md`
+- Mode: `REVIEW / 极小扩容评估 + 直线正文试点`
+- Work Package:
+  - `清理 59 / 60 / 61 的高误判词`
+  - `定义 1–2 条极小支线候选范围`
+  - `落库 CH01-S01–S02 的直线正文试点包与样本`
+  - `完成支线范围定义 + 直线正文试点双审计`
+  - `同步 current / handoff / execution state / stage gates`
+- Inputs Read:
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/09_reference/act1_minimal_pilot_review.md`
+  - `worldbible/00_project_overview/06_stage_gates.md`
+  - `worldbible/00_project_overview/08_pre_task_layer_requirements.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/07_characters/21_party_story_function_bible.md`
+  - `worldbible/07_characters/22_character_progression_master.md`
+  - `worldbible/08_story/00_index.md`
+  - `worldbible/08_story/54_book1_chapter_blueprint.md`
+  - `worldbible/08_story/55_book1_scene_blueprint.md`
+  - `worldbible/08_story/56_book1_reveal_foreshadow_table.md`
+  - `worldbible/08_story/57_book1_character_progression_table.md`
+  - `worldbible/08_story/58_book1_world_state_table.md`
+  - `worldbible/08_story/59_act1_minimal_main_quest_pilot.md`
+  - `worldbible/08_story/60_act1_minimal_journal_pilot.md`
+  - `worldbible/08_story/61_act1_minimal_codex_pilot.md`
+  - `README.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（最近与当前阶段直接相关的尾部记录）
+  - `worldbible/09_reference/decision_log.md`（最近与当前阶段直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮只做极小扩容评估、极小正文样本与双审计，没有进入支线正文、全面任务层或旧 batch 生产链。
+2. 本轮闭环是否真实成立：`是。` 本轮完成了词项降噪、两条支线候选范围定义、`CH01-S01–S02` 正文样本、双审计结论与控制链同步。
+3. 是否让下游反向定义了上游：`否。` `62 / 63 / 64` 只继承 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58` 的既有边界，没有新增上游主轴。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 旧体系没有被重新授权，也没有重新进入当前主入口。
+5. 本轮新增内容是否真正提高了承载力：`是。` 仓库现在不只知道“可以先定义极小支线范围”，还知道“一段极小正文”也能停在前段护栏里。
+6. 本轮是否让下一步更容易施工：`是。` 若后续继续推进，下一轮已可直接讨论是否开放 `Act I` 主线正文，而不是继续在支线范围定义或最小样本层反复打转。
+
+- Review Result: `PASS`
+- Blockers: `当前仍禁止支线正文试点与全面任务层；下一步最多只允许讨论是否开放 Act I 主线正文。`
+
 ## RUN-2026-04-26-95
 
 - Unique Target File: `worldbible/09_reference/act1_minimal_pilot_review.md`

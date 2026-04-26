@@ -11,7 +11,7 @@
 - `15 / 16 / 21 / 22 / 51–58` 文件组已落库；
 - `50–58` 已形成第一部蓝图闭环；
 - 蓝图一致性审计已通过；
-- 当前允许进入的不是全面任务层，而是 `Act I` 最小试点。
+- 当前允许进入的不是全面任务层，而是先经过 `Act I` 最小试点、极小扩容评估与直线正文试点的连续护栏。
 
 ## 3. 哪些条件现在已经满足
 
@@ -56,23 +56,29 @@
 - `worldbible/08_story/61_act1_minimal_codex_pilot.md`
 - `worldbible/09_reference/act1_minimal_pilot_review.md`
 
+### 3.7 极小扩容评估与直线正文试点已落库
+
+- `worldbible/08_story/62_act1_linear_prose_pilot_package.md`
+- `worldbible/08_story/63_act1_linear_prose_pilot.md`
+- `worldbible/08_story/64_act1_linear_prose_pilot_review.md`
+
 ## 4. 此前未满足项的当前状态
 
 1. `15 / 16 / 21 / 22 / 51–58` 与控制层文件之间的跨文件一致性审计已通过；
 2. `Act I` 最小试点范围已锁定为 `CH01–CH02`；
 3. 最小任务 schema、最小交付件与禁止事项已写入 `act1_minimal_pilot_package.md`；
 4. 最小主线、最小 `Journal`、最小 `Codex` 与首轮复盘已正式落库；
-5. `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md` 与 `06_stage_gates.md` 已同步到试点复盘口径；
-6. 旧资产已在控制层与执行层被集中降级为历史资产，不再具有默认执行权。
+5. 极小支线范围定义与 `CH01-S01–S02` 直线正文试点已完成首轮双审计；
+6. `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md` 与 `06_stage_gates.md` 已同步到当前复盘口径；
+7. 旧资产已在控制层与执行层被集中降级为历史资产，不再具有默认执行权。
 
 ## 5. 现在允许进入什么层级
 
 当前允许继续停留的，只有：
 
-- `Act I` 最小主线任务化试点；
-- `CH01–CH02` 级别的最小试点范围；
-- 最小 `Journal / Codex` 样例；
-- 至多 `1–2` 条支线试点的范围定义讨论。
+- `64_act1_linear_prose_pilot_review.md` 所指向的主线正文开放评估讨论；
+- 已通过审计的支线范围定义与直线正文样本的归档、回修与继续约束；
+- 继续明确“主线正文先开，不等于支线正文或全面任务层一起开”。
 
 ## 6. 现在仍然不允许什么
 
@@ -80,17 +86,18 @@
 - 恢复旧 `game_narrative_*`、`game_batch*`、`game_phase*`、`final_acceptance*` 体系；
 - 一次性大规模生成 MQ / SQ / Journal / Codex / Item / System feedback；
 - 让任务层反向改写 `14 / 15 / 16 / 21 / 22 / 51–58` 的上游边界。
+- 把“可讨论主线正文开放”偷换成“支线正文已开放”或“全面任务层已开放”。
 
-## 7. 什么情况下才适合进入试点
+## 7. 什么情况下才适合进入后续主线正文开放评估
 
-只有同时满足以下条件，才适合正式进入最小试点：
+只有同时满足以下条件，才适合正式讨论是否开放 `Act I` 主线正文：
 
 1. 蓝图一致性审计 `PASS`；
-2. `Act I` 最小试点范围已锁定；
-3. `rebuild_execution_state.md` 已写明交付件、禁止事项与下一最小步；
-4. 控制层文件已经同步到统一口径；
-5. 试点仍明确服务《升途：封绝之地》与白鹿原尺度。
+2. `Act I` 最小任务化试点已完成并通过首轮复盘；
+3. 极小支线范围定义已通过一次审计；
+4. `CH01-S01–S02` 直线正文试点已通过一次审计；
+5. `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md` 已同步到统一口径。
 
 ## 8. 当前阶段结论
 
-> 当前已完成 `Act I` 首轮最小试点输出与首轮复盘；若继续推进，最多只允许先讨论极小支线试点范围定义，而不是进入支线正文或全面任务文本工程。
+> 当前已完成极小支线范围定义与直线正文试点的首轮双审计；若继续推进，最多只允许先讨论是否开放 `Act I` 主线正文，而不是进入支线正文或全面任务文本工程。

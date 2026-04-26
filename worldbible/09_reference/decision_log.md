@@ -2328,3 +2328,18 @@
 - 关联文件：`worldbible/09_reference/act1_minimal_pilot_package.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
 - 替代或继承关系：继承 `REBUILD-2026-04-26-94` 已建立的“最小试点已开放”结论；本轮不进入支线正文、不开放全面任务层、不恢复旧 batch，只把最小试点从“已准入”推进到“已有样本且已完成首轮复盘”。
 - 备注：首轮复盘虽为 `PASS`，但当前仍只能停在最小试点复盘与极小扩容评估讨论前状态；不得把该结论误写成支线正文或全面任务层已经开放。
+
+## REBUILD-2026-04-26-96：通过极小扩容评估与直线正文试点双审计，但仍未开放支线正文或全面任务层
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：00_project_overview / 08_story / 09_reference
+- 决策主题：先完成 `59 / 60 / 61` 的术语降噪，再以 `62 / 63 / 64` 落库“极小支线范围定义 + `CH01-S01–S02` 直线正文试点”双审计，用于判断下一步是否适合讨论开放 `Act I` 主线正文
+- 变更类型：术语清理 / 极小扩容评估 / 正文试点 / 控制链同步
+- 背景：`REBUILD-2026-04-26-95` 之后，仓库的唯一允许下一步已从“最小任务化试点是否越权”转成“是否有必要、且是否允许定义极小支线范围，并验证一段极小正文也仍服从护栏”。用户进一步明确要求：先不写支线正文，而是先定义 `1–2` 条极小支线候选范围；同时新增一个正文试点包，只取 `CH01-S01–S02` 或最多 `CH01-S01–S04`，用来验证正文也能服从 `16 / 54 / 55 / 56 / 57 / 58`；只有当两类审计都通过后，才建议讨论是否开放 `Act I` 主线正文。
+- 决策内容：确认本轮唯一正确推进方向，是把“极小扩容评估”与“直线正文试点”都压成最小受控包，而不是直接扩写主线或支线正文。具体动作包括：一，清理 `59 / 60 / 61` 中容易诱发误判的词项，把相关口径统一压回 `照护棚 / 承接位 / 基础补给` 一组更稳表达；二，新增 `62_act1_linear_prose_pilot_package.md`，把两条极小支线候选先压成范围定义，并锁死 `CH01-S01–S02` 的直线正文试点边界；三，新增 `63_act1_linear_prose_pilot.md`，只以 `CH01-S01–S02` 落一段极小正文样本；四，新增 `64_act1_linear_prose_pilot_review.md`，分开完成“极小支线范围定义审计”与“直线正文试点审计”，两者结果均为 `PASS`；五，同步 `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md`、`06_stage_gates.md`、`08_pre_task_layer_requirements.md`、`README.md` 与 `08_story/00_index.md`，把当前口径统一改写为“下一步最多只允许讨论是否开放 `Act I` 主线正文；仍不允许支线正文试点或全面任务层”。
+- 影响范围：`worldbible/08_story/00_index.md`、`worldbible/08_story/59_act1_minimal_main_quest_pilot.md`、`worldbible/08_story/60_act1_minimal_journal_pilot.md`、`worldbible/08_story/61_act1_minimal_codex_pilot.md`、`worldbible/08_story/62_act1_linear_prose_pilot_package.md`、`worldbible/08_story/63_act1_linear_prose_pilot.md`、`worldbible/08_story/64_act1_linear_prose_pilot_review.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/session_handoff.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`README.md`
+- 关联术语：极小扩容评估、支线范围定义、直线正文试点、双审计、照护棚、承接位、基础补给、Act I 主线正文开放评估
+- 关联文件：`worldbible/09_reference/act1_minimal_pilot_review.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-95` 已建立的“最小试点已复盘通过”结论；本轮不开放支线正文、不开放全面任务层，只把仓库继续推进到“可以讨论是否开放 `Act I` 主线正文”的前一格。
+- 备注：双审计虽都为 `PASS`，但当前最多只允许讨论是否开放 `Act I` 主线正文；支线正文试点与全面任务层仍需后续单独审收口，不得提前改口。

@@ -1,13 +1,16 @@
 # 重构执行状态
-- Current Target File: `worldbible/09_reference/act1_minimal_pilot_review.md`
-- Current Workstream: `Act I 最小任务化试点复盘`
-- Current Mode: `REVIEW / CH01–CH02 最小试点复盘`
+- Current Target File: `worldbible/08_story/64_act1_linear_prose_pilot_review.md`
+- Current Workstream: `极小扩容评估与直线正文试点复盘`
+- Current Mode: `REVIEW / 极小支线范围定义 + CH01-S01–S02 直线正文试点`
 - Status: `COMPLETED`
 - Dependencies:
-  - `worldbible/09_reference/act1_minimal_pilot_package.md`
+  - `worldbible/09_reference/act1_minimal_pilot_review.md`
   - `worldbible/08_story/59_act1_minimal_main_quest_pilot.md`
   - `worldbible/08_story/60_act1_minimal_journal_pilot.md`
   - `worldbible/08_story/61_act1_minimal_codex_pilot.md`
+  - `worldbible/08_story/62_act1_linear_prose_pilot_package.md`
+  - `worldbible/08_story/63_act1_linear_prose_pilot.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
   - `worldbible/04_main_world/16_book1_binding_boundary.md`
   - `worldbible/07_characters/21_party_story_function_bible.md`
   - `worldbible/07_characters/22_character_progression_master.md`
@@ -22,19 +25,21 @@
   - `worldbible/00_project_overview/04_current_state.md`
   - `worldbible/09_reference/session_handoff.md`
 - Deliverables:
-  - `Act I / CH01–CH02 最小主线试点文件`
-  - `Act I / CH01–CH02 最小 Journal 试点文件`
-  - `Act I / CH01–CH02 最小 Codex 试点文件`
-  - `首轮试点复盘结论`
+  - `59 / 60 / 61` 词项降噪
+  - `极小支线范围定义`
+  - `CH01-S01–S02 直线正文试点包`
+  - `CH01-S01–S02 直线正文试点`
+  - `双审计复盘结论`
   - `本轮 run / decision / state 同步`
-- Closed Loop This Run: `已修正 act1_minimal_pilot_package.md 中 Codex / 白鹿原 的前置泄露，产出 59 / 60 / 61 三份 CH01–CH02 最小试点文件，并完成 act1_minimal_pilot_review.md 的首轮复盘，结论为 PASS。`
+- Closed Loop This Run: `已完成 59 / 60 / 61 的高误判词降噪，新增 62 / 63 / 64 三份极小扩容评估与直线正文试点文件，并完成“支线范围定义 + 直线正文试点”双审计，结果均为 PASS。`
 - Last Run Summary:
-  - 已把最小试点从“控制包”推进到“控制包 + 最小主线 + 最小 Journal + 最小 Codex + 首轮复盘”五件套。
-  - `Codex / 白鹿原` 已移除“被推离主世界常规秩序带”的前置泄露，回到前段可知口径。
-  - 控制链已同步回“当前阶段 = Act I 最小任务化试点复盘；仍禁止支线正文、全面任务文本工程与旧 batch 体系回归”。
-- Next Smallest Step: `若后续继续推进，只允许先定义一组极小支线试点范围，并证明它仍不越过 15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58 的上游边界；在此之前，不得进入支线正文或全面任务文本工程。`
+  - 已先把试点词项压回 `照护棚 / 承接位 / 基础补给` 一组更稳表达。
+  - 已把 `1–2` 条极小支线候选锁定为范围定义，而不是正文。
+  - 已用 `CH01-S01–S02` 的极小正文样本验证正文仍可服从 `16 / 54 / 55 / 56 / 57 / 58`。
+  - 控制链已同步回“当前最多只允许讨论是否开放 Act I 主线正文；仍不开放支线正文或全面任务层”。
+- Next Smallest Step: `若后续继续推进，只允许基于 64_act1_linear_prose_pilot_review.md 的双审计结论，讨论是否开放 Act I 主线正文；在此之前，不得进入支线正文试点或全面任务层。`
 - Risks / Notes:
-  - `15 / 16 / 21 / 22 / 51–58` 当前已作为试点上游母表使用。
-  - 旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance* / END / 33a–43a / 17–20a` 仍只视为历史资产。
-  - 当前首轮复盘虽为 `PASS`，但仍不得把结果误写成支线正文或全面任务层已开放。
-  - 若后续发现缺口，优先回修试点文件或控制层，不得反向改写 `15 / 16 / 21 / 22 / 51–58`。
+  - `62` 中的两条支线候选当前仍只是范围定义，不是支线正文授权。
+  - `63` 虽为正文样本，但只覆盖 `CH01-S01–S02`，不得顺手扩到 `S03 / S04`。
+  - 当前双审计虽为 `PASS`，但仍不得把结果误写成支线正文或全面任务层已开放。
+  - 若后续发现缺口，优先回修 `62 / 63 / 64` 或控制层，不得反向改写 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58`。
