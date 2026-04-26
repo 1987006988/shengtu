@@ -9,8 +9,8 @@
 第一部《升途：封绝之地》当前聚焦 `古裂残天` 内部的 `白鹿原`，但项目整体不等于白鹿原，也不等于古裂残天。
 
 ## 3. 当前真实阶段
-- 当前阶段：`主世界承载层与第一部施工蓝图重建阶段`
-- 当前口径：默认不进入任务层；当前唯一目标按 `rebuild_execution_state.md` 的 `Current Target File` 推进；只有当前目标文件达到明确阶段完成点后才允许切换
+- 当前阶段：`Act I 最小任务化试点阶段`
+- 当前口径：已通过蓝图一致性审计；当前只允许 `CH01–CH02` 级别的一条最小主线试点与最小 `Journal / Codex` 样例；仍不开放全面任务层
 - 当前主入口：`project_total_verdict.md`、`04_current_state.md`、`session_handoff.md`、`reading_order.md`、`execution_plan_rebuild.md`、`rebuild_execution_state.md`
 
 ## 4. 当前已成立且可继续调用的部分
@@ -20,6 +20,7 @@
 - `14 / 15 / 16 / 17` 已把主世界承载层、白鹿原地区承载层与第一部绑定边界压成可调用母表；
 - `21 / 22` 已把七席位接口、抬权顺序与角色推进边界压成可调用母表；
 - `50–58` 已落库并形成第一部施工蓝图闭环。
+- `Act I / CH01–CH02` 最小试点范围、最小主线试点与最小 `Journal / Codex` 样例已落入 `act1_minimal_pilot_package.md`。
 
 ## 5. 当前不再沿用 / 已废止的口径
 - `END 已完成，因此项目默认进入扩容 / 生产期`
@@ -34,7 +35,7 @@
 4. 每轮完成后同步 `rebuild_execution_state.md`、`rebuild_run_review.md`、`decision_log.md`、`04_current_state.md` 与 `session_handoff.md`。
 
 ## 7. 当前明确禁止做什么
-- 默认进入任务层；
+- 默认进入全面任务层；
 - 恢复旧 `game_narrative_*`、`game_batch*`、`game_phase*`、`final_acceptance*`、`END` 生产链；
 - 顺手切到下一个目标文件；
 - 让 `16 / 57 / 58` 反向定义 `15` 的地区承压边界；
@@ -42,14 +43,14 @@
 
 ## 8. 当前最短板
 按优先级排序：
-1. `15_bailuyuan_region_bible.md` 已补到阶段完成总核查矩阵、归并继承与切换前校验层，但仍需最终核查是否已达到明确阶段收口点；
-2. 控制层文件需要持续防止把“审计”“试点”或“等待新入口”误写成唯一目标，从而偏离当前单文件施工口径；
-3. `16 / 57 / 58` 虽可作为依赖核对，但当前仍不得反向决定 `15` 的上游地区承压边界；
+1. 当前最短板已从“16 是否收口”转成“最小试点包是否会越过 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58 的上游边界”，也就是试点复盘问题而不是蓝图缺失问题；
+2. 控制层文件需要持续防止把“最小试点已开放”误写成“全面任务层已开放”；
+3. `Act I` 试点当前只允许停在 `CH01–CH02` 与最小 `Journal / Codex` 样例，不得顺手扩到后续章节或旧 batch 口径；
 4. 旧资产目前仍只可作为历史资产，不得重新接管执行链。
 
 ## 9. 当前下一步
 **唯一默认下一步**：
-> 继续只推进 `worldbible/04_main_world/15_bailuyuan_region_bible.md`，按 `rebuild_execution_state.md` 的 `Next Smallest Step` 核查 `8.24–8.27` 补齐后是否仍存在尚未闭合的阶段完成判据；若有，仍只补 `15`，不得切到 `16 / 57 / 58`，不得进入任务层。
+> 只复盘 [act1_minimal_pilot_package.md](/E:/python_learn/shengtu/worldbible/09_reference/act1_minimal_pilot_package.md:1) 是否越过 `16 / 21 / 22 / 54 / 55 / 56 / 57 / 58` 的上游边界；若没有，再决定是否允许扩到支线试点范围定义，仍不得进入全面任务文本工程。
 
 ## 10. 备注
 - `execution_plan_rebuild.md` 仍是正确计划源，不应推翻；

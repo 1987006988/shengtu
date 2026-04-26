@@ -2381,6 +2381,231 @@
 - Review Result: `PASS`
 - Blockers: `无新的结构性阻塞；当前仍仅有“任务层执行授权未开放”的阶段护栏，不影响继续补强 15 号文件。`
 
+## RUN-2026-04-26-94
+
+- Unique Target File: `worldbible/09_reference/act1_minimal_pilot_package.md`
+- Mode: `AUDIT+PILOT / 连续推进`
+- Work Package:
+  - `判定 15 / 16 / 21 / 22 / 51–58 的当前轮蓝图一致性审计结论`
+  - `锁定 Act I / CH01–CH02 最小试点范围`
+  - `落库最小主线试点、最小 Journal / Codex 样例与禁止事项`
+- Inputs Read:
+  - `C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+  - `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
+  - `worldbible/07_characters/21_party_story_function_bible.md`
+  - `worldbible/07_characters/22_character_progression_master.md`
+  - `worldbible/08_story/51_book1_master_outline.md`
+  - `worldbible/08_story/52_book1_volume_structure.md`
+  - `worldbible/08_story/53_book1_act_structure.md`
+  - `worldbible/08_story/54_book1_chapter_blueprint.md`
+  - `worldbible/08_story/55_book1_scene_blueprint.md`
+  - `worldbible/08_story/56_book1_reveal_foreshadow_table.md`
+  - `worldbible/08_story/57_book1_character_progression_table.md`
+  - `worldbible/08_story/58_book1_world_state_table.md`
+  - `worldbible/00_project_overview/06_stage_gates.md`
+  - `worldbible/00_project_overview/08_pre_task_layer_requirements.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（最近与当前推进直接相关的 `RUN-2026-04-26-92 / RUN-2026-04-26-91`）
+  - `worldbible/09_reference/decision_log.md`（最近与当前推进直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮没有恢复旧 batch，也没有直接扩成全面任务层，而是先把蓝图一致性审计判定完成，再只开放 `Act I / CH01–CH02` 最小试点。
+2. 本轮闭环是否真实成立：`是。` 已完成当前轮审计结论、试点范围锁定、最小交付件落库与控制层同步，当前链条已从“修上游蓝图”推进到“最小试点已正式可调用”。
+3. 是否让下游反向定义了上游：`否。` 最小试点包明确声明只继承 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58` 已锁死的边界，没有让任务层反向补定义上游。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 本轮新增的是最小试点控制包，不是旧 narrative-lab 或 batch 生产链。
+5. 本轮新增内容是否真正提高了承载力：`是。` 仓库现在不只知道“可以试点”，还知道“只能试哪一段、交什么、不能越什么边界”，对白下游任务层试作的调用清晰度明显提高。
+6. 本轮是否让下一步更容易施工：`是。` 下一轮只需复盘最小试点包是否越权，而不必再反复问“能不能进入任务层”“试点范围是什么”“禁止事项写在哪里”。
+
+- Review Result: `PASS`
+- Blockers: `无新的结构性阻塞；当前唯一护栏是仍只允许最小试点，不允许扩成全面任务文本工程。`
+
+## RUN-2026-04-26-93
+
+- Unique Target File: `worldbible/04_main_world/16_book1_binding_boundary.md`
+- Mode: `BUILD / 单文件阶段施工`
+- Work Package:
+  - `补“17 -> 16 -> 21 / 22 / 50–58 的远端投影转译接口表”`
+  - `补“后段外压的跨文件共用落点表”`
+  - `补“依赖链转译调用顺序规则”`
+- Inputs Read:
+  - `C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+  - `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（最近与当前目标文件直接相关的 `RUN-2026-04-26-92 / RUN-2026-04-26-91`）
+  - `worldbible/09_reference/decision_log.md`（最近与当前目标文件直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮继续只留在 `16_book1_binding_boundary.md` 内补强边界母表，没有切到角色总控、第一部蓝图或任务层。
+2. 本轮闭环是否真实成立：`是。` 新增“远端投影转译接口表”“后段外压的跨文件共用落点表”与“依赖链转译调用顺序规则”后，`16` 不只知道自己怎样受 `17` 约束，也知道下游文件必须怎样共同继承这些约束。
+3. 是否让下游反向定义了上游：`否。` 本轮只把 `17` 的远端投影继续压回 `16` 的下游接口与共用落点，没有让 `21 / 22 / 50–58` 反向决定外压先压坏哪条本地现实链。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 旧体系没有被读取，也没有被重新纳入执行链。
+5. 本轮新增内容是否真正提高了承载力：`是。` `16` 现在不仅能限制远端外压不能抢成外部主舞台，还能要求角色总控与蓝图文件组共用同一组本地落点继承这些外压，明显提高了对白下游文件的调用清晰度。
+6. 本轮是否让下一步更容易施工：`是。` 下一轮可以直接核查 `7.8–7.21` 是否还存在真实未闭合项，而不必再回头补“远端外压到底怎样从 17 传到 21 / 22 / 50–58”。
+
+- Review Result: `PASS`
+- Blockers: `无新的结构性阻塞；当前仍仅有“任务层未开放”与“16 尚未确认达到明确阶段收口点”的阶段护栏，不影响继续补强 16 号文件。`
+
+## RUN-2026-04-26-92
+
+- Unique Target File: `worldbible/04_main_world/16_book1_binding_boundary.md`
+- Mode: `BUILD / 单文件阶段施工`
+- Work Package:
+  - `补“17 -> 16 的远端投影继承校验表”`
+  - `补“后段外压与主舞台隔离规则”`
+  - `补“16 当前阶段的依赖闭环判据”`
+- Inputs Read:
+  - `C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+  - `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（最近与当前目标文件直接相关的尾部记录）
+  - `worldbible/09_reference/decision_log.md`（最近与当前目标文件直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮只留在 `16_book1_binding_boundary.md` 内继续补强主世界承载层与第一部施工蓝图的边界母表，没有进入任务层，也没有切到下游文件。
+2. 本轮闭环是否真实成立：`是。` 新增“17 -> 16 的远端投影继承校验表”“后段外压与主舞台隔离规则”与“16 当前阶段的依赖闭环判据”后，`16` 不只知道本地三段边界怎样闭合，也知道后段外压必须怎样继续服从 `17` 的投影纪律。
+3. 是否让下游反向定义了上游：`否。` 本轮只把 `17` 已成立的远端投影纪律继续压回 `16` 的后段边界，没有让 `21 / 22 / 50–58` 反向扩写 `16` 或让 `16` 抢走 `17` 的职责。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 旧体系没有被读取，也没有被重新纳入执行链。
+5. 本轮新增内容是否真正提高了承载力：`是。` `16` 现在不只具备本地边界链的收口能力，还具备检查“远端外压是否仍被压回白鹿原现实后果”的依赖闭环能力，降低了后段越权膨胀成外部主舞台的风险。
+6. 本轮是否让下一步更容易施工：`是。` 下一轮可以直接核查 `7.8–7.18` 是否还存在未闭合项，而不必再把“17 约束 16 的哪一层”拆出来重讲。
+
+- Review Result: `PASS`
+- Blockers: `无新的结构性阻塞；当前仍仅有“任务层未开放”与“16 尚未确认达到明确阶段收口点”的阶段护栏，不影响继续补强 16 号文件。`
+
+## RUN-2026-04-26-89
+
+- Unique Target File: `worldbible/04_main_world/16_book1_binding_boundary.md`
+- Mode: `BUILD / 单文件阶段施工`
+- Work Package:
+  - `接受“15 已通过阶段收口”的人工确认，并把 Current Target File 切到 16`
+  - `补“15 -> 16 的阶段包归并继承表”`
+  - `补“三段边界的共用字段—回震区校验表”`
+  - `补“16 首轮施工的禁止扩轴与反向补定义规则”`
+- Inputs Read:
+  - `C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（按当前切换动作与当前目标相关尾部核对，实际命中 `RUN-2026-04-26-88 / RUN-2026-04-26-87`）
+  - `worldbible/09_reference/decision_log.md`（最近与 `15 -> 16` 切换直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮在接受“15 已通过阶段收口”的人工确认后，只把唯一目标切到 `16_book1_binding_boundary.md`，并继续留在主世界承载层与第一部施工蓝图重建阶段，没有进入任务层或旧 batch 生产层。
+2. 本轮闭环是否真实成立：`是。` `16` 现已不只是继承六条现实压力轴和三段结构，还进一步继承了 `15` 已锁死的阶段包、公共字段、回震区与禁止扩轴纪律；因此这次切换不是口头切换，而是把上游收口结果真正压进了边界文件。
+3. 是否让下游反向定义了上游：`否。` 本轮只把 `15` 已闭合的阶段包与归并关系压进 `16`，并明确 `16` 不得为了解释更清楚而新长出并列压力轴，没有让 `21 / 22 / 57 / 58` 反向决定边界结构。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 旧体系没有被读取，也没有重新纳入执行链。
+5. 本轮新增内容是否真正提高了承载力：`是。` `16` 现在不仅知道“前中后段能写什么”，还知道“这些边界必须继承哪一组阶段包、哪一组字段、哪一组回震区”；这显著降低了后续边界文件重新抽象化或扩轴化的风险。
+6. 本轮是否让下一步更容易施工：`是。` 下一轮可以直接围绕 `16` 是否仍存在阶段包归并继承、共用字段 / 回震区校验或禁止扩轴缺口继续施工，而不必再回头讨论 `15` 是否收口或 `16` 是否能合法接手。
+
+- Review Result: `PASS`
+- Blockers: `无新的结构性阻塞；当前唯一护栏是任务层仍未开放，且 16 尚未达到明确阶段收口点。`
+
+## RUN-2026-04-26-90
+
+- Unique Target File: `worldbible/04_main_world/16_book1_binding_boundary.md`
+- Mode: `BUILD / 单文件阶段施工`
+- Work Package:
+  - `检查当前任务列表是否已全部完成`
+  - `确认当前并未全部完成，继续只推进 16`
+  - `补“16 -> 21 / 22 / 50–58 的下游合法继承接口表”`
+  - `补“下游调用次序校验规则”`
+  - `补“16 号文件当前阶段收口判据”`
+- Inputs Read:
+  - `C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（按当前目标文件尾部核对，实际命中 `RUN-2026-04-26-89 / RUN-2026-04-26-88`）
+  - `worldbible/09_reference/decision_log.md`（最近与当前目标文件直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮先检查了当前任务列表是否已全部完成，并确认并未完成；随后仍只留在 `16_book1_binding_boundary.md` 内继续补强，没有进入任务层，也没有越过当前控制链切到后续文件。
+2. 本轮闭环是否真实成立：`是。` 新增“下游合法继承接口表”“下游调用次序校验规则”与“16 号文件当前阶段收口判据”后，`16` 不只知道自己怎样继承 `15`，还知道 `21 / 22 / 50–58` 怎样合法继承它，以及何时才算自己可以收口。
+3. 是否让下游反向定义了上游：`否。` 本轮明确规定下游若需要新边界、新阶段包或新轴线，应删改下游而不是放宽 `16`，没有让角色总控或蓝图文件反向扩写边界文件。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 旧体系没有被读取，也没有重新纳入执行链。
+5. 本轮新增内容是否真正提高了承载力：`是。` `16` 现在不只具有上游继承纪律，还具有面向下游文件组的明确接口和收口判据；这让“当前任务并未完成”的状态变得可继续推进，而不是停在抽象未完成。
+6. 本轮是否让下一步更容易施工：`是。` 下一轮可以直接围绕 `7.8–7.13` 核查 `16` 是否还剩下未闭合的合法继承或收口缺口，不必再回头确认任务列表是否完成或 16 是否已接手 15。
+
+- Review Result: `PASS`
+- Blockers: `无新的结构性阻塞；当前唯一护栏是任务层仍未开放，且 16 仍未达到明确阶段收口点。`
+
+## RUN-2026-04-26-91
+
+- Unique Target File: `worldbible/04_main_world/16_book1_binding_boundary.md`
+- Mode: `BUILD / 单文件阶段施工`
+- Work Package:
+  - `继续确认当前任务列表并未全部完成`
+  - `补“16 号文件阶段完成总核查矩阵”`
+  - `补“切到下一个目标前的切换前校验规则”`
+- Inputs Read:
+  - `C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+  - `worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（按当前目标文件尾部核对，实际命中 `RUN-2026-04-26-90 / RUN-2026-04-26-89`）
+  - `worldbible/09_reference/decision_log.md`（最近与当前目标文件直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮继续确认了当前任务列表并未全部完成，随后仍只留在 `16_book1_binding_boundary.md` 内继续补强，没有切到角色总控、第一部蓝图文件或任务层。
+2. 本轮闭环是否真实成立：`是。` 新增“阶段完成总核查矩阵”与“切换前校验规则”后，`16` 现在不仅有继承纪律和收口判据，还具备一张可以直接逐行核对“哪一组边界还没闭合、何时才准切换”的边界母表。
+3. 是否让下游反向定义了上游：`否。` 本轮只把 `16` 的闭环核查条件继续收束到本体，没有允许 `21 / 22 / 50–58` 倒逼 `16` 新开边界段、新增现实压力轴或放宽禁止扩轴规则。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 旧体系没有被读取，也没有重新纳入执行链。
+5. 本轮新增内容是否真正提高了承载力：`是。` `16` 现在不只是“更完整”，而是更可审：后续自动化可以直接按矩阵逐行判断前段、中段、后段与禁止扩轴链是否仍有缺口，而不是反复停在抽象判断。
+6. 本轮是否让下一步更容易施工：`是。` 下一轮可以直接围绕 `7.8–7.15` 核查 `16` 是否还剩下真实未闭合项，不必再回头拆解收口条件或重复确认“任务是否已全部完成”。
+
+- Review Result: `PASS`
+- Blockers: `无新的结构性阻塞；当前唯一护栏是任务层仍未开放，且 16 仍未达到明确阶段收口点。`
+
 ## RUN-2026-04-26-86
 
 - Unique Target File: `worldbible/04_main_world/15_bailuyuan_region_bible.md`

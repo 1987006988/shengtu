@@ -1,10 +1,15 @@
 # 重构执行状态
-- Current Target File: `worldbible/04_main_world/15_bailuyuan_region_bible.md`
-- Current Workstream: `主世界承载层与第一部施工蓝图重建`
-- Current Mode: `BUILD / 单文件阶段施工`
+- Current Target File: `worldbible/09_reference/act1_minimal_pilot_package.md`
+- Current Workstream: `Act I 最小任务化试点`
+- Current Mode: `PILOT / CH01–CH02 最小试点`
 - Status: `IN_PROGRESS`
 - Dependencies:
   - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/07_characters/21_party_story_function_bible.md`
+  - `worldbible/07_characters/22_character_progression_master.md`
+  - `worldbible/08_story/54_book1_chapter_blueprint.md`
+  - `worldbible/08_story/55_book1_scene_blueprint.md`
+  - `worldbible/08_story/56_book1_reveal_foreshadow_table.md`
   - `worldbible/08_story/57_book1_character_progression_table.md`
   - `worldbible/08_story/58_book1_world_state_table.md`
 - Control Sync Targets:
@@ -13,16 +18,17 @@
   - `worldbible/00_project_overview/04_current_state.md`
   - `worldbible/09_reference/session_handoff.md`
 - Deliverables:
-  - `15 号文件的切到 16 前归并继承与轴线扩容禁止补强`
+  - `Act I / CH01–CH02 最小任务化试点包`
+  - `最小 Journal / Codex 样例`
   - `本轮 run / decision / state 同步`
-- Closed Loop This Run: `已在 15 号文件内补入“切到 16 时的高位变化归并继承表”与“切到 16 前的轴线扩容禁止规则”，把 8.24–8.25 的收口核查继续压到真正的切换动作上；现在即便未来允许切文件，16 也只能继承既有现实压力轴，不得借切换之机新长出第一部主导轴线。`
+- Closed Loop This Run: `已跳出单文件阶段施工节奏，对 15 / 16 / 21 / 22 / 51–58 与控制层进行了当前轮蓝图一致性审计判定，并将结果判为 PASS；随后把 Act I 最小试点范围正式锁到 CH01–CH02，并把最小主线试点、最小 Journal / Codex 样例与禁止事项落入 act1_minimal_pilot_package.md。`
 - Last Run Summary:
-  - `15_bailuyuan_region_bible.md` 上一轮已完成“允许进入第一部的高位变化阶段完成总核查矩阵”与“切到 16 前的切换前校验规则”补强。
-  - 本轮继续只服务 `15`，把 `8.24` 中的八类高位变化进一步压成 `15 -> 16` 的归并继承关系，并明确 `16` 不得借切换扩出新的现实压力轴，避免下一轮一旦切换就重新让下游扩容上游。
-  - 控制链已同步回“当前真实阶段 = 主世界承载层与第一部施工蓝图重建阶段；默认不进入任务层；旧 batch 体系继续禁用”。
-- Next Smallest Step: `继续只核查 15 号文件在 8.24–8.27 补齐后是否仍存在尚未闭合的阶段完成判据；若仍有缺口，只在 15 内补强；若无，再确认是否具备切到 16 的明确条件，但本轮不得先切。`
+  - 已确认 `16` 达到当前阶段收口要求，并以此为前提判定蓝图一致性审计 `PASS`。
+  - 已把试点范围锁定为 `Act I / CH01–CH02`，并把最小交付件压成一条主线试点与最小 `Journal / Codex` 样例。
+  - 控制链已同步回“当前阶段 = Act I 最小任务化试点；仍禁止全面任务文本工程与旧 batch 体系回归”。
+- Next Smallest Step: `只复盘 act1_minimal_pilot_package.md 是否越过 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58 的上游边界；若无，则再决定是否允许扩到支线试点定义，仍不得进入大规模任务文本工程。`
 - Risks / Notes:
-  - `15` 尚未达到明确阶段完成点前，不得切换到下一目标文件。
+  - `15 / 16 / 21 / 22 / 51–58` 当前已作为试点上游母表使用。
   - 旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance* / END / 33a–43a / 17–20a` 仍只视为历史资产。
-  - 当前仍处于主世界承载层与第一部施工蓝图重建阶段，不得默认进入任务层。
-  - 若后续发现缺口，只允许最小必要地继续补强 `15`，不得顺手推进下游蓝图文件。
+  - 当前仅开放 `Act I / CH01–CH02` 最小试点，不得扩成全面任务层。
+  - 若后续发现缺口，优先回修试点包或控制层，不得反向改写 `15 / 16 / 21 / 22 / 51–58`。

@@ -2223,3 +2223,93 @@
 - 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`、`worldbible/09_reference/rebuild_execution_state.md`
 - 替代或继承关系：继承 `REBUILD-2026-04-26-87` 已建立的总核查矩阵与切换前校验口径；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `15` 从“已能判断是否可切换”继续推进到“已能约束切换时不得扩出新第一部主轴”。
 - 备注：下一轮仍不得提前切到 `16 / 57 / 58`；只能继续核查 `15` 在 `8.24–8.27` 补齐后是否已达到明确阶段收口点，且仍禁止进入任务层与恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-89：接受 15 的人工收口结论并把 16 压成合法接手的边界母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：接受“`15_bailuyuan_region_bible.md` 已通过阶段收口”的人工结论，正式把 `Current Target File` 切到 `worldbible/04_main_world/16_book1_binding_boundary.md`，并在 `16` 内补齐对 `15` 阶段包、字段包、回震区与禁止扩轴规则的首轮继承纪律
+- 变更类型：目标切换 / 边界母表补强 / 控制链同步
+- 背景：此前 `15` 已补到 `8.24–8.27`，控制链口径仍停在“等待最终核查是否收口”。本轮用户已明确给出人工核查结果：`15` 已通过阶段收口。若继续停留在 `15`，会造成控制链滞后；若直接切到 `16` 但不补继承纪律，又会让 `16` 一接手就有重新发明阶段包或扩出新压力轴的风险。
+- 决策内容：确认接受“15 已通过阶段收口”的人工结论，并据此把 `Current Target File` 正式切到 `worldbible/04_main_world/16_book1_binding_boundary.md`。本轮唯一合法施工包只服务 `16`，具体补入三层连续内容：一是“`15 -> 16` 的阶段包归并继承表”，把 `15` 已锁死的三组阶段包压成 `16` 只能继承的三段主导包；二是“三段边界的共用字段—回震区校验表”，把 `15` 中已经成立的鹿门集字段、回声渠字段与六区回震区继续压到 `16` 的边界继承层；三是“`16` 首轮施工的禁止扩轴与反向补定义规则”，明确 `16` 不得为了解释更清楚而新增 `深封保稳`、`远端外压` 等并列现实压力轴，也不得反向要求 `15` 再替它补定义。与此同时，同步把 `rebuild_execution_state.md`、`04_current_state.md` 与 `session_handoff.md` 的唯一目标切换到 `16`。
+- 影响范围：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：阶段收口、Current Target File、阶段包归并继承、共用字段、回震区、禁止扩轴、反向补定义、第一部边界母表
+- 关联文件：`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-88` 已建立的“15 -> 16 切换不得扩轴”结论；本轮不再继续核查 `15` 的收口条件，而是接受人工收口结果并把收口成果真正压进 `16` 的首轮继承纪律。
+- 备注：下一轮起只允许继续补 `16`，不得回摆到 `15`；仍禁止进入任务层、仍禁止恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-90：确认任务列表未全完成，并把 16 压成可被下游合法继承与直接审收口的边界母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在检查当前任务列表后确认仓库任务并未全部完成，继续只服务 `worldbible/04_main_world/16_book1_binding_boundary.md`，补齐它面向 `21 / 22 / 50–58` 的合法继承接口、调用次序校验与阶段收口判据
+- 变更类型：任务核查 / 边界母表补强 / 控制链同步
+- 背景：用户要求检查“任务列表是否已全部完成，并在未完成时继续推进”。控制链与当前文件状态一致表明：仓库并未进入“全部任务完成”状态，当前唯一未完成目标仍是 `16_book1_binding_boundary.md`。此前 `16` 已接手 `15` 的阶段包、字段包、回震区与禁止扩轴纪律，但还未正式回答角色总控与第一部蓝图文件组该怎样合法继承它，也未把自己的阶段收口判据写成本体。
+- 决策内容：确认当前任务列表并未全部完成，且本轮唯一合法动作仍是继续推进 `worldbible/04_main_world/16_book1_binding_boundary.md`。具体补入三层连续内容：一是“`16 -> 21 / 22 / 50–58` 的下游合法继承接口表”，写死角色总控、总体蓝图与章场控制表分别必须先继承哪组边界主导包与现实落点；二是“下游调用次序校验规则”，明确任何先写成长 / 场景 / 结构、后补边界段包与现实落点的做法都属于越权；三是“`16` 号文件当前阶段收口判据”，写死何时才允许把 `Current Target File` 从 `16` 切到下一文件。与此同时，把控制链中的“当前仍未完成”状态同步回 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory。
+- 影响范围：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：任务列表未完成、下游合法继承、调用次序校验、阶段收口判据、边界母表、角色总控、第一部蓝图
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-89` 已建立的“16 首轮合法接手 15”结论；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `16` 从“已接手上游”继续推进到“已能约束下游怎样合法接手并可直接审收口”。
+- 备注：下一轮仍只允许继续补 `16`，不得切到 `21 / 22 / 50–58`；仍禁止进入任务层与恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-91：确认任务列表仍未全完成，并把 16 压成可逐行审收口的边界母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在继续确认当前任务列表仍未全部完成后，进一步把 `worldbible/04_main_world/16_book1_binding_boundary.md` 补齐为可逐行审查是否闭合、并可明确判断何时准许切换目标的边界母表
+- 变更类型：任务核查 / 边界母表补强 / 收口校验深化
+- 背景：`REBUILD-2026-04-26-90` 已把 `16` 补到“下游合法继承接口、调用次序校验与当前阶段收口判据”层级，但对后续自动化来说，仍可能停留在“知道要查什么，却不能直接按表判断哪一组边界已闭合、哪一组仍未闭合”的状态。用户继续要求推进直到任务完成，因此需要进一步把 `16` 的收口条件压成可逐行核查的总矩阵，而不是继续停在抽象收口判断。
+- 决策内容：确认当前任务列表仍未全部完成，且本轮唯一合法动作仍是继续推进 `worldbible/04_main_world/16_book1_binding_boundary.md`。具体补入两层连续内容：一是“`16` 号文件阶段完成总核查矩阵”，把前段主导包、中段主导包、后段主导包、三段共用字段链与禁止扩轴链统一压成可逐行核查的完成母表；二是“切到下一个目标前的切换前校验规则”，写死只有当这些矩阵行都能同时回答上游继承、下游继承与禁止项是否仍成立时，才允许在后续轮次切换目标。与此同时，把控制链中的下一步口径更新为“核查 `7.8–7.15` 是否还有未闭合项”。
+- 影响范围：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：任务列表未完成、阶段完成总核查矩阵、切换前校验规则、边界完成链、禁止扩轴链、第一部边界母表
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-90` 已建立的“16 已能约束下游怎样合法接手并可直接审收口”结论；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `16` 从“已有收口判据”继续推进到“已有可逐行审闭合的总矩阵与切换前校验”。
+- 备注：下一轮仍只允许继续补 `16`，不得切到 `21 / 22 / 50–58`；仍禁止进入任务层与恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-92：继续把 16 压成同时受 15 与 17 约束的边界母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在继续确认当前任务列表仍未全部完成后，把 `worldbible/04_main_world/16_book1_binding_boundary.md` 的 `17 -> 16` 远端投影继承、后段外压隔离与依赖闭环判据补齐
+- 变更类型：任务核查 / 边界母表补强 / 依赖闭环深化
+- 背景：`REBUILD-2026-04-26-91` 已把 `16` 补到“本地边界完成总核查矩阵与切换前校验”层级，但 `Current Target File` 的直接依赖并不只有 `15`，还包括 `17_nine_main_world_longterm_usage_matrix.md`。若不继续把 `17` 已锁死的远端投影纪律压回 `16`，后段的 `远端外压逼近` 仍可能在下游被重抬成正式外部舞台，形成“本地边界看似收口、依赖闭环却未收口”的假完成状态。
+- 决策内容：确认当前任务列表仍未全部完成，且本轮唯一合法动作仍是继续推进 `worldbible/04_main_world/16_book1_binding_boundary.md`。具体补入三层连续内容：一是“`17 -> 16` 的远端投影继承校验表”，把 `MW-02 / MW-03 / MW-07` 的法统、路权与审证压力继续压回白鹿原的资格、价差、调证与说话成本；二是“后段外压与主舞台隔离规则”，写死任何远端投影都只能先通过本地现实后果显影，不得抢成完整外部制度或跨界舞台；三是“`16` 当前阶段的依赖闭环判据”，明确只有当 `15` 的本地承压链、`16` 的三段边界链与 `17` 的远端投影链已经形成统一可反查闭环时，`16` 才具备可切换的依赖完整性。与此同时，把控制链中的下一步口径更新为“核查 `7.8–7.18` 是否仍有未闭合项”。
+- 影响范围：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：任务列表未完成、远端投影继承、后段外压隔离、依赖闭环、第一部边界母表、MW-02、MW-03、MW-07
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-91` 已建立的“16 可逐行审本地边界是否闭合”结论；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `16` 从“本地边界母表”继续推进到“本地边界链与远端投影链可一起审收口的依赖母表”。
+- 备注：下一轮仍只允许继续补 `16`，不得切到 `21 / 22 / 50–58`；仍禁止进入任务层与恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-93：继续把 16 压成能约束下游共同继承远端外压的边界母表
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：04_main_world / 09_reference
+- 决策主题：在继续确认当前任务列表仍未全部完成后，把 `worldbible/04_main_world/16_book1_binding_boundary.md` 的远端投影下游转译接口、跨文件共用落点与依赖链调用顺序补齐
+- 变更类型：任务核查 / 边界母表补强 / 依赖转译深化
+- 背景：`REBUILD-2026-04-26-92` 已把 `16` 补到“本地边界链与远端投影链可一起审收口”的层级，但仍缺一层关键护栏：`17` 的远端投影虽然已被 `16` 本体接住，却还没有继续被压成“`21 / 22 / 50–58` 必须怎样共同继承”的明确转译接口。若这一层不补齐，下游仍可能各自抓不同的远端阴影，重新把后段外压写散，或直接跳成外部舞台预演。
+- 决策内容：确认当前任务列表仍未全部完成，且本轮唯一合法动作仍是继续推进 `worldbible/04_main_world/16_book1_binding_boundary.md`。具体补入三层连续内容：一是“`17 -> 16 -> 21 / 22 / 50–58` 的远端投影转译接口表”，把 `MW-02 / MW-03 / MW-07` 与更远端秩序阴影分别压回本地资格、价差、调证、追偿与签字后果，再写死这些后果怎样才能被角色总控与蓝图文件组合法继承；二是“后段外压的跨文件共用落点表”，要求下游文件至少共用一组鹿门集落点、一组回声渠落点与一条回震区；三是“依赖链转译调用顺序规则”，明确远端外压必须先在 `16` 内转译成白鹿原本地后果，再允许下游继承，不得由下游反向补定义。与此同时，把控制链中的下一步口径更新为“核查 `7.8–7.21` 是否仍有未闭合项”。
+- 影响范围：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：任务列表未完成、远端投影转译、跨文件共用落点、依赖链调用顺序、第一部边界母表、MW-02、MW-03、MW-07
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/04_main_world/15_bailuyuan_region_bible.md`、`worldbible/04_main_world/17_nine_main_world_longterm_usage_matrix.md`、`worldbible/09_reference/rebuild_execution_state.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-92` 已建立的“16 可同时审本地边界链与远端投影链”结论；本轮不切换目标顺序、不开放任务层、不恢复旧 batch，只把 `16` 从“受约束的边界母表”继续推进到“能明确约束下游共同继承远端外压的边界母表”。
+- 备注：下一轮仍只允许继续补 `16`，不得切到 `21 / 22 / 50–58`；仍禁止进入任务层与恢复旧 `game_batch* / game_narrative_* / game_phase* / final_acceptance* / END` 体系。
+
+## REBUILD-2026-04-26-94：通过当前轮蓝图一致性审计并落库 Act I 最小试点包
+
+- 日期：2026-04-26
+- 状态：已确认
+- 模块：00_project_overview / 09_reference / 07_characters / 08_story
+- 决策主题：跳出单文件阶段施工节奏后，正式判定 `15 / 16 / 21 / 22 / 51–58` 的当前轮蓝图一致性审计为 `PASS`，并把 `Act I / CH01–CH02` 最小任务化试点包落库
+- 变更类型：阶段切换 / 试点准入 / 控制链同步
+- 背景：用户明确要求不再受“单个施工包后立即停止”的自动化节奏约束，而要继续执行到能真实向前推进为止。此前 `15` 已人工收口，`16` 已补齐阶段包、字段链、禁止扩轴、远端投影继承与下游转译接口；同时 `21 / 22 / 51–58` 已落库。`06_stage_gates.md` 与 `08_pre_task_layer_requirements.md` 显示，当前真正的未完成问题已不再是“蓝图是否存在”，而是“审计是否通过、最小试点范围是否锁定、最小交付件与禁止事项是否落库”。
+- 决策内容：确认当前轮蓝图一致性审计 `PASS`，并据此把仓库真实阶段从“主世界承载层与第一部施工蓝图重建阶段”推进到“Act I 最小任务化试点阶段”。具体动作包括：一，更新 `06_stage_gates.md` 与 `08_pre_task_layer_requirements.md`，把蓝图一致性审计标记为通过，并明确当前只开放 `CH01–CH02` 级别的最小试点；二，新增 `act1_minimal_pilot_package.md`，把最小主线试点、最小 `Journal / Codex` 样例、最小 schema 与禁止事项一次性写死；三，同步 `rebuild_execution_state.md`、`04_current_state.md`、`session_handoff.md` 与 automation memory，使当前入口不再指向继续补 `16`，而是指向最小试点包复盘。
+- 影响范围：`worldbible/09_reference/act1_minimal_pilot_package.md`、`worldbible/00_project_overview/06_stage_gates.md`、`worldbible/00_project_overview/08_pre_task_layer_requirements.md`、`worldbible/09_reference/rebuild_execution_state.md`、`worldbible/00_project_overview/04_current_state.md`、`worldbible/09_reference/session_handoff.md`、`worldbible/09_reference/rebuild_run_review.md`、`worldbible/09_reference/decision_log.md`、`C:\Users\taotao\.codex\automations\shengtu-batch-runner\memory.md`
+- 关联术语：蓝图一致性审计 PASS、Act I 最小任务化试点、CH01–CH02、最小主线试点、最小 Journal 样例、最小 Codex 样例、禁止事项
+- 关联文件：`worldbible/04_main_world/16_book1_binding_boundary.md`、`worldbible/07_characters/21_party_story_function_bible.md`、`worldbible/07_characters/22_character_progression_master.md`、`worldbible/08_story/51_book1_master_outline.md`、`worldbible/08_story/54_book1_chapter_blueprint.md`、`worldbible/08_story/55_book1_scene_blueprint.md`、`worldbible/08_story/56_book1_reveal_foreshadow_table.md`、`worldbible/08_story/57_book1_character_progression_table.md`、`worldbible/08_story/58_book1_world_state_table.md`
+- 替代或继承关系：继承 `REBUILD-2026-04-26-93` 已完成的 `16` 收口结论；本轮不再把唯一目标留在单个蓝图文件，而是把整个审计阶段正式收口，并把下一阶段的最小试点控制包直接落库。
+- 备注：当前仍只允许最小试点，不允许扩成全面任务文本工程；下一轮若继续推进，默认只复盘 `act1_minimal_pilot_package.md` 是否越权，而不是顺手扩章或恢复旧 batch 体系。

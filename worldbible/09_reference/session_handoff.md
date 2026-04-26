@@ -21,20 +21,20 @@
 这些说法都已经落后于仓库现实。
 
 ## 3. 当前必须遵守的新结论
-1. 当前真实阶段始终是：`主世界承载层与第一部施工蓝图重建阶段`。
-2. 当前默认不进入任务层，不恢复旧 batch，也不把“审计”“试点”或“等待新入口”写成唯一目标。
-3. `execution_plan_rebuild.md` 仍是正确施工计划源，但每轮具体执行必须以 `rebuild_execution_state.md` 的 `Current Target File` 与 `Next Smallest Step` 为准。
-4. 当前唯一目标文件已锁回 `worldbible/04_main_world/15_bailuyuan_region_bible.md`。
-5. `16 / 57 / 58` 当前只作为 `15` 的直接依赖核对，不得反向定义白鹿原的上游地区母表。
+1. 当前真实阶段已经从“主世界承载层与第一部施工蓝图重建阶段”推进到：`Act I 最小任务化试点阶段`。
+2. 当前不是全面任务层开放，而是只开放 `CH01–CH02` 级别的一条最小主线试点与最小 `Journal / Codex` 样例。
+3. `execution_plan_rebuild.md` 仍是正确施工计划源，但当前执行口径以 `rebuild_execution_state.md` 与 `act1_minimal_pilot_package.md` 为准。
+4. `15 / 16 / 21 / 22 / 51–58` 已通过当前轮蓝图一致性审计，并作为最小试点的上游母表调用。
+5. `21 / 22 / 54 / 55 / 56 / 57 / 58` 仍不得反向扩写 `16` 的边界轴线、阶段包结构或远端投影纪律。
 6. 旧 `game_narrative_*`、`game_batch*`、`game_phase*`、`final_acceptance*`、`33a–43a`、`17–20a` 统一视为历史资产。
 
 ## 4. 你下一步只允许干什么
 默认只允许做以下工作：
-- 固定先读 6 个控制文件；
-- 只读取当前目标文件 `15_bailuyuan_region_bible.md`、它的直接依赖、最近 1–2 条相关 run review，以及必要的上一个已完成目标文件；
-- 只围绕 `15` 组织一个连续的阶段施工包；
-- 完成后只同步 `rebuild_execution_state.md`、`rebuild_run_review.md`、`decision_log.md`、`04_current_state.md` 与 `session_handoff.md`；
-- 不切到下一个目标文件，不进入任务层，不恢复旧 batch。
+- 固定先读控制文件；
+- 以 [act1_minimal_pilot_package.md](/E:/python_learn/shengtu/worldbible/09_reference/act1_minimal_pilot_package.md:1) 为当前最小试点入口；
+- 只复盘 `CH01–CH02` 的最小主线试点、最小 `Journal / Codex` 样例是否越权；
+- 完成后同步 `rebuild_execution_state.md`、`rebuild_run_review.md`、`decision_log.md`、`04_current_state.md` 与 `session_handoff.md`；
+- 不扩成全面任务层，不恢复旧 batch。
 
 ## 5. 遇到旧文件时怎么处理
 - 看见 `game_narrative_*`、`game_batch*`、`game_phase*`、`final_acceptance*` 时：
@@ -46,13 +46,12 @@
   - 不能再把它们当成第一部主控蓝图。
 
 ## 6. 当前唯一默认工作方向
-> 继续把 `15_bailuyuan_region_bible.md` 压成可直接判定阶段收口、并锁死 `15 -> 16` 归并继承关系的地区母表；在 `15` 达到明确阶段收口前，不讨论切换目标文件，也不讨论任务层试点。
+> 当前默认工作方向不再是继续补 `16`，而是只复盘 `Act I / CH01–CH02` 最小试点包是否严格继承 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58`，且不越权长出全面任务层。
 
 ## 7. 给下一个协作者的一句话提醒
-> 不要再问“下一批 batch 是什么”，要先问“`15` 号文件是否已经把 `8.24–8.27` 的阶段完成总核查、归并继承和切换前条件真正锁死了”。
+> 不要再问“下一批 batch 是什么”，要先问“当前最小试点包有没有越过 `16 / 21 / 22 / 54 / 55 / 56 / 57 / 58` 的上游边界”。
 
 ## 8. 最近一次施工同步
-- 已继续留在 `worldbible/04_main_world/15_bailuyuan_region_bible.md`，没有跳到 `16 / 57 / 58` 或任务层。
-- 本轮在 `15` 内补入了“切到 16 时的高位变化归并继承表”与“切到 16 前的轴线扩容禁止规则”，把 `8.24–8.25` 的收口校验继续压到真正的切换动作上。
-- 这次补强把 `8.24` 中八类高位变化如何归并进 `16` 现有现实压力轴写死，并明确 `16` 不得借切换之机新长出并列主轴，减少未来切文件时下游反向扩容上游的空间。
-- 下一轮唯一允许做的事，仍是继续核查 `15` 在 `8.24–8.27` 补齐后是否还存在尚未闭合的阶段完成判据；若有，仍只补 `15`。
+- 已把 `16` 号文件收口为可调用边界母表，并据此判定当前轮蓝图一致性审计 `PASS`。
+- 已新增 [act1_minimal_pilot_package.md](/E:/python_learn/shengtu/worldbible/09_reference/act1_minimal_pilot_package.md:1)，把 `Act I / CH01–CH02` 最小主线试点、最小 `Journal / Codex` 样例与禁止事项正式落库。
+- 当前唯一允许做的事，不再是继续补 `16`，而是只复盘这份最小试点包是否越权；若无，下一轮才讨论是否允许扩到支线试点范围定义。
