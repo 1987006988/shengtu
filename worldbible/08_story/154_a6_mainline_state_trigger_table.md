@@ -5,4 +5,4 @@
 | `A6-CH16-FALSESAFE-BROKEN` | `CH16-S01–S03` | 伪安全路线被证伪，旧平衡无可回返。 | `A6-CH16-STARTLOCK` |
 | `A6-CH16-STARTLOCK` | `CH16-S04` | 七席位进入并列承压与抢启动权状态。 | `A6-CH17-FUTURE-SIGNED` |
 | `A6-CH17-FUTURE-SIGNED` | `CH17-S01–S04` | 受限未来被共同签下。 | `A6-CH18-FUTURE-LIVED` |
-| `A6-CH18-FUTURE-LIVED` | `CH18-S01–S04` | 白鹿原受限未来、过渡治理与外联偏路成立。 | `V3-CLOSED` |
+| `A6-CH18-FUTURE-LIVED` | `CH18-S01–S04` | 白鹿原受限未来、过渡治理与外联偏路一起落地。 | `V3-CLOSED` |
