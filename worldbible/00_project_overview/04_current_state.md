@@ -1,67 +1,55 @@
 # 04 当前状态
 
 ## 1. 文档用途
-本文档只保留**当前有效状态**。
-凡是会把仓库重新带回旧 batch、旧 narrative lab、旧任务层授权，或把“审计 / 等待新入口”误写成唯一工作目标的说法，都不应继续写入本页。
+本页只保留仓库当前已经通过审计、可以直接作为执行入口的真实状态。
+凡是把仓库拉回旧 batch、旧 narrative-lab、旧全面任务层口径，或把未审层级误写成已开放的说法，都不应继续写入本页。
 
 ## 2. 项目一句话定位
 《升途》 / `Ascendant Path` 是一个宇宙级中式玄幻 CRPG 世界观与叙事母本仓库。
-第一部《升途：封绝之地》当前聚焦 `古裂残天` 内部的 `白鹿原`，但项目整体不等于白鹿原，也不等于古裂残天。
+第一部《升途：封绝之地》当前舞台仍是 `古裂残天` 内部的 `白鹿原` 隔绝地域，但仓库整体不等于白鹿原，也不等于古裂残天。
 
 ## 3. 当前真实阶段
-- 当前阶段：`Act I 任务层开放阶段`
-- 当前口径：已完成 `A1 / CH01–CH03` 主线正文闭环、主线任务层闭环、`SQ-SCOPE-01` 单条支线试点与总集成复盘；当前只适合写成 `Act I 任务层开放`，仍不得写成“全面任务层已开放”
+- 当前阶段：`Book1 / CH01–CH18 主线闭环与受控任务层开放阶段`
+- 当前口径：
+  - `Book1 / CH01–CH18 主线正文开放`
+  - `Book1` 主线任务层（`MQ / Journal / Codex / State Trigger`）开放
+  - `Book1` 支线任务层按矩阵开放
+  - `Item / System feedback` 仍冻结
 - 当前主入口：`project_total_verdict.md`、`04_current_state.md`、`session_handoff.md`、`reading_order.md`、`execution_plan_rebuild.md`、`rebuild_execution_state.md`
 
-## 4. 当前已成立且可继续调用的部分
-- 三层宇宙、飞升、世界层级、九主世界宏观框架成立；
-- `古裂残天` 作为“受损但仍在运作的古老修复型主世界”的定位成立；
-- `白鹿原` 作为第一部舞台的尺度收束成立；
-- `14 / 15 / 16 / 17` 已把主世界承载层、白鹿原地区承载层与第一部绑定边界压成可调用母表；
-- `21 / 22` 已把七席位接口、抬权顺序与角色推进边界压成可调用母表；
-- `50–58` 已落库并形成第一部施工蓝图闭环。
-- `Act I / CH01–CH02` 最小试点范围已落入 `act1_minimal_pilot_package.md`。
-- `59_act1_minimal_main_quest_pilot.md`、`60_act1_minimal_journal_pilot.md`、`61_act1_minimal_codex_pilot.md` 已作为首轮最小试点产出落库。
-- `act1_minimal_pilot_review.md` 已完成首轮试点复盘并给出 `PASS` 结论。
-- `62_act1_linear_prose_pilot_package.md` 已把极小支线范围定义与 `CH01-S01–S02` 直线正文试点包锁定。
-- `63_act1_linear_prose_pilot.md` 已作为极小正文样本落库。
-- `64_act1_linear_prose_pilot_review.md` 已完成“支线范围定义 + 直线正文试点”双审计并给出 `PASS` 结论。
-- `65–72` 已把 `A1 / CH01–CH03` 主线正文压成可审闭环，并以 `72_act1_mainline_prose_review.md` 给出 `PASS`。
-- `73–78` 已把 `A1 / CH01–CH03` 主线任务层压成可审闭环，并完成主线任务层复盘。
-- `79–80` 已把 `SQ-SCOPE-01《借来的承接位》` 落成单条支线试点并通过复盘。
-- `81_act1_task_layer_integration_review.md` 已完成总集成复盘并给出 `PASS`。
+## 4. 当前已经成立的闭环
+- `15 / 16 / 21 / 22 / 51–58` 仍是当前阶段的上游护栏与调用母表。
+- `A1 / CH01–CH03` 主线正文、主线任务层、`SQ-SCOPE-01` 试点与集成复盘已通过。
+- `A2 / CH04–CH06` 主线正文、主线任务层、`SQ-SCOPE-02` 试点与 `V1` 集成复盘已通过。
+- `A3 / CH07–CH09` 与 `A4 / CH10–CH12` 的主线正文、主线任务层与 `V2` 集成复盘已通过。
+- `A5 / CH13–CH15` 与 `A6 / CH16–CH18` 的主线正文、主线任务层与 `V3` 集成复盘已通过。
+- `Book1` 全书揭示审计、角色推进审计、世界状态审计、主线正文集成复盘、主线任务层集成复盘、支线矩阵与支线集成复盘均已通过。
 
-## 5. 当前不再沿用 / 已废止的口径
-- `END 已完成，因此项目默认进入扩容 / 生产期`
-- `继续补 51–58 或继续等新的 Pro 入口` 是当前唯一主线
-- `蓝图闭环后可直接恢复大规模 task pack / MQ / SQ / Journal / Codex / System feedback 生产`
-- 旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance* / 33a–43a / 17–20a` 仍可作为当前主入口真相
+## 5. 当前允许做什么
+1. 继续在 `Book1 / CH01–CH18` 主线正文开放范围内补写、修订和回修主线正文资产。
+2. 继续在 `Book1` 主线任务层开放范围内补写、修订和回修 `MQ / Journal / Codex / State Trigger`。
+3. 只按 [book1_sidequest_scope_matrix.md](/E:/python_learn/shengtu/worldbible/08_story/book1_sidequest_scope_matrix.md:1) 已标记 `OPEN` 的范围推进支线任务层。
+4. 若要继续扩层，只能先补新的受控验证链，例如未开放支线段的同等级试点，或 `Item / System feedback` 的独立试点与复盘。
 
-## 6. 当前允许做什么
-1. 固定先读 `project_total_verdict.md`、`04_current_state.md`、`session_handoff.md`、`reading_order.md`、`execution_plan_rebuild.md` 与 `rebuild_execution_state.md`。
-2. 只围绕 `rebuild_execution_state.md` 当前写明的唯一目标文件或当前试点包推进最小步骤。
-3. 只在当前目标文件确有需要时，读取它的直接依赖、最近 1–2 条相关 run review，以及必要的上一个已完成目标文件。
-4. 每轮完成后同步 `rebuild_execution_state.md`、`rebuild_run_review.md`、`decision_log.md`、`04_current_state.md` 与 `session_handoff.md`。
+## 6. 当前明确禁止什么
+- 把当前状态偷换成“全面任务层已开放”或“所有层级全面开放”。
+- 把“支线任务层按矩阵开放”偷换成“所有支线都已开放”。
+- 在没有新增验证链前，私开 `A3–A6` 的新支线正文或任务层。
+- 在没有独立试点与审计前，开启 `Item / System feedback`。
+- 恢复旧 `game_narrative_* / game_batch* / game_phase* / final_acceptance* / 33a–43a / 17–20a` 作为当前默认执行入口。
 
-## 7. 当前明确禁止做什么
-- 默认进入全面任务层；
-- 恢复旧 `game_narrative_*`、`game_batch*`、`game_phase*`、`final_acceptance*`、`END` 生产链；
-- 顺手切到下一个目标文件；
-- 让 `16 / 57 / 58` 反向定义 `15` 的地区承压边界；
-- 把旧资产重新当成当前执行真相入口。
+## 7. 当前最短板
+1. `Book1` 主线正文与主线任务层已经完成闭环，当前最主要的未审层级是 `Item / System feedback`。
+2. `Book1` 支线层当前仍是“按矩阵受控开放”，不是全量放开；矩阵外支线仍需逐条补验证。
+3. 控制层文件必须持续防止把“已开放主线 + 按矩阵开放支线”误写成“全面开放”。
 
-## 8. 当前最短板
-按优先级排序：
-1. 当前最短板已从“`A1` 是否允许打开任务层”转成“`A2 / CH04–CH06` 能否在不越界前提下形成同等级正文与任务层闭环”；
-2. 控制层文件需要持续防止把“`Act I` 任务层开放”误写成“支线全面开放”或“全面任务层已开放”；
-3. 当前开放范围仍只限 `A1 / CH01–CH03` 主线任务层与 `SQ-SCOPE-01` 单条支线试点，不得顺手扩到 `CH04+`、更多支线或旧 batch 口径；
-4. 旧资产目前仍只可作为历史资产，不得重新接管执行链。
+## 8. 当前默认下一步
+> 当前默认下一步不再是证明 `V1 / V2 / V3 / Book1` 能否闭环，而是按已通过的全书审计结果，在以下边界内继续推进：
+> `Book1 / CH01–CH18` 主线正文开放；
+> `Book1` 主线任务层（`MQ / Journal / Codex / State Trigger`）开放；
+> `Book1` 支线任务层仅按矩阵开放；
+> `Item / System feedback` 继续冻结，除非先补独立试点与审计。
 
-## 9. 当前下一步
-**唯一默认下一步**：
-> 只使用 [81_act1_task_layer_integration_review.md](/E:/python_learn/shengtu/worldbible/08_story/81_act1_task_layer_integration_review.md:1) 的结论，评估 `A2 / CH04–CH06` 是否具备同等级正文与任务层闭环；在此之前，仍不得把当前状态写成“全面任务层已开放”。
-
-## 10. 备注
-- `execution_plan_rebuild.md` 仍是正确计划源，不应推翻；
-- 当前修的是 `A1` 主线正文、主线任务层与单条支线试点的受控开放链，而不是恢复旧 batch 或提前做全面任务层资产；
-- 若后续护栏文件与本页冲突，以 `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md` 的同步控制口径为准，直到护栏文件被重新同步。
+## 9. 备注
+- `execution_plan_rebuild.md` 仍是正确的重建计划源，不应推翻。
+- 如果护栏文件与本页冲突，以本页、`session_handoff.md` 与 `rebuild_execution_state.md` 的同步口径为准，并尽快把冲突页补齐。

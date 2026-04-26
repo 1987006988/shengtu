@@ -3601,3 +3601,43 @@
 
 - Review Result: `PASS`
 - Blockers: `无新的结构性阻塞；当前仍仅有“任务层执行授权未开放”的阶段护栏，不影响继续补强 15 号文件。`
+
+## RUN-2026-04-27-98
+
+- Unique Target File: `worldbible/08_story/book1_sidequest_integration_review.md`
+- Mode: `BUILD+REVIEW+SYNC / V2 -> V3 -> Book1 全书总审计`
+- Work Package:
+  - `落库 99–127：A3 / A4 主线正文、主线任务层与 V2 集成复盘`
+  - `落库 128–156：A5 / A6 主线正文、主线任务层与 V3 集成复盘`
+  - `落库 book1_*：全书揭示、角色、世界状态、主线正文、主线任务层与支线矩阵审计`
+  - `同步 04_current_state / 06_stage_gates / 08_pre_task_layer_requirements / rebuild_execution_state / session_handoff / README / 08_story/00_index`
+- Inputs Read:
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/08_story/52_book1_volume_structure.md`
+  - `worldbible/08_story/53_book1_act_structure.md`
+  - `worldbible/08_story/54_book1_chapter_blueprint.md`
+  - `worldbible/08_story/55_book1_scene_blueprint.md`
+  - `worldbible/08_story/56_book1_reveal_foreshadow_table.md`
+  - `worldbible/08_story/57_book1_character_progression_table.md`
+  - `worldbible/08_story/58_book1_world_state_table.md`
+  - `worldbible/08_story/98_v1_integration_review.md`
+  - `worldbible/09_reference/rebuild_run_review.md`
+  - `worldbible/09_reference/decision_log.md`
+- Legacy Asset Recovery: `无。本轮未恢复旧 batch / narrative-lab 为默认入口。`
+
+## Review
+
+1. 本轮是否符合当前阶段的唯一允许推进方向：`是。` 先以 `V1 PASS` 为前置，完成 `V2`、`V3` 与 `Book1` 全书总审计链，再统一收口控制链，没有跳过任何门槛。
+2. 本轮闭环是否真实成立：`是。` `127`、`156` 与全部 `book1_*` 审计文件均给出 `PASS`，主线正文、主线任务层与支线矩阵口径已能互相反查。
+3. 是否把“主线开放”误写成“全面开放”：`否。` 本轮明确收口为“主线正文开放、主线任务层开放、支线按矩阵开放、Item / System feedback 冻结”。
+4. 是否恢复了旧 batch / narrative-lab 口径：`否。` 旧资产继续只作为历史资产保留。
+5. 本轮新增内容是否真正提高了承载力：`是。` 仓库现在不只知道 `V1` 能否成立，而是已经把 `CH01–CH18` 的主线正文、主线任务层与支线开放边界全部压成可调用、可审计、可回修的闭环。
+6. 本轮是否让下一步更容易施工：`是。` 后续默认工作不再是反复证明能否开放，而是按已审开放边界继续推进；若要继续扩层，也已经明确只剩“新支线试点”与 `Item / System feedback` 试点两类入口。
+
+- Review Result: `PASS`
+- Blockers: `有。Book1 当前仍未开放 Item / System feedback；支线矩阵外范围仍需逐条补验证。`

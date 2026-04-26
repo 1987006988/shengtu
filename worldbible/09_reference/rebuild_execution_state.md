@@ -1,22 +1,10 @@
 # 重构执行状态
-- Current Target File: `worldbible/08_story/81_act1_task_layer_integration_review.md`
-- Current Workstream: `Act I 任务层开放`
-- Current Mode: `OPEN / A1 主线正文 + 主线任务层 + 单条支线试点`
+
+- Current Target File: `worldbible/08_story/book1_sidequest_integration_review.md`
+- Current Workstream: `Book1 主线正文 + 主线任务层 + 支线矩阵受控开放收口`
+- Current Mode: `COMPLETED / REVIEW+SYNC`
 - Status: `COMPLETED`
 - Dependencies:
-  - `worldbible/08_story/65_act1_mainline_prose_package.md`
-  - `worldbible/08_story/66_act1_mainline_prose_ch01.md`
-  - `worldbible/08_story/67_act1_mainline_prose_ch02.md`
-  - `worldbible/08_story/68_act1_mainline_prose_ch03.md`
-  - `worldbible/08_story/72_act1_mainline_prose_review.md`
-  - `worldbible/08_story/73_act1_mainline_task_package.md`
-  - `worldbible/08_story/74_act1_mainline_mq.md`
-  - `worldbible/08_story/75_act1_mainline_journal.md`
-  - `worldbible/08_story/76_act1_mainline_codex.md`
-  - `worldbible/08_story/77_act1_mainline_state_trigger_table.md`
-  - `worldbible/08_story/78_act1_mainline_task_review.md`
-  - `worldbible/08_story/79_sq_scope_01_task_pilot.md`
-  - `worldbible/08_story/80_sq_scope_01_pilot_review.md`
   - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
   - `worldbible/04_main_world/16_book1_binding_boundary.md`
   - `worldbible/07_characters/21_party_story_function_bible.md`
@@ -26,25 +14,38 @@
   - `worldbible/08_story/56_book1_reveal_foreshadow_table.md`
   - `worldbible/08_story/57_book1_character_progression_table.md`
   - `worldbible/08_story/58_book1_world_state_table.md`
+  - `worldbible/08_story/98_v1_integration_review.md`
+  - `worldbible/08_story/127_v2_integration_review.md`
+  - `worldbible/08_story/156_v3_integration_review.md`
+  - `worldbible/08_story/book1_full_reveal_audit.md`
+  - `worldbible/08_story/book1_full_character_progression_audit.md`
+  - `worldbible/08_story/book1_full_world_state_audit.md`
+  - `worldbible/08_story/book1_mainline_prose_integration_review.md`
+  - `worldbible/08_story/book1_mainline_task_layer_integration_review.md`
+  - `worldbible/08_story/book1_sidequest_scope_matrix.md`
+  - `worldbible/08_story/book1_sidequest_integration_review.md`
 - Control Sync Targets:
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/00_project_overview/06_stage_gates.md`
+  - `worldbible/00_project_overview/08_pre_task_layer_requirements.md`
+  - `worldbible/08_story/00_index.md`
+  - `worldbible/09_reference/session_handoff.md`
   - `worldbible/09_reference/rebuild_run_review.md`
   - `worldbible/09_reference/decision_log.md`
-  - `worldbible/00_project_overview/04_current_state.md`
-  - `worldbible/09_reference/session_handoff.md`
+  - `README.md`
 - Deliverables:
-  - `65–72` A1 主线正文闭环与门槛复盘
-  - `73–78` A1 主线任务层包与整体验收
-  - `79–80` 单条支线试点与复盘
-  - `81` 总集成复盘
-  - `本轮 run / decision / state 同步`
-- Closed Loop This Run: `已补齐 65–72 的 A1 主线正文闭环并取得 72 PASS，随后落库 73–81 的主线任务层、单条支线试点与总集成复盘；81 结果为 PASS，控制链现在适合改口为“Act I 任务层开放”。`
+  - `99–127` `V2 / A3 + A4` 主线正文、主线任务层与卷级复盘
+  - `128–156` `V3 / A5 + A6` 主线正文、主线任务层与卷级复盘
+  - `book1_*` 全书揭示、角色、世界状态、主线正文、主线任务层与支线矩阵审计
+  - `Book1` 级控制链收口同步
+- Closed Loop This Run: `已完成 V2、V3 与 Book1 全书审计链，并把仓库口径收口为：Book1 / CH01–CH18 主线正文开放；主线任务层（MQ / Journal / Codex / State Trigger）开放；支线任务层按矩阵开放；Item / System feedback 继续冻结。`
 - Last Run Summary:
-  - 已把 `A1 / CH01–CH03` 的主线正文压成可反查闭环，并明确 `72` 是任务层前置门槛。
-  - 已把 `A1` 主线 `MQ / Journal / Codex / State Trigger` 压成只服务 `CH01–CH03` 的受控任务层包。
-  - 已只用 `SQ-SCOPE-01《借来的承接位》` 落下一条仍停在 `CH02-S02–S03` 的支线试点，继续冻结 `SQ-SCOPE-02`。
-  - 总集成复盘已确认当前可以改口为 `Act I 任务层开放`，但仍不允许写成“全面任务层已开放”。
-- Next Smallest Step: `若后续继续推进，只允许评估 A2 / CH04–CH06 是否具备同等级正文与任务层闭环；在此之前，不得宣称全面任务层已开放。`
+  - 已完成 `A3 / CH07–CH09` 与 `A4 / CH10–CH12` 的正文闭环、任务层闭环与 `V2` 复盘。
+  - 已完成 `A5 / CH13–CH15` 与 `A6 / CH16–CH18` 的正文闭环、任务层闭环与 `V3` 复盘。
+  - 已完成 `Book1` 全书揭示、角色推进、世界状态、主线正文、主线任务层与支线矩阵审计。
+  - 已确认当前不该写成“全面任务层已开放”，而应写成“主线开放 + 支线按矩阵开放 + Item/System feedback 冻结”。
+- Next Smallest Step: `若继续推进，只允许在已开放的 Book1 主线正文、主线任务层与矩阵 OPEN 支线范围内施工；若要继续扩层，必须先为新的支线范围或 Item / System feedback 补独立试点与审计。`
 - Risks / Notes:
-  - 当前开放的是 `Act I` 任务层，不是全书任务层。
-  - `SQ-SCOPE-02《断路前的空名册》` 仍因属于 `CH04-S01–S02 / A2` 而冻结。
-  - 若后续发现缺口，优先回修 `74–81` 或对应正文文件，不得反向改写 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58`。
+  - 当前已通过的是 `Book1` 主线与受控任务层闭环，不是整个仓库所有文本层级的无限开放。
+  - `Item / System feedback` 仍未验过，继续冻结。
+  - 支线矩阵外范围仍需逐条补验证，不得私开。
