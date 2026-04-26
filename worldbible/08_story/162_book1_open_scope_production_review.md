@@ -28,5 +28,5 @@
 
 ## 4. Conclusion
 
-Book1 is now in open-scope production mode. The next work should consume the production queue, not reopen the validation chain.
-
+Book1 is now in open-scope production mode. This review covers the in-place productionization wave for `V1 -> V2 -> V3`, plus the formalization of `160 / 161`.
+The next work should consume the production queue, not reopen the validation chain.
