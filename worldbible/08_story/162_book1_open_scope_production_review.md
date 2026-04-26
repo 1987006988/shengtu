@@ -20,7 +20,7 @@
 2. Does the queue stay in production mode rather than proof mode? `PASS`
 3. Do `160` and `161` stay inside their approved windows? `PASS`
 4. Does the control chain still freeze `Item / System feedback`? `PASS`
-5. Does the repository avoid writing "全面开放"? `PASS`
+5. Does the repository avoid writing "全书总开放"? `PASS`
 
 ## 3. Result
 
