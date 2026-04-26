@@ -35,17 +35,17 @@
   - `worldbible/09_reference/decision_log.md`
   - `README.md`
 - Deliverables:
-  - `99–127` `V2 / A3 + A4` 主线正文、主线任务层与卷级复盘
-  - `128–156` `V3 / A5 + A6` 主线正文、主线任务层与卷级复盘
-  - `book1_*` 全书揭示、角色、世界状态、主线正文、主线任务层与支线矩阵审计
-  - `Book1` 级控制链收口同步
-- Closed Loop This Run: `已完成 V2、V3 与 Book1 全书审计链，并把仓库口径收口为：Book1 / CH01–CH18 主线正文开放；主线任务层（MQ / Journal / Codex / State Trigger）开放；支线任务层按矩阵开放；Item / System feedback 继续冻结。`
+  - `V1 / V2 / V3` 当前批次的主线 prose 与 mainline task in-place production pass
+  - `160 / 161` 当前批次的正式支线资产
+  - `162` 当前批次的 open-scope production review
+  - `Book1` 级控制链同步
+- Closed Loop This Run: `已按 158 的顺序完成 V1 production pass、V2 production pass、V3 production pass、SQ-SCOPE-01 formalization、SQ-SCOPE-02 formalization 与 final sync，并保持仓库口径为：Book1 open-scope production mode；支线按矩阵开放；Item / System feedback 继续冻结。`
 - Last Run Summary:
-  - 已完成 `A3 / CH07–CH09` 与 `A4 / CH10–CH12` 的正文闭环、任务层闭环与 `V2` 复盘。
-  - 已完成 `A5 / CH13–CH15` 与 `A6 / CH16–CH18` 的正文闭环、任务层闭环与 `V3` 复盘。
-  - 已完成 `Book1` 全书揭示、角色推进、世界状态、主线正文、主线任务层与支线矩阵审计。
-  - 已确认当前不该写成“全面任务层已开放”，而应写成“主线开放 + 支线按矩阵开放 + Item/System feedback 冻结”。
-- Next Smallest Step: `若继续推进，只允许在已开放的 Book1 主线正文、主线任务层与矩阵 OPEN 支线范围内施工；若要继续扩层，必须先为新的支线范围或 Item / System feedback 补独立试点与审计。`
+  - 已完成 `V1 / CH01–CH06` 现役 prose 与 mainline task 的当前 production pass。
+  - 已完成 `V2 / CH07–CH12` 现役 prose 与 mainline task 的当前 production pass。
+  - 已完成 `V3 / CH13–CH18` 现役 prose 与 mainline task 的当前 production pass。
+  - 已完成 `160 / 161` 两条矩阵 `OPEN` 支线的正式化，并完成 `162` final sync。
+- Next Smallest Step: `若继续推进，只允许在已开放的 Book1 主线正文、主线任务层与 160 / 161 正式支线范围内开启下一轮有界生产批次；若要继续扩层，必须先为新的支线范围或 Item / System feedback 补独立试点与审计。`
 - Risks / Notes:
   - 当前已通过的是 `Book1` 主线与受控任务层闭环，不是整个仓库所有文本层级的无限开放。
   - `Item / System feedback` 仍未验过，继续冻结。

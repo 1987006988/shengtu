@@ -17,10 +17,11 @@
 ## 2. Checks
 
 1. Are the production control files present and consistent? `PASS`
-2. Does the queue stay in production mode rather than proof mode? `PASS`
-3. Do `160` and `161` stay inside their approved windows? `PASS`
-4. Does the control chain still freeze `Item / System feedback`? `PASS`
-5. Does the repository avoid writing "全书总开放"? `PASS`
+2. Was the current queue consumed in the approved wave order? `PASS`
+3. Do the mainline prose and mainline task assets stay in-place rather than creating a second truth chain? `PASS`
+4. Do `160` and `161` stay inside their approved windows? `PASS`
+5. Does the control chain still freeze `Item / System feedback`? `PASS`
+6. Does the repository avoid writing "全书总开放" as the current state? `PASS`
 
 ## 3. Result
 
@@ -28,5 +29,5 @@
 
 ## 4. Conclusion
 
-Book1 is now in open-scope production mode. This review covers the in-place productionization wave for `V1 -> V2 -> V3`, plus the formalization of `160 / 161`.
-The next work should consume the production queue, not reopen the validation chain.
+Book1 remains in open-scope production mode. This review confirms that the current batch was executed in order: `V1 production pass -> V2 production pass -> V3 production pass -> 160 formalization -> 161 formalization -> final sync`.
+The next work, if any, should be another bounded in-place production batch inside the same approved scope, not a reopened validation chain.

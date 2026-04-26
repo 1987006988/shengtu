@@ -11,12 +11,12 @@
 
 | asset | owner | status | depends_on | review_status |
 | --- | --- | --- | --- | --- |
-| `66–68, 83–85, 74–77, 91–94` | Codex | queued | `98, 157, 159` | production pass pending |
-| `99–102, 114–116, 107–111, 122–125` | Codex | queued | `127, 157, 159` | production pass pending |
-| `128–131, 143–145, 136–140, 151–154` | Codex | queued | `156, 157, 159` | production pass pending |
-| `160_sq_scope_01_open_sidequest.md` | Codex | queued | `79, 80, 157, 159` | formalization pending |
-| `161_sq_scope_02_open_sidequest.md` | Codex | queued | `96, 97, 157, 159` | formalization pending |
-| `162_book1_open_scope_production_review.md` | Codex | queued | `160, 161, 157, 159` | final sync pending |
+| `66–68, 83–85, 74–77, 91–94` | Codex | completed | `98, 157, 159` | `V1` production pass complete |
+| `99–102, 114–116, 107–111, 122–125` | Codex | completed | `127, 157, 159` | `V2` production pass complete |
+| `128–131, 143–145, 136–140, 151–154` | Codex | completed | `156, 157, 159` | `V3` production pass complete |
+| `160_sq_scope_01_open_sidequest.md` | Codex | completed | `79, 80, 157, 159` | formalization complete |
+| `161_sq_scope_02_open_sidequest.md` | Codex | completed | `96, 97, 157, 159` | formalization complete |
+| `162_book1_open_scope_production_review.md` | Codex | completed | `160, 161, 157, 159` | final sync complete |
 
 ## 3. Wave Order
 
@@ -32,4 +32,4 @@
 - This queue is a production queue, not a proof queue.
 - It exists to keep the repository from growing a third truth chain.
 - The only approved sidequest formalizations are the two open matrix entries.
-
+- The current wave batch has been consumed in order: `V1 -> V2 -> V3 -> SQ-SCOPE-01 -> SQ-SCOPE-02 -> final sync`.
