@@ -1,15 +1,22 @@
 # 重构执行状态
-- Current Target File: `worldbible/08_story/64_act1_linear_prose_pilot_review.md`
-- Current Workstream: `极小扩容评估与直线正文试点复盘`
-- Current Mode: `REVIEW / 极小支线范围定义 + CH01-S01–S02 直线正文试点`
+- Current Target File: `worldbible/08_story/81_act1_task_layer_integration_review.md`
+- Current Workstream: `Act I 任务层开放`
+- Current Mode: `OPEN / A1 主线正文 + 主线任务层 + 单条支线试点`
 - Status: `COMPLETED`
 - Dependencies:
-  - `worldbible/09_reference/act1_minimal_pilot_review.md`
-  - `worldbible/08_story/59_act1_minimal_main_quest_pilot.md`
-  - `worldbible/08_story/60_act1_minimal_journal_pilot.md`
-  - `worldbible/08_story/61_act1_minimal_codex_pilot.md`
-  - `worldbible/08_story/62_act1_linear_prose_pilot_package.md`
-  - `worldbible/08_story/63_act1_linear_prose_pilot.md`
+  - `worldbible/08_story/65_act1_mainline_prose_package.md`
+  - `worldbible/08_story/66_act1_mainline_prose_ch01.md`
+  - `worldbible/08_story/67_act1_mainline_prose_ch02.md`
+  - `worldbible/08_story/68_act1_mainline_prose_ch03.md`
+  - `worldbible/08_story/72_act1_mainline_prose_review.md`
+  - `worldbible/08_story/73_act1_mainline_task_package.md`
+  - `worldbible/08_story/74_act1_mainline_mq.md`
+  - `worldbible/08_story/75_act1_mainline_journal.md`
+  - `worldbible/08_story/76_act1_mainline_codex.md`
+  - `worldbible/08_story/77_act1_mainline_state_trigger_table.md`
+  - `worldbible/08_story/78_act1_mainline_task_review.md`
+  - `worldbible/08_story/79_sq_scope_01_task_pilot.md`
+  - `worldbible/08_story/80_sq_scope_01_pilot_review.md`
   - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
   - `worldbible/04_main_world/16_book1_binding_boundary.md`
   - `worldbible/07_characters/21_party_story_function_bible.md`
@@ -25,21 +32,19 @@
   - `worldbible/00_project_overview/04_current_state.md`
   - `worldbible/09_reference/session_handoff.md`
 - Deliverables:
-  - `59 / 60 / 61` 词项降噪
-  - `极小支线范围定义`
-  - `CH01-S01–S02 直线正文试点包`
-  - `CH01-S01–S02 直线正文试点`
-  - `双审计复盘结论`
+  - `65–72` A1 主线正文闭环与门槛复盘
+  - `73–78` A1 主线任务层包与整体验收
+  - `79–80` 单条支线试点与复盘
+  - `81` 总集成复盘
   - `本轮 run / decision / state 同步`
-- Closed Loop This Run: `已完成 59 / 60 / 61 的高误判词降噪，新增 62 / 63 / 64 三份极小扩容评估与直线正文试点文件，并完成“支线范围定义 + 直线正文试点”双审计，结果均为 PASS。`
+- Closed Loop This Run: `已补齐 65–72 的 A1 主线正文闭环并取得 72 PASS，随后落库 73–81 的主线任务层、单条支线试点与总集成复盘；81 结果为 PASS，控制链现在适合改口为“Act I 任务层开放”。`
 - Last Run Summary:
-  - 已先把试点词项压回 `照护棚 / 承接位 / 基础补给` 一组更稳表达。
-  - 已把 `1–2` 条极小支线候选锁定为范围定义，而不是正文。
-  - 已用 `CH01-S01–S02` 的极小正文样本验证正文仍可服从 `16 / 54 / 55 / 56 / 57 / 58`。
-  - 控制链已同步回“当前最多只允许讨论是否开放 Act I 主线正文；仍不开放支线正文或全面任务层”。
-- Next Smallest Step: `若后续继续推进，只允许基于 64_act1_linear_prose_pilot_review.md 的双审计结论，讨论是否开放 Act I 主线正文；在此之前，不得进入支线正文试点或全面任务层。`
+  - 已把 `A1 / CH01–CH03` 的主线正文压成可反查闭环，并明确 `72` 是任务层前置门槛。
+  - 已把 `A1` 主线 `MQ / Journal / Codex / State Trigger` 压成只服务 `CH01–CH03` 的受控任务层包。
+  - 已只用 `SQ-SCOPE-01《借来的承接位》` 落下一条仍停在 `CH02-S02–S03` 的支线试点，继续冻结 `SQ-SCOPE-02`。
+  - 总集成复盘已确认当前可以改口为 `Act I 任务层开放`，但仍不允许写成“全面任务层已开放”。
+- Next Smallest Step: `若后续继续推进，只允许评估 A2 / CH04–CH06 是否具备同等级正文与任务层闭环；在此之前，不得宣称全面任务层已开放。`
 - Risks / Notes:
-  - `62` 中的两条支线候选当前仍只是范围定义，不是支线正文授权。
-  - `63` 虽为正文样本，但只覆盖 `CH01-S01–S02`，不得顺手扩到 `S03 / S04`。
-  - 当前双审计虽为 `PASS`，但仍不得把结果误写成支线正文或全面任务层已开放。
-  - 若后续发现缺口，优先回修 `62 / 63 / 64` 或控制层，不得反向改写 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58`。
+  - 当前开放的是 `Act I` 任务层，不是全书任务层。
+  - `SQ-SCOPE-02《断路前的空名册》` 仍因属于 `CH04-S01–S02 / A2` 而冻结。
+  - 若后续发现缺口，优先回修 `74–81` 或对应正文文件，不得反向改写 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58`。

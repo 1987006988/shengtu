@@ -2431,6 +2431,57 @@
 - Review Result: `PASS`
 - Blockers: `当前仍禁止支线正文试点与全面任务层；下一步最多只允许讨论是否开放 Act I 主线正文。`
 
+## RUN-2026-04-27-97
+
+- Unique Target File: `worldbible/08_story/81_act1_task_layer_integration_review.md`
+- Mode: `BUILD+REVIEW / A1 主线正文 -> 主线任务层 -> 单条支线试点 -> 总集成复盘`
+- Work Package:
+  - `补齐 65–72 的 A1 主线正文闭环并取得 72 PASS`
+  - `基于 72 PASS 落库 73–78 的 A1 主线任务层包并完成主线任务层复盘`
+  - `只用 SQ-SCOPE-01 落库 79–80 的单条支线试点与复盘`
+  - `完成 81_act1_task_layer_integration_review.md 总集成复盘`
+  - `同步 current / handoff / execution state / stage gates / requirements / README`
+- Inputs Read:
+  - `worldbible/09_reference/project_total_verdict.md`
+  - `worldbible/00_project_overview/04_current_state.md`
+  - `worldbible/09_reference/session_handoff.md`
+  - `worldbible/09_reference/reading_order.md`
+  - `worldbible/09_reference/execution_plan_rebuild.md`
+  - `worldbible/09_reference/rebuild_execution_state.md`
+  - `worldbible/08_story/54_book1_chapter_blueprint.md`
+  - `worldbible/08_story/55_book1_scene_blueprint.md`
+  - `worldbible/08_story/56_book1_reveal_foreshadow_table.md`
+  - `worldbible/08_story/57_book1_character_progression_table.md`
+  - `worldbible/08_story/58_book1_world_state_table.md`
+  - `worldbible/08_story/62_act1_linear_prose_pilot_package.md`
+  - `worldbible/08_story/63_act1_linear_prose_pilot.md`
+  - `worldbible/08_story/64_act1_linear_prose_pilot_review.md`
+  - `worldbible/08_story/59_act1_minimal_main_quest_pilot.md`
+  - `worldbible/08_story/60_act1_minimal_journal_pilot.md`
+  - `worldbible/08_story/61_act1_minimal_codex_pilot.md`
+  - `worldbible/04_main_world/15_bailuyuan_region_bible.md`
+  - `worldbible/04_main_world/16_book1_binding_boundary.md`
+  - `worldbible/07_characters/21_party_story_function_bible.md`
+  - `worldbible/07_characters/22_character_progression_master.md`
+  - `worldbible/00_project_overview/06_stage_gates.md`
+  - `worldbible/00_project_overview/08_pre_task_layer_requirements.md`
+  - `README.md`
+  - `worldbible/09_reference/rebuild_run_review.md`（最近与当前阶段直接相关的尾部记录）
+  - `worldbible/09_reference/decision_log.md`（最近与当前阶段直接相关的尾部记录）
+- Legacy Asset Recovery: `无。本轮未读取旧 batch / narrative lab / final acceptance / 33a–43a / 17–20a 文件。`
+
+## Review
+
+1. 本轮是否仍符合当前真实阶段：`是。` 本轮严格按门槛先补 `72`，再开 `73–78`，再只开 `79–80` 的单条支线试点，最后用 `81` 做总集成复盘，没有直接跳成全书任务层。
+2. 本轮闭环是否真实成立：`是。` `72`、`78`、`80` 与 `81` 四道复盘链都已落库，且当前链条能反查回 `15 / 16 / 21 / 22 / 54 / 55 / 56 / 57 / 58`。
+3. 是否让下游反向定义了上游：`否。` 正文、任务层与支线试点都只继承既有上游母表，没有反向扩轴或改写阶段边界。
+4. 是否恢复了旧 batch / narrative lab 口径：`否。` 本轮未读取旧 narrative-lab 正文包，也未恢复旧 `game_narrative_* / game_batch*` 体系。
+5. 本轮新增内容是否真正提高了承载力：`是。` 仓库现在不只知道 `A1` 正文能否成立，还知道 `A1` 主线任务层与一条附着型支线试点是否能一起受控落地。
+6. 本轮是否让下一步更容易施工：`是。` 控制链现在可以稳定改口为 `Act I 任务层开放`，而下一轮也已明确只能去评估 `A2 / CH04–CH06` 是否具备同等级闭环。
+
+- Review Result: `PASS`
+- Blockers: `当前仍禁止把仓库状态写成“全面任务层已开放”；A2 / CH04–CH06 仍未完成同等级闭环。`
+
 ## RUN-2026-04-26-95
 
 - Unique Target File: `worldbible/09_reference/act1_minimal_pilot_review.md`

@@ -9,8 +9,8 @@
 第一部《升途：封绝之地》当前聚焦 `古裂残天` 内部的 `白鹿原`，但项目整体不等于白鹿原，也不等于古裂残天。
 
 ## 3. 当前真实阶段
-- 当前阶段：`极小扩容评估与直线正文试点复盘阶段`
-- 当前口径：已完成 `CH01–CH02` 最小任务化试点、极小支线范围定义审计与 `CH01-S01–S02` 直线正文试点审计；下一步最多只允许讨论是否开放 `Act I` 主线正文，仍不开放支线正文或全面任务层
+- 当前阶段：`Act I 任务层开放阶段`
+- 当前口径：已完成 `A1 / CH01–CH03` 主线正文闭环、主线任务层闭环、`SQ-SCOPE-01` 单条支线试点与总集成复盘；当前只适合写成 `Act I 任务层开放`，仍不得写成“全面任务层已开放”
 - 当前主入口：`project_total_verdict.md`、`04_current_state.md`、`session_handoff.md`、`reading_order.md`、`execution_plan_rebuild.md`、`rebuild_execution_state.md`
 
 ## 4. 当前已成立且可继续调用的部分
@@ -26,6 +26,10 @@
 - `62_act1_linear_prose_pilot_package.md` 已把极小支线范围定义与 `CH01-S01–S02` 直线正文试点包锁定。
 - `63_act1_linear_prose_pilot.md` 已作为极小正文样本落库。
 - `64_act1_linear_prose_pilot_review.md` 已完成“支线范围定义 + 直线正文试点”双审计并给出 `PASS` 结论。
+- `65–72` 已把 `A1 / CH01–CH03` 主线正文压成可审闭环，并以 `72_act1_mainline_prose_review.md` 给出 `PASS`。
+- `73–78` 已把 `A1 / CH01–CH03` 主线任务层压成可审闭环，并完成主线任务层复盘。
+- `79–80` 已把 `SQ-SCOPE-01《借来的承接位》` 落成单条支线试点并通过复盘。
+- `81_act1_task_layer_integration_review.md` 已完成总集成复盘并给出 `PASS`。
 
 ## 5. 当前不再沿用 / 已废止的口径
 - `END 已完成，因此项目默认进入扩容 / 生产期`
@@ -48,16 +52,16 @@
 
 ## 8. 当前最短板
 按优先级排序：
-1. 当前最短板已从“最小试点包是否越权”转成“是否有必要、且是否允许定义一组极小支线试点范围”，也就是扩容边界问题而不是蓝图或试点缺失问题；
-2. 控制层文件需要持续防止把“首轮试点复盘通过”误写成“支线正文或全面任务层已开放”；
-3. `Act I` 试点当前只允许停在 `CH01–CH02` 的主线样本、最小 `Journal / Codex` 样例与复盘结论，不得顺手扩到后续章节或旧 batch 口径；
+1. 当前最短板已从“`A1` 是否允许打开任务层”转成“`A2 / CH04–CH06` 能否在不越界前提下形成同等级正文与任务层闭环”；
+2. 控制层文件需要持续防止把“`Act I` 任务层开放”误写成“支线全面开放”或“全面任务层已开放”；
+3. 当前开放范围仍只限 `A1 / CH01–CH03` 主线任务层与 `SQ-SCOPE-01` 单条支线试点，不得顺手扩到 `CH04+`、更多支线或旧 batch 口径；
 4. 旧资产目前仍只可作为历史资产，不得重新接管执行链。
 
 ## 9. 当前下一步
 **唯一默认下一步**：
-> 只使用 [64_act1_linear_prose_pilot_review.md](/E:/python_learn/shengtu/worldbible/08_story/64_act1_linear_prose_pilot_review.md:1) 的双审计结论，讨论是否允许开放 `Act I` 主线正文；在此之前，仍不得进入支线正文试点或全面任务文本工程。
+> 只使用 [81_act1_task_layer_integration_review.md](/E:/python_learn/shengtu/worldbible/08_story/81_act1_task_layer_integration_review.md:1) 的结论，评估 `A2 / CH04–CH06` 是否具备同等级正文与任务层闭环；在此之前，仍不得把当前状态写成“全面任务层已开放”。
 
 ## 10. 备注
 - `execution_plan_rebuild.md` 仍是正确计划源，不应推翻；
-- 当前修的是极小扩容评估、正文试点控制链与复盘结论，而不是恢复旧 batch 或提前做全面任务层资产；
+- 当前修的是 `A1` 主线正文、主线任务层与单条支线试点的受控开放链，而不是恢复旧 batch 或提前做全面任务层资产；
 - 若后续护栏文件与本页冲突，以 `04_current_state.md`、`session_handoff.md`、`rebuild_execution_state.md` 的同步控制口径为准，直到护栏文件被重新同步。
