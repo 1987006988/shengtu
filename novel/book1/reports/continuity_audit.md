@@ -1,33 +1,32 @@
 # 正文连续性审计
 
-## 本次复核范围
+## 当前规则口径
+- 单章自然完整，批次总量优先；不再强制每章固定 4000+ 汉字。
+- 每章必须具备：具体行动、阻力或冲突、可见代价、旧账翻动、下一章后果。
+- 每批至少 50 章，目标约 180,000-250,000 个 CJK 汉字；不足则追加章节，不灌水。
+- validator 负责检查：章节连续、乱码、禁用说明词、重复长段落、重复段落前缀、批次总量、短章提示和密度提示。
+
+## 最近复核结果
 - 范围：CH001-CH130 全部正本批次。
-- 文件：CH001-CH012、CH013-CH020、CH021-CH025、CH026-CH030、CH031-CH080、CH081-CH130。
 - 结果：已修复并通过全量校验。
-- 全量校验：130 章，624,111 个 CJK 汉字，全部章节不低于 4000 个 CJK 汉字。
-- 校验命令：python C:\Users\taotao\.codex\skills\shengtu-novel-production\scripts\validate_novel_batch.py E:\python_learn\shengtu\novel\book1\chapters\CH001-CH012.md E:\python_learn\shengtu\novel\book1\chapters\CH013-CH020.md E:\python_learn\shengtu\novel\book1\chapters\CH021-CH025.md E:\python_learn\shengtu\novel\book1\chapters\CH026-CH030.md E:\python_learn\shengtu\novel\book1\chapters\CH031-CH080.md E:\python_learn\shengtu\novel\book1\chapters\CH081-CH130.md --min-chapters 130 --min-chars 4000 --expect-start 1 --expect-end 130
+- 全量校验：130 章，624,111 个 CJK 汉字。
+- 后续复核不再要求每章固定 4000+；现有 CH001-CH130 保留此前修复结果。
 
-## 查明的问题
-1. CH001-CH030：多数章节低于当前 4000 汉字底线，需要扩写。
-2. CH031-CH080：存在严重固定段落重复，旧文件中同类 filler 段大量重复，导致正文像换标题的模板。
-3. CH081-CH130：存在断引、回声渠、路债旧契阶段错位与重复段落，宁折羽缺席/在场也曾有冲突风险。
-4. 未跟踪 CH031-CH040.md：该文件是乱码残片，非正本，未纳入本次提交范围。
-5. 根因：旧生产脚本使用固定段落模板与 filler 循环；旧 validator 只验字数和章号，没有检查重复长段落、重复段落前缀和剧情模板化。
+## 自动化检查要求
+1. 写作前读取 README.md、AGENTS.md、reading_order.md、canon_rules.md、glossary.md、PRODUCTION_STATE.md、continuity_audit.md、chapter_manifest.jsonl 和最近两个正本批次。
+2. 从 PRODUCTION_STATE.md 记录的下一章开始，不跳章，不重写无关旧批次。
+3. 写至少 50 章；若批次总量低于 180,000 个 CJK 汉字或剧情节点未闭合，追加到最多 65 章。
+4. 只写小说正文，不用设定说明、大纲、玩法说明、创作说明替代正文。
+5. 运行新版 validator；验证失败不得更新状态、不得 commit。
+6. 检查 worldbible 无未授权 diff。
+7. 验证通过后更新 PRODUCTION_STATE.md 和本审计文件，再 git add/commit。
 
-## 修复措施
-- 升级 shengtu-novel-production skill validator：新增重复长段落和重复段落前缀检查。
-- CH001-CH030：扩写到合格字数，补足具体行动、可见代价、旧账翻动和下一章后果。
-- CH031-CH130：重写修复，删除模板化重复段，按每章标题绑定本章行动、证物、代价、旧账和下一章后果。
-- 全程未修改 worldbible 核心设定文件。
+## 根因记录
+- 旧问题来自固定段落模板和 filler loop：脚本为了满足单章字数，把同类行动、代价、阵营和结尾段落重复塞进多章。
+- 旧 validator 只检查字数和章号，未检查重复长段落和剧情模板化。
+- 新规则要求内容不足时追加章节，而不是灌水扩写同一章。
 
-## 六项检查
-1. 有没有违反仓库正典：未发现。本次只修正文产物与生产状态/审计，不改 worldbible 核心设定。
-2. 有没有新增未确认核心设定：未发现新增宇宙级或世界级规则；新增内容限于正文层证物、行动、代价、旧账呈现。
-3. 有没有把正文写成设定说明：未发现禁用说明词；validator 已检查相关术语。
-4. 有没有章节低于 4000 汉字：无。CH001-CH130 全部通过。
-5. 有没有角色开挂或阵营脸谱化：修复后继续保留沈行策受限、白鹿半句、守衡司与灰缄线复杂性、各角色功能代价。
-6. 下一批必须承接的具体后果：CH131《卖路市》必须承接“旧师父”、米船渡旧契、第二页账、临约铜钉、祁渡川个人旧债、宁折羽失约线和共保会治理压力。
-
-## 后续风险
-- 这次修复解决了硬性字数、重复段落和明显连续性冲突，但仍建议在下一轮正文生产前抽样精修关键章，尤其 CH001、CH013、CH031、CH081、CH121 这些阶段入口章。
-- 之后每批必须先跑新版 validator，不能再只看字数通过。
+## 下一批必须承接的后果
+- CH131《卖路市》必须承接“旧师父”、米船渡旧契、第二页账、临约铜钉、祁渡川个人旧债、宁折羽失约线和共保会治理压力。
+- 灰缄线救人和旧罪必须并存追账，不能洗白或脸谱化。
+- 守衡司仍需保留可用性与旧错，岑持律不能退成单纯权威或反派。
